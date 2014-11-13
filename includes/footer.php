@@ -8,5 +8,8 @@
 	</div>
 </footer>
 
+<script src="lib/jquery-2.1.0.min/index.js"></script>
+<script src="lib/scrollRevealjs/dist/scrollReveal.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

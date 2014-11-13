@@ -28,11 +28,12 @@
 
 header {
 	background:#000000;
-	box-shadow: 0px 1px 1px rgba(0,0,0,.12), 0px 1px 1.5px rgba(0,0,0,.24);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	position: fixed;
 	width:100%;
 	border-bottom:1px solid rgba(255,255,255,.15);
 	border-top: 4px solid #0aa4ee;
+	z-index: 1000;
 }
 
 .header-container {
@@ -110,7 +111,6 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
   
   /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height */
-  background-attachment: fixed;
   
   /* This is what makes the background image rescale based
      on the container's size */
@@ -167,7 +167,7 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 }
 
 .teach-button p:hover {
-	background: rgb(0,159,254);
+	background: rgb(0, 132, 211);
 }
 
 .home-content-1 {
@@ -178,7 +178,7 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 
 .headline {
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 40px;
 	margin-bottom: 0px;
 	margin-top: 7px;
@@ -235,12 +235,16 @@ width: 597px;
 	padding-left:15px;
 }
 
+.class-holder-container {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+
 .class-holder {
 	height: 200px;
 	margin-top: 21px;
 	padding:20px;
-	border-bottom: 1px solid #ddd;
-	padding-bottom: 35px;
+	padding-bottom: 20px;
 }
 
 .class-holder section {
