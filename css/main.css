@@ -1,0 +1,272 @@
+.brandon {
+	font-family: "brandon-grotesque", helvetica, sans-serif;
+}
+
+.font-300 {
+	font-weight: 300;
+}
+
+.font-400 {
+	font-weight: 400;
+}
+
+.font-500 {
+	font-weight: 500;
+}
+
+.font-600 {
+	font-weight: 600;
+}
+
+.main-container {
+	padding-top:96px;
+}
+
+.page-content {
+	margin-bottom:40px;
+}
+
+header {
+	background:#000000;
+	box-shadow: 0px 1px 1px rgba(0,0,0,.12), 0px 1px 1.5px rgba(0,0,0,.24);
+	position: fixed;
+	width:100%;
+	border-bottom:1px solid rgba(255,255,255,.15);
+	border-top: 4px solid #0aa4ee;
+}
+
+.header-container {
+	margin:0 auto;
+}
+
+.header-content {
+	padding: 10px ;
+}
+
+.logo {
+	float:left;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.main-nav li {
+	display: inline;
+	color:#ffffff;
+	font-weight: 200;
+	margin-right:40px;
+	font-size: 16px;
+	transition:all .3s;
+	-webkit-transition: all .3s;
+font-family: "brandon-grotesque", helvetica, sans-serif;
+	
+}
+
+.main-nav li a {
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: 300;
+	transition:all .35s;
+	-webkit-transition: all .35s;
+	font-family: "brandon-grotesque", helvetica, sans-serif;
+
+}
+
+.main-nav li a:hover {
+	color:#00a4e7;
+}
+
+.nav-container {
+	float: right;
+	padding-top:12px;
+}
+
+.content-container {
+	width:700px;
+	margin: 0 auto;
+	padding-top:75px;
+}
+
+.hero {
+	margin:0;
+	font-size:40px;
+	text-align: center;
+	color:#ffffff;
+	text-transform: uppercase;
+}
+
+.content-hero {
+	background: #000000 url('../img/bg.jpg') no-repeat;
+	height:400px;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content-button {
+	width:240px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+.view-courses-button {
+	cursor:pointer;
+	background: rgba(0, 172, 0, .9);
+	padding:17px 25px;
+	text-align: center;
+	font-size:18px;
+	color:#ffffff;
+	width:200px;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	transition:all .3s;
+	-webkit-transition: all .3s;
+	border-right:2px solid green;
+	border-bottom:2px solid green;
+	text-shadow:rgba(0,0,0,.4) 1px 1px 1px;
+	border-radius:75px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.7)
+}
+
+.view-courses-button:hover {
+	background: rgba(0, 172, 0, 1);
+}
+
+.teach-button {
+	float: right;
+	padding-right: 12px;
+	margin-top: 1px;
+
+}
+
+.teach-button p {
+	cursor:pointer;
+	background: rgba(0,159,254, .9);
+	border-radius: 30px;
+	text-shadow:rgba(0,0,0,.4) 1px 1px 1px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	padding: 10px 26px;
+	transition:all .5s;
+	-webkit-transition: all .5s;
+}
+
+.teach-button p:hover {
+	background: rgb(0,159,254);
+}
+
+.home-content-1 {
+	width:900px;
+	margin:0 auto;
+	padding: 0px 0px;
+}
+
+.headline {
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 0px;
+	margin-top: 7px;
+}
+
+.sub-headline {
+	font-size:24px;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	margin-top:0px;
+}
+
+.mylink {
+	color:#0aa4ee;
+	text-decoration: none;
+}
+
+.quotecontainer {
+	background:#F6F6F6;
+
+}
+
+.quote {
+	width:800px;
+	margin:0 auto;
+	padding: 40px;
+}
+
+.quote p {
+	text-align: center;
+	color:#0aa4ee;
+	font-size:32px;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+}
+
+.class-class {
+	float: right;
+width: 597px;
+
+}
+
+.class-pic {
+	float:left;
+}
+
+.pic-one {
+	padding-left:22px;
+}
+
+.pic-two {
+	padding-left:22px;
+}
+
+.pic-three {
+	padding-left:15px;
+}
+
+.class-holder {
+	height: 200px;
+	margin-top: 21px;
+	padding:20px;
+}
+
+.class-holder section {
+	background:#dddddd;
+}
+
+.class-holder:hover {
+	background: #dddddd;
+	cursor:pointer;
+}
+
+footer {
+	height:200px;
+	width:100%;
+	background:#666666;
+}
+
+.footer-container {
+	width:900px;
+	padding-top:50px;
+	margin:0 auto;
+}
+
+.footercopy {
+	color:#ffffff;
+	font-weight:200;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	padding-left:20px;
+	margin-top:0px;
+	font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

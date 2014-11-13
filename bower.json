@@ -1,0 +1,23 @@
+{
+  "name": "CodeSouthLabs",
+  "version": "0.0.1",
+  "authors": [
+    "dabit3 <dabit3@gmail.com>"
+  ],
+  "description": "Code South Labs",
+  "main": "index.php",
+  "license": "MIT",
+  "homepage": "http://www.codesouthlabs.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.2",
+    "font-awesome": "~4.2.0"
+  }
+}
