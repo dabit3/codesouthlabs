@@ -227,6 +227,8 @@ width: 597px;
 	height: 200px;
 	margin-top: 21px;
 	padding:20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 35px;
 }
 
 .class-holder section {
@@ -265,10 +267,29 @@ footer {
 
 
 
+/* ***************************************** Secondary CSS *********************************** */
 
 
 
+/* Scroll CSS */
 
+.header-scroll {
+	display: none;
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	width:100%;
+}
 
+.header-scroll-content {
+	float:left;
+}
 
+.hamburger {
+	float:right;
+	margin-top: 7px;
+	margin-right: 24px
+}
 
+.hamburger img {
+	width:60px;
+}
