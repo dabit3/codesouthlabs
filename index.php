@@ -55,6 +55,18 @@
 				</section>
 			</section>
 
+			<section class="class-holder">
+				<section>
+					<div class="class-pic pic-three">
+					<img src="img/wordpress.png" width="200" alt="">
+					</div>
+					<div class="class-class">
+						<p class="headline home">Wordpress Bootcamp</p>
+						<p class="sub-headline">In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <span class="mylink">Wordpress</span>. </p>
+					</div>
+				</section>
+			</section>
+
 
 		</div>
 	</section>
