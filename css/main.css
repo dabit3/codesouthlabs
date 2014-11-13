@@ -113,7 +113,7 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 
 .view-courses-button {
 	cursor:pointer;
-	background: rgba(0, 172, 0, .9);
+	background: rgba(0, 172, 0, .0);
 	padding:17px 25px;
 	text-align: center;
 	font-size:18px;
@@ -122,11 +122,11 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
 	transition:all .3s;
 	-webkit-transition: all .3s;
-	border-right:2px solid green;
-	border-bottom:2px solid green;
+	
 	text-shadow:rgba(0,0,0,.4) 1px 1px 1px;
 	border-radius:75px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,.7)
+	box-shadow: 0px 0px 10px rgba(0,0,0,.7);
+	border:3px solid rgba(0, 226, 0, 0.9);
 }
 
 .view-courses-button:hover {
@@ -142,7 +142,7 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 
 .teach-button p {
 	cursor:pointer;
-	background: rgba(0,159,254, .9);
+	background: rgba(0,159,254, .0);
 	border-radius: 30px;
 	text-shadow:rgba(0,0,0,.4) 1px 1px 1px;
 	color: #ffffff;
@@ -151,6 +151,7 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 	padding: 10px 26px;
 	transition:all .5s;
 	-webkit-transition: all .5s;
+	border:	3px solid rgba(0,159,254, 1)
 }
 
 .teach-button p:hover {
@@ -241,6 +242,7 @@ footer {
 	height:200px;
 	width:100%;
 	background:#666666;
+	border-top:4px solid #272727;
 }
 
 .footer-container {
