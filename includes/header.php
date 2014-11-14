@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta charset="UTF-8">
 	<title>Code South Labs</title>
 	<link rel="stylesheet" href="lib/normalize-css/normalize.css">
@@ -13,16 +14,16 @@
 
 </head>
 
-<header >
+<header class="wide-header">
 	<section class="header-container">
 		<div class="header-content">
-			<a href="#"><img src="img/logowhite.png" width="250" alt="" class="logo"></a>
-			<div style="" class="teach-button"><p>TEACH</p></div>
+			<a href="index.php"><img src="img/logowhite.png" width="250" alt="" class="logo"></a>
+			<div style="" class="teach-button"><a href="teach"><p>TEACH</p></a></div>
 			<div class="nav-container">
 				<ul class="main-nav">
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">COURSES</a></li>
-					<li><a href="#">LEARN MORE</a></li>
+					
+					<li><a href="courses">COURSES</a></li>
+					<li><a href="about">ABOUT</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -33,7 +34,7 @@
 <section class="header-scroll">
 	<section class="header-scroll-container">
 		<div class="header-scroll-content">
-			<a href="#"><img src="img/logowhite.png" width="250" alt="" class="logo"></a>
+			<a href="index.php"><img src="img/logowhite.png" width="250" alt="" class="logo"></a>
 		</div>
 		<div class="hamburger">
 			<img src="img/hamburger.png" alt="">
@@ -41,5 +42,29 @@
 		<div class="clearfix"></div>
 	</section>
 </section>
+
+<!-- Responsive menu -->
+
+<section class="overlay">
+	<div class="overlay-content">
+		<div class="overlay-menu">
+			<div class="close"><p>x</p></div>
+			<ul class="overlay-ul">
+				<a href="index.php"><li>HOME</li></a>
+				<a href="about"><li>ABOUT</li></a>
+				<a href="courses"><li>COURSES</li></a>
+				<a href="teach"><li>TEACH</li></a>
+			</ul>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
 
 <body>

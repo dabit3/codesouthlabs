@@ -7,7 +7,7 @@
 				<h3 class="brandon font-500 hero">Code courses for developers, students, and entrepreneurs.</h3>
 			</div>
 			<div class="content-button">
-				<p class="view-courses-button">LEARN MORE</p>
+				<a href="about"><p class="view-courses-button">LEARN MORE</p></a>
 			</div>
 		</div>
 	</section>
@@ -65,17 +65,19 @@
 
 			<div class="clearfix"></div>
 
-			<section class="class-holder" data-sr >
-				<section >
-					<div class="class-pic pic-three">
-					<img src="img/wordpress.png" width="200" alt="">
-					</div>
-					<div class="class-class">
-						<p class="headline home">Wordpress Bootcamp</p>
-						<p class="sub-headline">In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <span class="mylink">Wordpress</span>. </p>
-					</div>
+			<div class="class-holder-container">
+				<section class="class-holder" data-sr >
+					<section >
+						<div class="class-pic pic-three">
+						<img src="img/wordpress.png" width="200" alt="">
+						</div>
+						<div class="class-class">
+							<p class="headline home">Wordpress Bootcamp</p>
+							<p class="sub-headline">In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <span class="mylink">Wordpress</span>. </p>
+						</div>
+					</section>
 				</section>
-			</section>
+			</div>
 
 
 		</div>
