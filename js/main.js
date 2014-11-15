@@ -23,17 +23,16 @@ $(document).ready(function() {
 		if(window.innerWidth >= 900) {
 
 			if (top >= 300) {
-
-				headerMid.css('z-index', '2000')
+				
 				TweenMax.to(header, .4, {marginTop:-110})
-				TweenMax.to(headerMid, .4, {marginTop:0, delay:.2})
+				TweenMax.to(headerMid, .4, {marginTop:0})
 
 			} 
 
 			if (top <= 299) {
-				headerMid.css('z-index', '900')
+				
 				TweenMax.to(headerMid, .4, {marginTop:-96})
-				TweenMax.to(header, .4, {marginTop:0, delay:.4})
+				TweenMax.to(header, .4, {marginTop:0})
 			}
 
 
@@ -52,11 +51,13 @@ $(document).ready(function() {
 	hamburger.click(openmenu);
 
 	function closemenu() {
-		overlay.css('display', 'none')
+		overlay.css('display', 'none');
+		headerMid.show();
 	}
 
 	function openmenu() {
 		overlay.css('display', 'block')
+		headerMid.hide();
 	}
 
 

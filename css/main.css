@@ -174,8 +174,8 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 	font-weight: 400;
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
 	padding: 10px 26px;
-	transition:all .5s;
-	-webkit-transition: all .5s;
+	transition:opacity .5s;
+	-webkit-transition: opacity .5s;
 	border:	3px solid rgba(0,159,254, 1)
 }
 
@@ -395,6 +395,10 @@ footer {
 
 .hamburger img {
 	width:60px;
+}
+
+.header-scroll-container {
+	padding-bottom:3px;
 }
 
 /* ***************************************** Media Queries *********************************** */
