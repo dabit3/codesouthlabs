@@ -367,6 +367,34 @@ footer {
 	font-size:14px;
 }
 
+/* **************************************** Mobile CSS ************************************/
+
+.mymobile {
+	display: none;
+	position: fixed;
+	width: 100%;
+	background: rgba(0,0,0,.8);
+	padding-top:3px;
+	padding-bottom:10px;
+}
+
+.mobile-hamburger {
+	margin-top: 4px;
+	margin-right: 24px;
+	transition: opacity .6s;
+	-webkit-transition: opacity .6s;
+	cursor: pointer;
+	position: fixed;
+	z-index: 10000;
+	top: 0px;
+	display: none;
+	right: 0px;
+}
+
+.mobile-hamburger img {
+	width:55px;
+	
+}
 
 /* ***************************************** Overlay Menu CSS *********************************** */
 
@@ -384,6 +412,7 @@ footer {
 
 .overlay-ul {
 	padding:50px 0px 0px 0px;
+	background:rgba(0,0,0,.9);
 }
 
 .overlay-ul li {
@@ -395,7 +424,9 @@ footer {
 	-webkit-transition: all .6s;
 }
 
-
+.overlay-content {
+	width: 100%;
+}
 
 .overlay-ul li:hover {
 	opacity:.75;
@@ -444,6 +475,7 @@ footer {
 	background: rgba(0,0,0,.8);
 	position: fixed;
 	width:100%;
+	max-width: 100% !important;
 	margin-top:-100px;
 }
 
@@ -455,8 +487,8 @@ footer {
 	float:right;
 	margin-top: 7px;
 	margin-right: 24px;
-	transition: all .6s;
-	-webkit-transition: all .6s;
+	transition: opacity .6s;
+	-webkit-transition: opacity .6s;
 	cursor: pointer;
 }
 
@@ -466,6 +498,13 @@ footer {
 
 .hamburger img {
 	width:60px;
+	position: relative;
+	z-index: 1000;
+	display: block;
+	-webkit-transform:translateZ(1px);
+  -moz-transform:translateZ(1px);
+  -o-transform:translateZ(1px);
+  transform:translateZ(1px);
 }
 
 .header-scroll-container {
@@ -491,7 +530,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 80px) and (max-width: 900px) { 
+@media only screen and (min-width: 600px) and (max-width: 900px) { 
 
 	.header-scroll {
 		display: block ;
@@ -514,6 +553,32 @@ footer {
 	.overlay {
 		border: none;
 	}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) { 
+	
+	header {
+		display: none;
+	}
+
+	.header-scroll {
+		display: none ;
+		
+	}
+
+	.header-mobile {
+
+	}
+	
+	.mymobile {
+		display: block;
+	}
+
+	.mobile-hamburger {
+		display: block
+	}
+
 
 }
 

@@ -1,6 +1,6 @@
 var config = {
-				mobile:true,
-        reset:  true,
+				
+        reset:  true
       }
 
 window.sr = new scrollReveal( config );
@@ -9,7 +9,7 @@ window.sr = new scrollReveal( config );
 
 
 $(document).ready(function() {
-
+	
 	var header = $('.wide-header');
 	var headerMid = $('.header-scroll');
 
@@ -54,11 +54,15 @@ $(document).ready(function() {
 	function closemenu() {
 		overlay.css('display', 'none');
 		headerMid.show();
+
 	}
 
 	function openmenu() {
-		overlay.css('display', 'block')
+		overlay.css('display', 'block');
+		overlay.css('height', $(window.height), 'important')
 		headerMid.hide();
+		
+
 	}
 
 

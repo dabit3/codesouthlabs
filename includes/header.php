@@ -43,7 +43,7 @@
 	</section>
 </section>
 
-<!-- Responsive menu -->
+<!-- Scroller menu -->
 
 <section class="overlay">
 	<div class="overlay-content">
@@ -59,6 +59,23 @@
 	</div>
 </section>
 
+<!-- Mobile Menu -->
+
+
+<div class="mymobile">
+	<section class="mobile-bar">
+		<section class="mobile-bar-container">
+			<div class="mobile-bar-content">
+				<a href="index.php"><img src="img/logowhite.png" width="200" alt="" class="logo"></a>
+			</div>
+			<div class="clearfix"></div>
+		</section>
+	</section>
+</div>
+
+<div class="mobile-hamburger">
+		<img src="img/hamburger.png" alt="">
+</div>
 
 
 
