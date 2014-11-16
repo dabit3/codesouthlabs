@@ -16,8 +16,13 @@
 <div class="signupbreaker">
 	<div class="subcontainer">
 		<p class="subcontainer-copy">Currently accepting students for the December and January Classes</p>
-		<a href="#"><p class="subcontainer-signup">SIGN UP NOW</p></a>
-		<div class="clearfix"></div>
+		
+			<div class="subcontainer-signup-container">
+				<a href="#"><p class="subcontainer-signup">SIGN UP NOW</p></a>
+			</div>
+
+		<div class="clearfix"></div>		
+		
 	</div>
 </div>
 

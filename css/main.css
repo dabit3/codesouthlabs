@@ -396,6 +396,37 @@ footer {
 	
 }
 
+.mobile-menu {
+	position: fixed;
+	padding-top: 10px;
+	width:100%;
+	background:#000000;	
+	z-index: 9000;
+	margin-top:-200px;
+}
+
+.mobileul ul {
+	margin: 0;
+	padding: 0;
+}
+
+.mobileul ul li {
+	list-style:none;
+	font-size:18px;
+	font-weight: 300;
+	text-align:center;
+	color:#ffffff;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	padding: 10px 0px;
+	transition: all .6s;
+	-webkit-transition: all .6s;
+}
+
+.mobileul ul a {
+	text-decoration: none;
+}
+
+
 /* ***************************************** Overlay Menu CSS *********************************** */
 
 .overlay {
@@ -553,10 +584,24 @@ footer {
 	.overlay {
 		border: none;
 	}
+	
+	.content-hero {
+		height: auto;
+	}
+
+	.content-container {
+		width: 100%;
+		padding-top:20px;
+	}
+
+	.content-button {
+		padding-top:0px;
+		padding-bottom: 20px;
+	}
 
 }
 
-@media only screen and (min-width: 0px) and (max-width: 600px) { 
+@media only screen and (min-width: 0px) and (max-width: 599px) { 
 	
 	header {
 		display: none;
@@ -579,6 +624,64 @@ footer {
 		display: block
 	}
 
+	.content-container {
+		width: 100%;
+		padding-top:15px;
+	}
+
+	.content-hero {
+		height: auto;
+		padding-bottom:10px;
+	}
+
+	.hero {
+		font-size:24px;
+	}
+
+	.content-button {
+		padding-top:0px;
+	}
+	
+	.signupbreaker {
+		padding: 5px 5px;
+	}
+
+	.subcontainer {
+		width: 100%;
+	}
+
+	.subcontainer-copy {
+		text-align: center;
+	}
+		
+	.signupnow {
+		width:145px;
+		margin: 10px;
+	}
+
+	.subcontainer-signup-container {
+		width:165px;
+		margin: 12px auto;
+	}
+
+	.subcontainer p {
+		float: none;
+	}
+
+	.sucbcontainer-copy {
+		float: none;
+	}
 
 }
 
+@media only screen and (min-width: 0px) and (max-width: 900px) { 
+
+	.page-content {
+		display: none;
+	}
+	
+	.footer-container {
+		width: 100%;
+	}
+
+}
