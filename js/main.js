@@ -9,6 +9,7 @@ window.sr = new scrollReveal( config );
 
 
 $(document).ready(function() {
+
 	var header = $('.wide-header');
 	var headerMid = $('.header-scroll');
 
