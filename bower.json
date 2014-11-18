@@ -21,6 +21,7 @@
     "font-awesome": "~4.2.0",
     "jquery-2.1.0.min": "http://code.jquery.com/jquery-2.1.0.min.js",
     "greensock": "~1.14.2",
-    "fastclick": "~1.0.3"
+    "fastclick": "~1.0.3",
+    "remodal": "~0.3.0"
   }
 }

@@ -11,6 +11,8 @@
 <script src="lib/scrollRevealjs/dist/scrollReveal.min.js"></script>
 <script src="lib/greensock/src/minified/TweenMax.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/mail.js"></script>
 <script src="lib/fastclick/lib/fastclick.js"></script>
+<script src="lib/remodal/dist/jquery.remodal.min.js"></script>
 </body>
 </html>

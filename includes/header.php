@@ -11,6 +11,7 @@
 
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="lib/remodal/dist/jquery.remodal.css">
 
 </head>
 
@@ -18,7 +19,7 @@
 	<section class="header-container">
 		<div class="header-content">
 			<a href="index.php"><img src="img/logowhite.png" width="250" alt="" class="logo"></a>
-			<div style="" class="teach-button"><a href="teach"><p>TEACH</p></a></div>
+			<div style="" class="teach-button"><a data-remodal-target="modal"><p>TEACH</p></a></div>
 			<div class="nav-container">
 				<ul class="main-nav">
 					
@@ -53,7 +54,7 @@
 				<a href="index.php"><li>HOME</li></a>
 				<a href="about"><li>ABOUT</li></a>
 				<a href="courses"><li>COURSES</li></a>
-				<a href="teach"><li>TEACH</li></a>
+				<a data-remodal-target="modal"><li>TEACH</li></a>
 			</ul>
 		</div>
 	</div>

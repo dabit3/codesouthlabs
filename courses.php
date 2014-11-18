@@ -1,9 +1,13 @@
 <?php include 'includes/header.php' ?>
 
-
 <div class="page-content courses-page">
 	<section class="page-content-inner">
 		<div class="home-content-1">
+
+			<div class="pagetitle">
+				<h1>COURSES</h1>
+				<p>Browse all courses.</p>
+			</div>
 			
 			<div class="class-holder-container">
 				<section class="class-holder" >
@@ -16,11 +20,10 @@
 							<p class="sub-headline">Learn how to build a dynamic web app and gain the foundation to become a web developer. You’ll learn <a href="#" class="mylink">HTML</a>, <a href="#" class="mylink">CSS</a>, and <a href="#" class="mylink">JavaScript</a>. </p>
 							<div class="linktoclassbutton"><a href="#"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
+						<div class="clearfix" ></div>
 					</section>
 				</section>
 			</div>
-			
-			
 			
 			<div class="class-holder-container">
 				<section class="class-holder">
@@ -33,12 +36,10 @@
 							<p class="sub-headline">Bring your creative ideas to life with Adobe <a href="#" class="mylink">Photoshop</a> &amp; <a href="#" class="mylink">Adobe Illustrator</a>, learn how they tie in with the design process, and learn the basics of digital design.</p>
 							<div class="linktoclassbutton"><a href="#"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
+						<div class="clearfix" ></div>
 					</section>
 				</section>
-			</div>
-
-			<div class="clearfix" ></div>
-			
+			</div>			
 
 			<div class="class-holder-container">
 				<section class="class-holder">
@@ -51,11 +52,12 @@
 							<p class="sub-headline">Intermediate course. Develop hybrid mobile apps that run in <span class="mylink">IOS</span>, <span class="mylink">Android</span>, and on the web.  Load your apps on your iPhone and learn how to submit your app to the <span class="mylink">App Store</span>. </p>
 							<div class="linktoclassbutton"><a href="#"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
+						<div class="clearfix" ></div>
 					</section>
 				</section>
 			</div>
 
-			<div class="clearfix"></div>
+			
 
 			<div class="class-holder-container">
 				<section class="class-holder" >
@@ -68,6 +70,7 @@
 							<p class="sub-headline">In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <span class="mylink">Wordpress</span>. </p>
 							<div class="linktoclassbutton"><a href="#"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
+						<div class="clearfix" ></div>
 					</section>
 				</section>
 			</div>
@@ -83,11 +86,12 @@
 							<p class="sub-headline">Bring your creative ideas to life with Adobe <a href="#" class="mylink">Photoshop</a> &amp; <a href="#" class="mylink">Adobe Illustrator</a>, learn how they tie in with the design process, and learn the basics of digital design.</p>
 							<div class="linktoclassbutton"><a href="#"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
+						<div class="clearfix" ></div>
 					</section>
 				</section>
 			</div>
 
-			<div class="clearfix" ></div>
+			
 
 		</div>
 	</section>
