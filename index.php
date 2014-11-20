@@ -65,10 +65,7 @@ The growth of increasingly-interactive websites, applications, and social networ
 				<div class="clearfix"></div>
 			</div>
 
-			<img src="img/line.png" alt="" class="theline">
-			<div class="theboxholder">
-				<div class="thebox"><img src="img/cssmall_forline.png" alt="" class="cssmall"></div>
-			</div>
+			
 
 			<div class="thelastcopy">
 				<p>Our craft is coding. Our passion is education. All of our instructors work in the development industry and this allows them to offer the best insight to what it really takes to succeed. Each class they bring their knowledge of what's happening in the field today, ready to pass it on to students. Learn current best practices, industry standards, and what development jobs actually looks like, but most importantly develop a relationship with someone on the inside.</p>
@@ -76,7 +73,5 @@ The growth of increasingly-interactive websites, applications, and social networ
 		</div>
 	</div>
 </div>
-
-<?php include 'includes/teacher-modal.php' ?>
 
 <?php include 'includes/footer.php' ?>

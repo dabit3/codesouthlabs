@@ -1,9 +1,3 @@
-var config = {
-				
-        reset:  true
-      }
-
-window.sr = new scrollReveal( config );
 
 /* Remove click delay */
 
@@ -13,9 +7,34 @@ window.addEventListener('load', function() {
 
 /* End remove click delay */
 
-/* Responsive header */
 
 $(document).ready(function() {
+
+	/* Send Mail */
+
+	$('#teacher').click(function () {
+        var name = $('#form-name').val();
+        var email = $('#form-email').val();
+        var message = $('#form-feedback-questions').val();
+        var course = $('#form-course').val();
+        var varData = 'name=' + name + '&email=' + email + '&message=' + message + '&course=' + course;
+
+        if((name != "") && (email != "") && (message != "")) {
+        		$("#theteacherform").hide();
+            $("#thehiddenform").show();
+            $.ajax({
+                type: "POST",
+                url: "teachermail",
+                data: varData,
+                success: function() {
+                    
+
+                }
+            });
+            return false;
+        }
+    });
+
 
 	/* Mobile Menu JS */
 
@@ -115,7 +134,6 @@ $(document).ready(function() {
 		}
 
 	}(document));
-
 
 
 })

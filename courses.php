@@ -11,7 +11,7 @@
 			
 			<div class="class-holder-container">
 				<section class="class-holder" >
-					<section data-sr>
+					<section >
 						<div class="class-pic pic-one">
 						<img src="img/computer.png" width="200" alt="">
 						</div>
@@ -27,7 +27,7 @@
 			
 			<div class="class-holder-container">
 				<section class="class-holder">
-					<section data-sr>
+					<section >
 						<div class="class-pic pic-two">
 						<img src="img/graphic-design.png" width="200" alt="">
 						</div>
@@ -43,7 +43,7 @@
 
 			<div class="class-holder-container">
 				<section class="class-holder">
-					<section data-sr>
+					<section>
 						<div class="class-pic pic-three">
 						<img src="img/mobile.png" width="200" alt="">
 						</div>
@@ -61,7 +61,7 @@
 
 			<div class="class-holder-container">
 				<section class="class-holder" >
-					<section data-sr>
+					<section>
 						<div class="class-pic pic-three">
 						<img src="img/wordpress.png" width="200" alt="">
 						</div>
@@ -77,7 +77,7 @@
 
 			<div class="class-holder-container">
 				<section class="class-holder">
-					<section data-sr>
+					<section >
 						<div class="class-pic pic-two">
 						<img src="img/graphic-design.png" width="200" alt="">
 						</div>

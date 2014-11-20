@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
 
     $email_to = "dabit3@gmail.com";
-    $email_subject = "Code South - Teacher Form";
+    $email_subject = "Code South Email Form";
 
     function died($error) {
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
@@ -22,6 +22,7 @@ if(isset($_POST['email'])) {
     $name = $_POST['name']; // required
     $email_from = $_POST['email']; // required
     $message = $_POST['message']; // required
+    $course = $_POST['course'];
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -49,6 +50,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Message: ".clean_string($message)."\n";
+    $email_message .= "Course:".clean_string($course)."\n";
 
 
 // create email headers
