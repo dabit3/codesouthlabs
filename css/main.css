@@ -419,8 +419,8 @@ header {
 	font-weight: 200;
 	margin-right:40px;
 	font-size: 16px;
-	transition:all .3s;
-	-webkit-transition: all .3s;
+	transition:color .3s;
+	-webkit-transition: color .3s;
 font-family: "brandon-grotesque", helvetica, sans-serif;
 	
 }
@@ -906,6 +906,27 @@ footer {
 
 /* ***************************************** Media Queries *********************************** */
 
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+	.compscontainer {
+		width:900px;
+	}
+
+	.screens {
+		width:400px;
+		padding-top:58px;
+		padding-left:20px;
+	}
+
+	.screens img {
+		width:400px;
+	}
+
+	.why {
+		padding-left:40px;
+	}
+
+}
+
 @media only screen and (min-width: 1000px) and (max-width: 1049px) { 
 
 .header-container {
@@ -961,6 +982,31 @@ footer {
 		padding-bottom: 20px;
 	}
 
+	.compscontainer {
+		width:100%;
+	}
+
+	.screens {
+		width: 100%;
+		text-align: center;
+	}
+
+	.why {
+		width: 100%;
+		padding: 10px 50px;
+		margin-right:0;
+	}
+
+	.footer-row {
+		width:33%;
+		padding-top:30px;
+		text-align: center;
+	}
+
+		.reason {
+		width:33%;
+	}
+
 }
 
 
@@ -1012,8 +1058,7 @@ footer {
 
 	.footer-inner {
 		margin: 0 auto;
-		padding: 0px 50px;
-		
+		padding: 0px 0px;	
 	}
 
 	.mobile-content {
@@ -1039,7 +1084,7 @@ footer {
 		margin: 0;
 		padding: 12px 25px 0px 15px;
 		font-size:22px;
-		color:#0aa4ee;
+		color:#00acff;
 		font-weight:500;
 		font-family: "brandon-grotesque", helvetica, sans-serif;
 		text-transform: uppercase;
@@ -1118,6 +1163,69 @@ footer {
 		padding-right:20px;
 	}
 
+	.footer-row-heading {
+		font-size:26px;
+	}
+
+	.footerul li {
+		font-size:20px;
+	}
+
+	.keyboard {
+		display: none;
+	}
+
+	.why {
+		padding: 0;
+		margin:0;
+	}
+	
+	.whyheader {
+		padding-left:15px;
+		padding-right:15px;
+	}
+
+	.whysubhead {
+		padding-left:15px;
+		padding-right:15px;
+	}
+
+	.whyp {
+		padding-left:15px;
+		padding-right:15px;
+	}
+
+	.whyb {
+		width:188px;
+		margin:0 auto;
+	}
+
+	.footer-container {
+		padding: 0;
+	}
+
+	.compscontainer {
+		width:100%;
+	}
+	
+	.thecontent {
+		width:100%;
+	}
+
+	.thereasons {
+		width:100%;
+	}
+
+	.thelastcopy {
+		width:100%;
+	}
+
+
+	.screens {
+		width: 100%;
+	}
+
+
 }
 
 @media only screen and (min-width: 0px) and (max-width: 599px) { 
@@ -1195,12 +1303,18 @@ footer {
 		float: none;
 	}
 
+	.screens img {
+		width:100%;
+		max-width:100%;
+	}
+
 	.footer-container {
 		width: 230px;
 	}
 
 	.footer-row {
-		margin-bottom: 30px;
+		padding:30px 0px 0px ;
+		text-align: center;
 	}
 
 	.main-container {
@@ -1209,6 +1323,27 @@ footer {
 
 	.teachform-wrapper {
 		padding:50px 15px 50px;	
+	}
+
+	.theheading h2 {
+		font-size:28px;
+	}
+
+	.thelastcopy p {
+		padding: 0px 20px;
+	}
+
+	.reason {
+		float:none;
+		margin: 0 auto;
+	}
+
+	.why {
+		width: 100%;
+	}
+
+	.whyheader {
+		text-align: center;
 	}
 
 }
