@@ -37,6 +37,7 @@ body {
 .comps {
 	background:#ffffff;
 	padding: 40px 0px;
+	box-shadow: inset 0px 0px 2px rgba(0,0,0,.24);
 }
 
 .compscontainer {
@@ -73,9 +74,11 @@ body {
 }
 
 .whyp {
-	font-family: "brandon-grotesque", helvetica, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight:400 ;
 	margin-top:10px;
+	line-height:26px;
+	margin-bottom:20px;
 }
 
 .whybcontainer {
@@ -107,6 +110,10 @@ a .whyb {
 	text-decoration:none;
 }
 
+.keyboard {
+	margin-top:13px;
+}
+
 .teachform-wrapper {
 	background:#ffffff;
 	padding:100px 0px 50px;
@@ -114,7 +121,7 @@ a .whyb {
 
 .teachform-wrapper-section {
 	width:900px;
-	padding:25px 20px 0px;
+	padding:25px 0px 0px;
 	margin: 0 auto;	
 }
 
@@ -127,12 +134,13 @@ font-family: 'brandon-grotesque', helvetica, sans-serif;
 }
 
 .theteacherform .teacherinput {
-	width: 100%;
+	max-width: 95%%;
+	width:95%;
 border: none;
 background: #f7f7f7;
 padding: 12px 10px;
 font-size: 22px;
-box-shadow: inset 1px 1px 1px rgba(0,0,0,.19);
+box-shadow: inset 0px 0px 1px rgba(0,0,0,.29);
 }
 
 .theteacherform div {
@@ -151,7 +159,7 @@ box-shadow: inset 1px 1px 1px rgba(0,0,0,.19);
 }
 
 .sendteachermail {
-	background: #009EFD;
+	background: #0099F5;
 border: none;
 color: #ffffff;
 padding: 16px 50px;
@@ -197,9 +205,9 @@ box-shadow: 0px 1px 1px rgba(0,0,0,.12), 0px 1px 1.5px rgba(0,0,0,.24);
 
 .currentlist ul li {
 	list-style:none;
-	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:18px;
-	padding:5px 0px;
+	padding:8px 0px;
 	font-weight:500;
 }
 
@@ -278,11 +286,13 @@ margin-left: 2px;
 }
 
 .thelastcopy p {
-	font-family: "brandon-grotesque", helvetica, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #000000;
 	font-weight:400;
 	padding-top:30px;
 	font-size: 18px;
+	line-height:28px;
+
 	
 }
 
@@ -314,6 +324,7 @@ margin-left: 2px;
 .reason p {
 	font-family: "brandon-grotesque", helvetica, sans-serif;
 	padding: 0px 20px;
+	color:#93979b;
 }
 
 .smallline {
@@ -340,6 +351,8 @@ margin-left: 2px;
 .signupbreaker {
 	background: #dddddd;
 	padding:20px 0px;
+	box-shadow: inset 0px 0px 2px rgba(0,0,0,.24);
+
 }
 
 .subcontainer {
@@ -376,8 +389,8 @@ margin-left: 2px;
 	margin-left:20px !important;
 	text-align:center;
 	box-shadow: 0px 1px 1.5px rgba(0,0,0,.2), 0px 1px 1.5px rgba(0,0,0,.24);
-	transition: background .6s, color .6s;
-	-webkit-transition:background .6s, color .6s;
+	transition: background .3s, color .3s;
+	-webkit-transition:background .3s, color .3s;
 }
 
 .subcontainer-signup:hover {
@@ -429,8 +442,8 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 	text-decoration: none;
 	color:#ffffff;
 	font-weight: 300;
-	transition:all .35s;
-	-webkit-transition: all .35s;
+	transition:color .35s;
+	-webkit-transition: color .35s;
 	font-family: "brandon-grotesque", helvetica, sans-serif;
 
 }
@@ -497,8 +510,8 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 	color:#ffffff;
 	width:200px;
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
-	transition:all .3s;
-	-webkit-transition: all .3s;
+	transition:background .3s;
+	-webkit-transition: background .3s;
 	
 	text-shadow:rgba(0,0,0,.4) 1px 1px 1px;
 	border-radius:75px;
@@ -530,8 +543,8 @@ font-family: "brandon-grotesque", helvetica, sans-serif;
 	font-weight: 400;
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
 	padding: 10px 26px;
-	transition:background .5s, color .5s;
-	-webkit-transition: background .5s, color: .5s;
+	transition:background .3s, color .3s;
+	-webkit-transition: background .3s, color: .3s;
 	border:	3px solid rgba(0,159,254, 1)
 }
 
@@ -570,10 +583,11 @@ margin-bottom:0px;
 }
 
 .sub-headline {
-	font-size:22px;
-	font-family: 'brandon-grotesque', helvetica, sans-serif;
-	margin-top:0px;
-	margin-bottom:17px;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 7px;
+	margin-bottom: 20px;
+	line-height: 30px;
 }
 
 .mylink {
@@ -661,8 +675,8 @@ padding: 10px 0px;
 font-weight: 400;
 margin:0;
 box-shadow: 0px 1px 1.5px rgba(0,0,0,.2), 0px 1px 1.5px rgba(0,0,0,.24);
-transition: background .6s, color .6s;
--webkit-transition: background .6s, color:.6s;
+transition: background .3s, color .3s;
+-webkit-transition: background .3s, color:.3s;
 }
 
 .linktoclassbutton p:hover {
@@ -680,7 +694,7 @@ footer {
 
 .footer-container {
 	width:900px;
-	padding: 40px 40px 40px;
+	padding: 40px 0px 40px;
 	margin:0 auto;
 }
 
@@ -720,6 +734,12 @@ footer {
 	font-weight:300;
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
 	margin:2px 0px;
+	transition: color .3s;
+	-webkit-transition:color .3s;
+}
+
+.footerul li:hover {
+	color: rgb(0, 132, 211);
 }
 
 /* **************************************** Mobile CSS ************************************/
@@ -742,8 +762,8 @@ footer {
 .mobile-hamburger {
 	margin-top: 4px;
 	margin-right: 24px;
-	transition: opacity .6s;
-	-webkit-transition: opacity .6s;
+	transition: opacity .3s;
+	-webkit-transition: opacity .3s;
 	cursor: pointer;
 	position: fixed;
 	z-index: 10000;
@@ -763,7 +783,7 @@ footer {
 	width:100%;
 	background:#000000;	
 	z-index: 9000;
-	margin-top:-200px;
+	margin-top:-245px;
 }
 
 .mobileul ul {
@@ -779,8 +799,8 @@ footer {
 	color:#ffffff;
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
 	padding: 10px 0px;
-	transition: all .6s;
-	-webkit-transition: all .6s;
+	transition: all .3s;
+	-webkit-transition: all .3s;
 }
 
 .mobileul ul a {
@@ -812,8 +832,8 @@ footer {
 	font-size:34px;
 	font-weight: 300;
 	padding: 15px 0px;
-	transition: all .6s;
-	-webkit-transition: all .6s;
+	transition: all .3s;
+	-webkit-transition: all .3s;
 }
 
 .overlay-content {
@@ -850,8 +870,8 @@ footer {
 	font-size:50px;
 	color:#ffffff;
 	margin:0;
-	transition: all .6s;
-	-webkit-transition: all .6s;
+	transition: all .3s;
+	-webkit-transition: all .3s;
 }
 
 .close p:hover {
@@ -880,8 +900,8 @@ footer {
 	float:right;
 	margin-top: 7px;
 	margin-right: 24px;
-	transition: opacity .6s;
-	-webkit-transition: opacity .6s;
+	transition: opacity .3s;
+	-webkit-transition: opacity .3s;
 	cursor: pointer;
 }
 
@@ -903,6 +923,218 @@ footer {
 .header-scroll-container {
 	padding-bottom:9px;
 }
+
+/* ***************************************** Single Class Pages *************************** */
+
+.classcontentcontainer {
+	background:#ffffff;
+	padding:30px 20px;
+
+}
+
+.classcontentwrapper {
+	padding-top:100px;
+	width:900px;
+	margin: 0 auto;
+}
+
+.classcontenth1 {
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 54px;
+	margin-bottom:8px;
+}
+
+.classcontabout {
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	
+}
+
+.classcontentinfo {
+	float:left;
+	width:400px;
+}
+
+.classcontentsidebar {
+	float:left;
+	width:400px;
+	background:#f6f6f6;
+	margin-left:90px;
+	margin-top:30px;
+}
+
+.classcontentsideimage {
+	text-align: center;
+}
+
+.classp {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	color:#666666;
+	font-size:16px;
+	line-height:26px;
+}
+
+.sidebardates {
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	font-weight:500;
+	padding-left:20px;
+	padding-right:15px;
+	font-size:20px;
+	margin-bottom:10px;
+}
+
+.sidebardate {
+	font-size: 14px;
+	color: #8F8F8F;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-left: 20px;
+	margin-top: 0px;
+}
+
+.sidebardate i {
+	padding-right:6px;
+}
+
+.followclassbuttondiv {
+	width: 150px;
+	padding-left:20px;
+	margin-top:20px;
+}
+
+.followclassbuttondiv a {
+	text-decoration: none;
+}
+
+.sidebarfollowbutton {
+	color: #000000;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:22px;
+	padding: 10px 30px;
+	background: #ffffff;
+	width: 150px;
+	text-align: center;
+	border: 1px solid black;
+	border-bottom: 3px solid black;
+	margin-bottom:25px;
+	cursor:pointer;
+	margin-top:0px;
+	
+}
+
+.sidebarfollowbutton i {
+	padding-right:9px;
+}
+
+.sidebarfollowbutton:hover i {
+	color:red;
+}
+
+.sidebarfollowbutton:active {
+	border-bottom:1px solid black;
+	margin-bottom:27px;
+}
+
+.singupforthisclassbuttonholder {
+	text-align:center;
+}
+
+.signupforthisclassinfo {
+	margin: 20px;
+	background: #f7f7f7;
+	padding-bottom:5px;
+}
+
+.signupforthisclassheader {
+	background:#dddddd;
+}
+
+.signupforthisclassicon {
+	float:left;
+	padding: 21px 25px 0px 25px;
+}
+
+.signupforthisclassicon i {
+	font-size:34px;
+
+}
+
+.signupforthisclasscopy {
+	float:left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.signupforthisclasscopy p:first-of-type {
+	margin-bottom:0;
+}
+
+.signupforthisclasscopy p:nth-of-type(2) {
+	margin-top: 5px;
+}
+
+.signupforthisclassh3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	padding-left:20px;
+	font-size:26px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgba(0,0,0,.44);
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+.signupforthisclassh3 span {
+	font-weight:600;
+}
+
+.signupforthisclassbutton {
+	border: 3px solid rgba(0, 226, 0, 0.9);
+	background:transparent;
+	color:#000000;
+	border-radius:100px;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	padding:20px 0px;
+	font-size:22px;
+	box-shadow: 0px 1px 1px rgba(0,0,0,.12), 0px 1px 1.5px rgba(0,0,0,.24);
+	transition: background .3s, color .3s;
+	-webkit-transition: background .3s, color .3s;
+	margin: 20px 20px
+}
+
+.signupforthisclassbutton:hover {
+	cursor:pointer;
+	background: rgba(0, 172, 0, 1);
+	color:#ffffff;
+}
+
+.remodalemailform {
+	margin: 28px 0px;
+}
+
+.class-email {
+	background: #D6D6D6;
+border: none;
+padding: 17px;
+font-size: 20px;
+}
+
+.classfollow {
+	background:rgb(255, 74, 74);
+	margin: 20px 0px 0px 0px;
+	border: 0px;
+	color: #ffffff;
+	box-shadow: 0px 1px 1px rgba(0,0,0,.12);
+	padding: 14px 60px 18px;
+}
+
+.classfollow:hover {
+	opacity:.85;
+}
+
 
 /* ***************************************** Media Queries *********************************** */
 
@@ -1005,6 +1237,11 @@ footer {
 
 		.reason {
 		width:33%;
+	}
+
+	.thelastcopy p {
+		padding-left:25px;
+		padding-right:25px;
 	}
 
 }
@@ -1235,7 +1472,7 @@ footer {
 	}
 
 	.view-courses-button {
-		padding:14px 20px;
+		padding:12px 5px; 
 		margin-left:auto;
 		margin-right:auto;
 	}

@@ -7,10 +7,12 @@
 	<link rel="stylesheet" href="lib/normalize-css/normalize.css">
 
 	<script src="//use.typekit.net/vtj6dqq.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
 	<script>try{Typekit.load();}catch(e){}</script>
-
+	<link rel="stylesheet" href="lib/remodal/dist/jquery.remodal.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+
 
 </head>
 
@@ -22,10 +24,10 @@
 			<div class="nav-container">
 				<ul class="main-nav">
 					
-					<li><a href="courses">COURSES</a></li>
+					<li><a href="courses/all">COURSES</a></li>
 					<li><a href="about">ABOUT</a></li>
 					<li><a href="contact">CONTACT</a></li>
-					<li><a href="/">HOME</a></li>
+					<li><a href="index">HOME</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -53,8 +55,10 @@
 			<div class="close"><p>x</p></div>
 			<ul class="overlay-ul">
 				<a href="index"><li>HOME</li></a>
+				<a href="courses/all"><li>COURSES</li></a>
+				<a href="contact">CONTACT</a>
 				<a href="about"><li>ABOUT</li></a>
-				<a href="courses"><li>COURSES</li></a>
+				
 				<a href="teach.php"><li>TEACH</li></a>
 			</ul>
 		</div>
@@ -84,8 +88,10 @@
 		<div class="mobileul">
 			<ul>
 				<a href="index"><li>HOME</li></a>
+				<a href="courses/all"><li>COURSES</li></a>
+				<a href="contact"><li>CONTACT</li></a>
 				<a href="about"><li>ABOUT</li></a>
-				<a href="courses"><li>COURSES</li></a>
+				
 				<a href="teach.php"><li>TEACH</li></a>
 			</ul>
 		</div>

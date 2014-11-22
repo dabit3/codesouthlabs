@@ -3,7 +3,7 @@
 <div class="teachform-wrapper">
   <section class="teachform-wrapper-section">
     <div class="teacherformheading">
-      <h1 class="teacherformh1">Teach</h1>
+      <h1 class="teacherformh1">TEACH</h1>
       <p>We’re looking for talented individuals to join our growing team. Check out our list of positions to find current openings. If you would like to be a part of Code South Labs, hit us up.  </p>
       <h4 class="currentpositions">Current Positions:</h4>
       <div class="currentlist">
@@ -50,13 +50,20 @@
           </div>
       </form>
     </div>
+    
+    <div class="remodal" data-remodal-id="modal">
+        <h1>Message Sent</h1>
+         <h1 style="">Thank You For Contacting Us!</h1>
+            <p>We look forward to working with you! We will be in touch shortly.</p>
+        <br>
+        <a class="remodal-confirm" href="#" onclick="window.location.replace('index')">OK</a>
+    </div>
 
     <div class="teachermailsent" id="thehiddenform">
       <section class="teachermailsentwrapper">
         <div id="" style="background:#ffffff;padding-top:60px;padding-bottom:60px; ">
           <section class="teachersentmessage">
-            <h1 style="">Thank You For Contacting Us!</h1>
-            <p>Someone will be in touch with you shortly!</p>
+           
           </section>
           
         </div>

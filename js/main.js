@@ -10,7 +10,7 @@ window.addEventListener('load', function() {
 
 $(document).ready(function() {
 
-	/* Send Mail */
+	/* Send Mail - Teacher Form*/
 
 	$('#teacher').click(function () {
         var name = $('#form-name').val();
@@ -21,20 +21,63 @@ $(document).ready(function() {
 
         if((name != "") && (email != "") && (message != "")) {
         		$("#theteacherform").hide();
-            $("#thehiddenform").show();
+            var inst = $.remodal.lookup[$('[data-remodal-id=modal]').data('remodal')];
+            inst.open();
             $.ajax({
                 type: "POST",
                 url: "teachermail",
                 data: varData,
                 success: function() {
-                    
-
                 }
             });
             return false;
         }
     });
 
+	/* Send Mail - Contact Form */
+
+	$('#contacter').click(function () {
+        var name = $('#form-name').val();
+        var email = $('#form-email').val();
+        var message = $('#form-feedback-questions').val();
+        var phone = $('#form-phone').val();
+        var varData = 'name=' + name + '&email=' + email + '&message=' + message + '&phone=' + phone;
+
+        if((name != "") && (email != "") && (message != "")) {
+        		$("#theteacherform").hide();
+            var inst = $.remodal.lookup[$('[data-remodal-id=modal]').data('remodal')];
+            inst.open();
+            $.ajax({
+                type: "POST",
+                url: "contactermail",
+                data: varData,
+                success: function() {
+                }
+            });
+            return false;
+        }
+    });
+
+	/* follow classes */
+
+	$('#class-introtowebdev-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+        console.log(varData);
+        if(email != "") {
+        		$('.beforesignedup').hide();
+        		$('.aftersignedup').show();
+            $.ajax({
+                type: "POST",
+                url: "../introtowebdevfollow",
+                data: varData,
+                success: function() {
+                }
+            });
+            return false;
+        }
+    });
 
 	/* Mobile Menu JS */
 
@@ -51,7 +94,7 @@ $(document).ready(function() {
 			TweenMax.to(mobileMenu, .3, {marginTop: 0});
 			open = true;
 		} else {
-			TweenMax.to(mobileMenu, .3, {marginTop: -200});
+			TweenMax.to(mobileMenu, .3, {marginTop: -245});
 			open = false;
 		}
 		
