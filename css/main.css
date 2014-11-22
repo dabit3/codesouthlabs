@@ -1160,6 +1160,10 @@ footer {
 	margin-right:15px;
 }
 
+.classcontentsocialicons i:hover {
+	color:#dddddd;
+}
+
 .classcontentsocialcontact p {
 	margin-top:5px;
 	font-family: 'brandon-grotesque', helvetica, sans-serif;

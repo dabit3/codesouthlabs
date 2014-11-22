@@ -6,9 +6,9 @@
 			<h1 class="classcontenth1">RESPONSIVE DESIGN BOOTCAMP</h1>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
-				Is web development something you may be considering as a career? Would you like to learn to create your own web sites but don't know where to start? Does the world of programming fascinate you? Are you curious about "what it takes" to be a web developer.
+				From mobile browsers to notebooks to tablets, users are interacting with your sites from a wide array of devices and browsers. Are your designs ready? Learn how to think beyond the desktop and craft beautiful designs that anticipate and respond to your users’ needs. 
 			</p>
-			<p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
+			<p class="classp">Join us as we explore CSS techniques and design principles, including fluid grids, flexible images, and media queries, demonstrating how you can deliver a quality experience to your users no matter how large (or small) their display.</p>
 			<div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">
@@ -22,7 +22,7 @@
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$85</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>TBD</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
 					<a data-remodal-target="attendintrotopythonmodal"><p class="signupforthisclassbutton">ATTEND</p></a>
@@ -65,8 +65,8 @@
 				</div>
 				<div class="classcontentsocialicons">
 					<a target="_blank" href="https://twitter.com/Codesouthlabs"><i class="fa fa-twitter-square"></i></a>
-					<i class="fa fa-facebook-square"></i>
-					<a href="mailto:info@codesouthlabs.com"><i class="fa fa-envelope-square"></i></a>
+					<a href="https://github.com/orgs/CodeSouthLabs" target="_blank"><i class="fa fa-github-square"></i></a>
+					<a href="mailto:info@codesouthlabs.com" target="_blank"><i class="fa fa-envelope-square"></i></a>
 
 				</div>
 			</div>
