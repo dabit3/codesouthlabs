@@ -58,7 +58,9 @@ $(document).ready(function() {
         }
     });
 
-	/* follow classes */
+	/************ follow classes ************** */
+
+	/* Intro to web dev */
 
 	$('#class-introtowebdev-follow').click(function () {
         
@@ -71,6 +73,27 @@ $(document).ready(function() {
             $.ajax({
                 type: "POST",
                 url: "../introtowebdevfollow",
+                data: varData,
+                success: function() {
+                }
+            });
+            return false;
+        }
+    });
+
+	/* Intro to Python */
+
+	$('#class-introtopython-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+        console.log(varData);
+        if(email != "") {
+        		$('.beforesignedup').hide();
+        		$('.aftersignedup').show();
+            $.ajax({
+                type: "POST",
+                url: "../phpsendmail/introtopythonfollow",
                 data: varData,
                 success: function() {
                 }

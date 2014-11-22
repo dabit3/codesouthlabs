@@ -93,7 +93,7 @@
 	        <div class="remodalemailform">
 	        	<form>
 		        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-		        	<input id="class-introtowebdev-follow" class="classfollow" type="button" value="Follow Class" />
+		        	<input id="class-introtopython-follow" class="classfollow" type="button" value="Follow Class" />
 		        </form>
 	       	</div>
     </div>
