@@ -84,7 +84,7 @@
 						<div class="class-class">
 							<p class="headline home">Wordpress Bootcamp</p>
 							<p class="sub-headline">In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <span class="mylink">Wordpress</span>. </p>
-							<div class="linktoclassbutton"><a href="#"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="intro-to-wordpress"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -194,7 +194,7 @@
 					In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <span class="mylink">Wordpress</span>.</p>
 			</div>
 			<div class="newbutton">
-					<a href="#"><p>LEARN MORE</p></a>
+					<a href="intro-to-wordpress"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>

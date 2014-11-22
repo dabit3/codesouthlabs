@@ -3,7 +3,7 @@
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">INTRO TO PYTHON <br />PROGRAMMING</h1>
+			<h1 class="classcontenth1">INTRO TO WORDPRESS</h1>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
 				Is web development something you may be considering as a career? Would you like to learn to create your own web sites but don't know where to start? Does the world of programming fascinate you? Are you curious about "what it takes" to be a web developer.
@@ -22,10 +22,10 @@
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$85</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a data-remodal-target="attendintrotopythonmodal"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a data-remodal-target="attendintrotowordpressmodal"><p class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">
@@ -54,7 +54,7 @@
 			<p class="sidebardate"><i class="fa fa-university"></i>March 2015</p>
 			
 			<div class="followclassbuttondiv">
-				<a data-remodal-target="introtopythonmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a data-remodal-target="introtowordpressmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
 			</div>
 		</div>
 
@@ -80,20 +80,20 @@
 
 <!-- ************** Modal to attend Wordpress Course ***************** -->
 
-<div class="remodal" data-remodal-id="attendintrotopythonmodal">
-		<h1>Intro To Python Programming</h1>
+<div class="remodal" data-remodal-id="attendintrotowordpressmodal">
+		<h1>Intro To Wordpress</h1>
 	     <p style="">The date for this course has not yet been announced. Please follow this course to be notified of the next class date. Thanks!</p>
 	     <a class="remodal-confirm" href="#" >OK</a>
 </div>
 
-<div class="remodal" data-remodal-id="introtopythonmodal">
+<div class="remodal" data-remodal-id="introtowordpressmodal">
     <div class="beforesignedup">
     	<h1>Stay updated</h1>
 	     <p style="">Enter Your Email Address To Start Following.</p>
 	        <div class="remodalemailform">
 	        	<form>
 		        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-		        	<input id="class-introtopython-follow" class="classfollow" type="button" value="Follow Class" />
+		        	<input id="class-introtowordpress-follow" class="classfollow" type="button" value="Follow Class" />
 		        </form>
 	       	</div>
     </div>

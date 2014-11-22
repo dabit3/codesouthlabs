@@ -123,6 +123,27 @@ $(document).ready(function() {
 	        }
     });
 
+	/* Intro To Wordpress */
+
+	$('#class-introtowordpress-follow').click(function () {
+	        
+	        var email = $('#class-email').val();
+	        var varData = 'email=' + email;
+	        console.log(varData);
+	        if(email != "") {
+	        		$('.beforesignedup').hide();
+	        		$('.aftersignedup').show();
+	            $.ajax({
+	                type: "POST",
+	                url: "../phpsendmail/introtowordpressfollow",
+	                data: varData,
+	                success: function() {
+	                }
+	            });
+	            return false;
+	        }
+    });
+
 
 	/* ****************** End Mail Senders **************************/
 

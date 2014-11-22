@@ -22,10 +22,10 @@
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>TBD</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a data-remodal-target="attendintrotopythonmodal"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a data-remodal-target="attendresponsivedesignbootcamp"><p class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">
@@ -54,7 +54,7 @@
 			<p class="sidebardate"><i class="fa fa-university"></i>March 2015</p>
 			
 			<div class="followclassbuttondiv">
-				<a data-remodal-target="introtopythonmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a data-remodal-target="responsivedesignbootcampmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
 			</div>
 		</div>
 
@@ -78,15 +78,15 @@
 	</div>
 </div>
 
-<!-- ************** Modal to attend Python Course ***************** -->
+<!-- ************** Modal to attend Responsive Design Bootcamp ***************** -->
 
-<div class="remodal" data-remodal-id="attendintrotopythonmodal">
-		<h1>Intro To Python Programming</h1>
+<div class="remodal" data-remodal-id="attendresponsivedesignbootcamp">
+		<h1>Responsive Design Bootcamp</h1>
 	     <p style="">The date for this course has not yet been announced. Please follow this course to be notified of the next class date. Thanks!</p>
 	     <a class="remodal-confirm" href="#" >OK</a>
 </div>
 
-<div class="remodal" data-remodal-id="introtopythonmodal">
+<div class="remodal" data-remodal-id="responsivedesignbootcampmodal">
     <div class="beforesignedup">
     	<h1>Stay updated</h1>
 	     <p style="">Enter Your Email Address To Start Following.</p>
