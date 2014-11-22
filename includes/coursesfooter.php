@@ -24,6 +24,7 @@
 				<p class="footer-row-heading">SOCIAL</p>
 				<ul class="footerul">
 					<a target="_blank" href="https://twitter.com/Codesouthlabs"><li>twitter</li></a>
+					<a href="https://github.com/orgs/CodeSouthLabs" target="_blank"><li>github</li></a>
 				</ul>
 			</section>
 

@@ -64,9 +64,9 @@
 						<img src="../img/mobile.png" width="200" alt="">
 						</div>
 						<div class="class-class">
-							<p class="headline home">Hybrid App Development Workshop </p>
+							<p class="headline home">Hybrid Mobile App Dev Workshop </p>
 							<p class="sub-headline">Intermediate course. Develop hybrid mobile apps that run in <span class="mylink">IOS</span>, <span class="mylink">Android</span>, and on the web.  Load your apps on your iPhone and learn how to submit your app to the <span class="mylink">App Store</span>. </p>
-							<div class="linktoclassbutton"><a href="#"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="hybrid-mobile-app-development"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -173,13 +173,13 @@
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
-					Hybrid App Development Workshop
+					Hybrid Mobile App Dev Workshop
 				</p>
 				<p class="mobile-class-copy">
 					Intermediate course. Develop hybrid mobile apps that run in <span class="mylink">IOS</span>, <span class="mylink">Android</span>, and on the web.  Load your apps on your iPhone and learn how to submit your app to the <span class="mylink">App Store</span>. </p>
 			</div>
 			<div class="newbutton">
-					<a href="#"><p>LEARN MORE</p></a>
+					<a href="hybrid-mobile-app-development"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>

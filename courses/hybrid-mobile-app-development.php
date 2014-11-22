@@ -3,7 +3,7 @@
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">INTRO TO WORDPRESS</h1>
+			<h1 class="classcontenth1">Hybrid Mobile App Development Workshop</h1>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
 				From it's humble origins, WordPress has grown into a full-fledged content management system, or CMS, that powers millions of websites all over the world, from traditional blogs to newspapers, online magazines, TV stations, nations, and social media sites. WordPress powers everything. To put it simply, WordPress is a publishing tool for the web. 
@@ -16,7 +16,7 @@
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>January 2015</p>
+						<p>February 2015</p>
 						<p>Date &amp; time to be announced.</p>
 					</div>
 					<div class="clearfix"></div>
@@ -25,7 +25,7 @@
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a data-remodal-target="attendintrotowordpressmodal"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a data-remodal-target="attendhybridmobileappdevworkshopmodal"><p class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">
@@ -46,15 +46,13 @@
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img src="../img/courses/introtowordpress.png" width="250" alt="">
+				<img src="../img/courses/hybridmobileappdev.png" width="250" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>January 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>February 2015</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>March 2015</p>
-			
+						
 			<div class="followclassbuttondiv">
-				<a data-remodal-target="introtowordpressmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a data-remodal-target="hybridmobileappdevfollow"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
 			</div>
 		</div>
 
@@ -78,22 +76,22 @@
 	</div>
 </div>
 
-<!-- ************** Modal to attend Wordpress Course ***************** -->
+<!-- ************** Modal to attend Hybrid Mobile App Development Course ***************** -->
 
-<div class="remodal" data-remodal-id="attendintrotowordpressmodal">
-		<h1>Intro To Wordpress</h1>
+<div class="remodal" data-remodal-id="attendhybridmobileappdevworkshopmodal">
+		<h1>Hybrid Mobile App Development Workshop</h1>
 	     <p style="">The date for this course has not yet been announced. Please follow this course to be notified of the next class date. Thanks!</p>
 	     <a class="remodal-confirm" href="#" >OK</a>
 </div>
 
-<div class="remodal" data-remodal-id="introtowordpressmodal">
+<div class="remodal" data-remodal-id="hybridmobileappdevfollow">
     <div class="beforesignedup">
     	<h1>Stay updated</h1>
 	     <p style="">Enter Your Email Address To Start Following.</p>
 	        <div class="remodalemailform">
 	        	<form>
 		        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-		        	<input id="class-introtowordpress-follow" class="classfollow" type="button" value="Follow Class" />
+		        	<input id="class-hybridmobileappdev-follow" class="classfollow" type="button" value="Follow Class" />
 		        </form>
 	       	</div>
     </div>
