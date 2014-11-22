@@ -49,8 +49,8 @@
 						</div>
 						<div class="class-class">
 							<p class="headline home">Responsive Design Bootcamp</p>
-							<p class="sub-headline">Bring your creative ideas to life with Adobe <a href="#" class="mylink">Photoshop</a> &amp; <a href="#" class="mylink">Adobe Illustrator</a>, learn how they tie in with the design process, and learn the basics of digital design.</p>
-							<div class="linktoclassbutton"><a href="#"><p class="brandon">LEARN MORE</p></a></div>
+							<p class="sub-headline">Learn how to scale your site designs flawlessly with responsive design. Gone are the days of designing websites only for the desktop. In this day of numerous devices, sizes, and resolutions, site designs need to scale seamlessly... </p>
+							<div class="linktoclassbutton"><a href="responsive-design-bootcamp"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -149,7 +149,7 @@
 					Whether you are an experienced programmier or are just looking to get going for the first time, Python will put you on the fast track to honing your skills. </p>
 			</div>
 			<div class="newbutton">
-					<a href="#"><p>LEARN MORE</p></a>
+					<a href="intro-to-python-programming"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>
@@ -161,10 +161,10 @@
 					Responsive Design Bootcamp
 				</p>
 				<p class="mobile-class-copy">
-					Bring your creative ideas to life with Adobe <a href="#" class="mylink">Photoshop</a> &amp; <a href="#" class="mylink">Adobe Illustrator</a>, learn how they tie in with the design process, and learn the basics of digital design.</p>
+					Learn how to scale your site designs flawlessly with responsive design. Gone are the days of designing websites only for the desktop. In this day of numerous devices, sizes, and resolutions, site designs need to scale seamlessly across all devices and screens. This concept is termed responsive design.</p>
 			</div>
 			<div class="newbutton">
-					<a href="#"><p>LEARN MORE</p></a>
+					<a href="responsive-design-bootcamp"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>

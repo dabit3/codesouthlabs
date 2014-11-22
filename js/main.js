@@ -102,6 +102,30 @@ $(document).ready(function() {
         }
     });
 
+	/* Responsive Design Bootcamp */
+
+	$('#class-responsivedesignbootcamp-follow').click(function () {
+	        
+	        var email = $('#class-email').val();
+	        var varData = 'email=' + email;
+	        console.log(varData);
+	        if(email != "") {
+	        		$('.beforesignedup').hide();
+	        		$('.aftersignedup').show();
+	            $.ajax({
+	                type: "POST",
+	                url: "../phpsendmail/responsivedesignbootcampfollow",
+	                data: varData,
+	                success: function() {
+	                }
+	            });
+	            return false;
+	        }
+    });
+
+
+	/* ****************** End Mail Senders **************************/
+
 	/* Mobile Menu JS */
 
 	var open = false;
