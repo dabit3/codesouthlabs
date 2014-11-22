@@ -34,7 +34,7 @@
 						<div class="class-class">
 							<p class="headline home">Intro to Python Programming</p>
 							<p class="sub-headline">Whether you are an experienced programmier or are just looking to get going for the first time, Python will put you on the fast track to honing your skills.</p>
-							<div class="linktoclassbutton"><a href="#"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="intro-to-python-programming"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -113,6 +113,8 @@
 	</section>
 </div>
 
+<!-- **************** Mobile Below ***************** -->
+
 <div class="mobile-content">
 	<div class="mobile-section-main">
 		<div class="mobile-class-holder">
@@ -124,7 +126,7 @@
 					Learn how to build a dynamic web app and gain the foundation to become a web developer. You’ll learn <a href="#" class="mylink">HTML</a>, <a href="#" class="mylink">CSS</a>, and <a href="#" class="mylink">JavaScript</a>.
 				</p>
 				<div class="newbutton">
-					<a href="#"><p>LEARN MORE</p></a>
+					<a href="intro-to-web-development"><p>LEARN MORE</p></a>
 				</div>
 				<!-- <div class="mobile-learnmore">
 					<p class="float-left">

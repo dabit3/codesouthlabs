@@ -56,9 +56,8 @@
 			<ul class="overlay-ul">
 				<a href="index"><li>HOME</li></a>
 				<a href="courses/all"><li>COURSES</li></a>
-				<a href="contact">CONTACT</a>
+				<a href="contact"><li>CONTACT</li></a>
 				<a href="about"><li>ABOUT</li></a>
-				
 				<a href="teach.php"><li>TEACH</li></a>
 			</ul>
 		</div>
@@ -91,7 +90,6 @@
 				<a href="courses/all"><li>COURSES</li></a>
 				<a href="contact"><li>CONTACT</li></a>
 				<a href="about"><li>ABOUT</li></a>
-				
 				<a href="teach.php"><li>TEACH</li></a>
 			</ul>
 		</div>
