@@ -690,7 +690,6 @@ transition: background .3s, color .3s;
 }
 
 footer {
-	
 	width:100%;
 	background: #000000;
 	border-top: 5px solid #009EFD
@@ -746,6 +745,29 @@ footer {
 
 .footerul li:hover {
 	color: rgb(0, 132, 211);
+}
+
+.poweredby {
+	background:#1C1C1C;
+	padding: 10px 0px;
+
+}
+
+.poweredbycontainer {
+	width: 900px;
+	margin:0 auto;
+}
+
+.poweredbycontainer p {
+	color: #ffffff;
+	margin: 0;
+	font-size:14px;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+}
+
+.poweredbycontainer p a {
+	color: #009EFD;
+	text-decoration: none;
 }
 
 /* ********************* ABOUT PAGE ********************* */
@@ -1390,6 +1412,10 @@ footer {
 		padding-right:25px;
 	}
 
+	.basiccontainer {
+		padding-top:70px;
+	}
+
 }
 
 
@@ -1604,6 +1630,26 @@ footer {
 		width: 100%;
 	}
 
+	.basicpage {
+		width:100%;
+	}
+
+	.basicwrapper {
+		padding:0px 20px;
+	}
+
+	.qandacontainer {
+		
+	}
+
+	.qandasection {
+	padding: 20px 20px 10px 20px;
+}
+	.qanda {
+		width:100%;
+		padding: 0;
+	}
+
 
 }
 
@@ -1733,6 +1779,10 @@ footer {
 
 	.whyheader {
 		text-align: center;
+	}
+
+	.basiccontainer {
+		padding-top:60px;
 	}
 
 }

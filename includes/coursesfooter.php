@@ -8,7 +8,7 @@
 				<ul class="footerul">
 					<a target="_blank" href="http://www.workinthehive.com"><li>#HIVE</li></a>
 					<a target="_blank" href="https://twitter.com/jacksondevs"><li>@jacksondevs</li></a>
-					<a target="_blank" href="http://www.naderdabit.me"><li>naderdabit.me</li></a>
+					
 				</ul>
 			</section>
 

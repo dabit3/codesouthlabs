@@ -8,7 +8,7 @@
 				<ul class="footerul">
 					<a target="_blank" href="http://www.workinthehive.com"><li>#HIVE</li></a>
 					<a target="_blank" href="https://twitter.com/jacksondevs"><li>@jacksondevs</li></a>
-					<a target="_blank" href="http://www.naderdabit.me"><li>naderdabit.me</li></a>
+					
 				</ul>
 			</section>
 
@@ -39,6 +39,11 @@
 
 			<div class="clearfix"></div>
 		</section>
+	</div>
+	<div class="poweredby">
+		<div class="poweredbycontainer">
+			<p>Powered By <a href="http://www.naderdabit.me" target="_blank">Digital Dojo</a></p>
+		</div>
 	</div>
 </footer>
 
