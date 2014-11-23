@@ -11,7 +11,6 @@
 			<p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
 			<p class="classp theprerequisites">
-			
 			Please bring a laptop to class.</p>
 
 
@@ -21,7 +20,7 @@
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Monday, 24 November</p>
+						<p>Saturday, December 13 2014</p>
 						<p>6 – 9 pm</p>
 					</div>
 					<div class="clearfix"></div>
@@ -54,9 +53,9 @@
 				<img src="../img/courses/introtowebdev.png" width="250" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>December 17, 2015</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>January 23, 2015</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>February 19, 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>Saturday, December 13 2014</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>January 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>February 2015</p>
 			
 			<div class="followclassbuttondiv">
 				<a data-remodal-target="introtowebdevmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>

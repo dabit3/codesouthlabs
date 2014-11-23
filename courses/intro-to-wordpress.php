@@ -16,7 +16,7 @@
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>January 17 2015</p>
+						<p>Saturday, January 17 2015</p>
 						<p>10:00am - 4:00pm</p>
 					</div>
 					<div class="clearfix"></div>
@@ -49,7 +49,7 @@
 				<img src="../img/courses/introtowordpress.png" width="250" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>January 17 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>Saturday, January 17 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>February 21 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>March 21 2015</p>
 			

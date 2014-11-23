@@ -9,6 +9,11 @@
 				From mobile browsers to notebooks to tablets, users are interacting with your sites from a wide array of devices and browsers. Are your designs ready? Learn how to think beyond the desktop and craft beautiful designs that anticipate and respond to your users’ needs. 
 			</p>
 			<p class="classp">Join us as we explore CSS techniques and design principles, including fluid grids, flexible images, and media queries, demonstrating how you can deliver a quality experience to your users no matter how large (or small) their display.</p>
+			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
+			<p class="classp theprerequisites">
+			Beginner knowledge of HTML &amp; CSS<br />
+			Please bring a laptop to class.</p>
+
 			<div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">
