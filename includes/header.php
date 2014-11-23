@@ -20,13 +20,12 @@
 	<section class="header-container">
 		<div class="header-content">
 			<a href="index.php"><img src="img/logowhite.png" width="250" alt="" class="logo"></a>
-			<div style="" class="teach-button"><a href="teach.php"><p>TEACH</p></a></div>
+			<div style="" class="teach-button"><a href="courses/all"><p>COURSES</p></a></div>
 			<div class="nav-container">
 				<ul class="main-nav">
-					
-					<li><a href="courses/all">COURSES</a></li>
 					<li><a href="about">ABOUT</a></li>
 					<li><a href="contact">CONTACT</a></li>
+					<li><a href="teach">TEACH</a></li>
 					<li><a href="index">HOME</a></li>
 				</ul>
 			</div>

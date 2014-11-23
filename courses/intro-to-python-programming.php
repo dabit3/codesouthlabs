@@ -6,9 +6,11 @@
 			<h1 class="classcontenth1">INTRO TO PYTHON <br />PROGRAMMING</h1>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
-				Is web development something you may be considering as a career? Would you like to learn to create your own web sites but don't know where to start? Does the world of programming fascinate you? Are you curious about "what it takes" to be a web developer.
+				Whether or not you have experience programming, getting involved in the Python community will put you on the fast track to honing your skills. In intro to Python, you will learn all about Python - how to get started, what advantages and disadvantages Python provides as a programming language, the essentials of programming in Python, and what tools and frameworks are available to build apps in Python.
 			</p>
 			<p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
+			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
+			<p class="classp theprerequisites">Please bring a laptop to class.</p>
 			<div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">

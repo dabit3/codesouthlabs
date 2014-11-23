@@ -6,9 +6,16 @@
 			<h1 class="classcontenth1">Hybrid Mobile App Development Workshop</h1>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
-				From it's humble origins, WordPress has grown into a full-fledged content management system, or CMS, that powers millions of websites all over the world, from traditional blogs to newspapers, online magazines, TV stations, nations, and social media sites. WordPress powers everything. To put it simply, WordPress is a publishing tool for the web. 
+				Cross-platform native mobile app development is usually resource intensive. When building a native app for various platforms, a plethora of programming languages as well as apis and abstractions need to be understood and utilized. Hybrid mobile web apps offer a relatively inexpensive alternative to native apps based on a single codebase, that can access desirable device APIs like the camera, microphone, file system, and more. 
 			</p>
-			<p class="classp">WordPress is a simple and easy to use publishing platform for the web, and you can use it to create anything from a basic blog to an advanced website. And, you can even make sites that can switch between being blogs and websites at the touch of a button. The possibilities are pretty much endless. WordPress is free and open source, meaning it's developed by the people who use it. In its ten year history, 82 feature updates have been released, and four major updates were released in 2013 alone.</p>
+			<p class="classp">PhoneGap makes this possible by wrapping open standard web apps in native code for all major smartphone platforms. This allows web development teams to build apps using their existing skills and tools, access native mobile device APIs directly from JavaScript, and package their web apps for sale in platform app stores.</p>
+			<p class="classp">In this class, we will build from scratch a basic mobile app using HTML5, CSS, JavaScript, AngularJS, and PhoneGap.</p>
+
+			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
+			<p class="classp theprerequisites">
+			Beginner to intermediate knowledge of HTML, CSS, &amp; JavaScript<br />
+			Please bring a laptop to class.</p>
+
 			<div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">

@@ -16,16 +16,16 @@
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>January 2015</p>
-						<p>Date &amp; time to be announced.</p>
+						<p>January 17 2015</p>
+						<p>10:00am - 4:00pm</p>
 					</div>
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a data-remodal-target="attendintrotowordpressmodal"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a href="https://www.eventbrite.com/e/intro-to-wordpress-build-a-site-with-wordpress-tickets-14554588165"><p class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">
@@ -49,9 +49,9 @@
 				<img src="../img/courses/introtowordpress.png" width="250" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>January 2015</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>February 2015</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>March 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>January 17 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>February 21 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>March 21 2015</p>
 			
 			<div class="followclassbuttondiv">
 				<a data-remodal-target="introtowordpressmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>

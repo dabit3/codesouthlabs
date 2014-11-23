@@ -9,6 +9,12 @@
 				Is web development something you may be considering as a career? Would you like to learn to create your own web sites but don't know where to start? Does the world of programming fascinate you? Are you curious about "what it takes" to be a web developer.
 			</p>
 			<p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
+			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
+			<p class="classp theprerequisites">
+			
+			Please bring a laptop to class.</p>
+
+
 			<div class="signupforthisclassinfo">
 				<div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">

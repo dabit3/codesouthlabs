@@ -28,6 +28,15 @@
 				</ul>
 			</section>
 
+			<section class="footer-row">
+				<p class="footer-row-heading">CODE SOUTH LABS</p>
+				<ul class="footerul">
+					<li>736 S President St</li>
+					<li>Jackson, MS, 39201</li>
+					<li>United States</li>
+				</ul>
+			</section>
+
 			<div class="clearfix"></div>
 		</section>
 	</div>
