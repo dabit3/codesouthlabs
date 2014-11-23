@@ -31,6 +31,13 @@
 			<div class="clearfix"></div>
 		</section>
 	</div>
+
+	<div class="poweredby">
+		<div class="poweredbycontainer">
+			<p>Powered By <a href="http://www.naderdabit.me" target="_blank">Digital Dojo</a></p>
+		</div>
+	</div>
+	
 </footer>
 
 <script src="../lib/jquery-2.1.0.min/index.js"></script>

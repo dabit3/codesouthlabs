@@ -32,8 +32,8 @@
 			<p class="whyheader">WHY CODESOUTH?</p>
 			<p class="whysubhead">Our Mentors and Instructors represent the best from Mississippi's tech community</p>
 			<p class="whyp">Developers are in high demand! Thrust yourself into the world of technology.
-The growth of increasingly-interactive websites, applications, and social networks has exponentially increased year after year, as has the demand for appropriately-skilled web developers. Researchers project a continued web developer shortage nationwide well beyond 2020!</p>
-			<div class="whybcontainer"><p class="whyb">Learn More</p></div>
+The growth of increasingly-interactive websites, applications, and social networks has exponentially increased year after year, as has the demand for appropriately-skilled web developers. Researchers project a continued web developer shortage nationwide well beyond 2020.</p>
+			<div class="whybcontainer"><a href="about"><p class="whyb">Learn More</p></a></div>
 		</div>
 		<div class="clearfix"></div>
 		<div class="keyboard">
@@ -68,7 +68,7 @@ The growth of increasingly-interactive websites, applications, and social networ
 			
 
 			<div class="thelastcopy">
-				<p>Our craft is coding. Our passion is education. All of our instructors work in the development industry and this allows them to offer the best insight to what it really takes to succeed. Each class they bring their knowledge of what's happening in the field today, ready to pass it on to students. Learn current best practices, industry standards, and what development jobs actually looks like, but most importantly develop a relationship with someone on the inside.</p>
+				<p>Our craft is coding. Our passion is education. All of our instructors work in the development industry and this allows them to offer the best insight into what it really takes to succeed. During each class, our instructors bring their knowledge of what's happening in the field today, ready to pass it on to students. Learn current best practices, industry standards, and what development jobs actually look like, but most importantly develop a relationship with someone on the inside.</p>
 			</div>
 		</div>
 	</div>

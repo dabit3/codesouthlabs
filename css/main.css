@@ -85,6 +85,10 @@ body {
 	text-align: center;
 }
 
+.whybcontainer a {
+	text-decoration: none;
+}
+
 .whyb {
 	cursor:pointer;
 	background: rgba(0,159,254, .0);
@@ -159,7 +163,7 @@ box-shadow: inset 0px 0px 1px rgba(0,0,0,.29);
 }
 
 .sendteachermail {
-	background: #0099F5;
+	background: #007CFF;
 border: none;
 color: #ffffff;
 padding: 16px 50px;
@@ -692,7 +696,7 @@ transition: background .3s, color .3s;
 footer {
 	width:100%;
 	background: #000000;
-	border-top: 5px solid #009EFD
+	border-top: 4px solid #009EFD
 }
 
 
@@ -1217,10 +1221,10 @@ footer {
 }
 
 .signupforthisclassbutton {
-	border: 1px solid rgba(0, 203, 0, 1);
-	border-bottom: 3px solid rgba(0, 203, 0, 1);
-	background:transparent;
-	color:#000000;
+	color:#ffffff;
+	background:rgba(0, 203, 0, 1);
+	border:rgba(0, 174, 0, 1);
+	border-bottom:3px solid rgba(0, 174, 0, 1);
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
 	padding:20px 0px;
 	font-size:18px;
@@ -1470,6 +1474,14 @@ footer {
 		padding: 0px 0px;	
 	}
 
+	.poweredbycontainer {
+		width:100%;
+	}
+
+	.poweredbycontainer p {
+		padding-left:20px;
+	}
+
 	.mobile-content {
 		display: block;
 		background:#ffffff;
@@ -1644,12 +1656,63 @@ footer {
 
 	.qandasection {
 	padding: 20px 20px 10px 20px;
-}
+	}
+	
 	.qanda {
 		width:100%;
 		padding: 0;
 	}
 
+	.classcontentcontainer {
+		padding: 0px;
+	}
+
+	.classcontentwrapper {
+		width: 100%;
+		padding-top:50px;
+	}
+
+	.classcontentinfo {
+		padding: 20px;
+		float: none;
+		width:auto;
+	}
+	.classcontentsidebar {
+		padding: 20px;
+		float:none;
+		margin-left:0px;
+		margin-top:0px;
+		width:auto;
+		margin: 0px 20px;
+	}
+	
+	.classcontentsocial {
+	float: none;
+	width: auto;
+	margin-top: 25px;
+	margin-left:0px;
+	padding: 0px 20px 20px 20px;
+}
+
+	.sidebarfollowbutton {
+		width:auto;
+		margin-bottom:0px;
+	}
+
+	.followclassbuttondiv {
+		width: auto;
+		padding-left:0px;
+	}
+
+	.sidebardate {
+		padding-left:0;
+	}
+
+	.sidebardates {
+		padding-left:0;
+	}
+
+	
 
 }
 
@@ -1675,7 +1738,6 @@ footer {
 
 	.header-scroll {
 		display: none ;
-		
 	}
 
 	.header-mobile {
@@ -1785,5 +1847,28 @@ footer {
 		padding-top:60px;
 	}
 
+	.classcontenth1 {
+		font-size: 30px;
+	line-height: 36px;
+	}
+
+	.classcontentwrapper {
+		padding-top:50px;
+	}
+
+	.signupforthisclassbutton {
+		color:#ffffff;
+		background:rgba(0, 203, 0, 1);
+		border:rgba(0, 174, 0, 1);
+		border-bottom:3px solid rgba(0, 174, 0, 1);
+	}
+
 }
+
+@media only screen and (min-width: 0px) and (max-width: 330px) { 
+ 
+.signupforthisclasscopy {
+	padding-left:20px;
+}
+
 
