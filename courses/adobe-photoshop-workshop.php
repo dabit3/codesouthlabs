@@ -3,21 +3,19 @@
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">WORDPRESS BOOTCAMP</h1>
+			<h1 class="classcontenth1">ADOBE PHOTOSHOP WORKSHOP</h1>
 			<div class="mobileimage">
-				<img alt="Digital Design Workshop" src="../img/courses/introtowordpress.png" width="" alt="">
+				<img alt="Digital Design Workshop" src="../img/courses/digital-design-workshop.png" width="" alt="">
 			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
-				From it's humble origins, WordPress has grown into a full-fledged content management system, or CMS, that powers millions of websites all over the world, from traditional blogs to newspapers, online magazines, TV stations, nations, and social media sites. WordPress powers everything. To put it simply, WordPress is a publishing tool for the web. 
+				Learn how to bring your idea to life with Photoshop, the professional digital imaging standard. You will receive step by step instruction leading you through the most powerful concepts and tools in Photoshop. By the end of the workshop you will be able to use Photoshop to create compelling digital designs and images. 				
 			</p>
-			<p class="classp">WordPress is a simple and easy to use publishing platform for the web, and you can use it to create anything from a basic blog to an advanced website. And, you can even make sites that can switch between being blogs and websites at the touch of a button. The possibilities are pretty much endless. WordPress is free and open source, meaning it's developed by the people who use it. In its ten year history, 82 feature updates have been released, and four major updates were released in 2013 alone.</p>
 
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
 			<p class="classp theprerequisites">
-			
-			Please bring a laptop to class.</p>
-			
+			No prior experience with Photoshop is required. This is an introductory course designed for first time and beginner Photoshop users. All students must be able to bring a laptop to each class (preferrably a Mac). You will need to have Adobe Photoshop version CC or higher already downloaded on this laptop for the start of class. The full version of Adobe Photoshop CC or the free 30-day trial version of it can be found <a href="http://www.adobe.com/products/photoshop.html" class="mylink" target="_blank">here</a>.</p>
+		
 			<div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">
@@ -25,13 +23,13 @@
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Saturday, January 17<br /> 2015</p>
+						<p>Date and time <br/> to be announced.</p>
 						<p>10:00am - 4:00pm</p>
 					</div>
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
 					<a href="https://www.eventbrite.com/e/intro-to-wordpress-build-a-site-with-wordpress-tickets-14554588165"><p class="signupforthisclassbutton">ATTEND</p></a>
@@ -55,7 +53,7 @@
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img src="../img/courses/introtowordpress.png" width="" alt="">
+				<img alt="Digital Design Workshop" src="../img/courses/digital-design-workshop.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>Saturday, January 17 2015</p>

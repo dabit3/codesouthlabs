@@ -4,9 +4,12 @@
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
 			<h1 class="classcontenth1">INTRO TO PYTHON <br />PROGRAMMING</h1>
+			<div class="mobileimage">
+				<img alt="Digital Design Workshop" src="../img/courses/introtopython.png" width="" alt="">
+			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
-				Whether or not you have experience programming, getting involved in the Python community will put you on the fast track to honing your skills. In intro to Python, you will learn all about Python - how to get started, what advantages and disadvantages Python provides as a programming language, the essentials of programming in Python, and what tools and frameworks are available to build apps in Python.
+				Whether or not you have programming experience, getting involved in the Python community will put you on the fast track to honing your skills. In intro to Python, you will learn all about Python - how to get started, what advantages and disadvantages Python provides as a programming language, the essentials of programming in Python, and what tools &amp; frameworks are available to build apps in Python.
 			</p>
 			<p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
@@ -19,7 +22,7 @@
 					</div>
 					<div class="signupforthisclasscopy">
 						<p>January 2015</p>
-						<p>Date &amp; time to be announced.</p>
+						<p>Date &amp; time <br />to be announced.</p>
 					</div>
 					<div class="clearfix"></div>
 
@@ -48,7 +51,7 @@
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img src="../img/courses/introtopython.png" width="250" alt="">
+				<img src="../img/courses/introtopython.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>January 2015</p>

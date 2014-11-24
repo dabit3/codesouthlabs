@@ -12,7 +12,8 @@
 	<link rel="stylesheet" href="lib/remodal/dist/jquery.remodal.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-	
+	<link rel="stylesheet" href="lib/sweetalert/lib/sweet-alert.css">
+
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

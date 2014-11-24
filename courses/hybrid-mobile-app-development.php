@@ -4,6 +4,9 @@
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
 			<h1 class="classcontenth1">Hybrid Mobile App Development Workshop</h1>
+			<div class="mobileimage">
+				<img alt="Digital Design Workshop" src="../img/courses/hybridmobileappdev.png" width="" alt="">
+			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
 				Cross-platform native mobile app development is usually resource intensive. When building a native app for various platforms, a plethora of programming languages as well as apis and abstractions need to be understood and utilized. Hybrid mobile web apps offer a relatively inexpensive alternative to native apps based on a single codebase, that can access desirable device APIs like the camera, microphone, file system, and more. 
@@ -24,7 +27,7 @@
 					</div>
 					<div class="signupforthisclasscopy">
 						<p>February 2015</p>
-						<p>Date &amp; time to be announced.</p>
+						<p>Date &amp; time <br />to be announced.</p>
 					</div>
 					<div class="clearfix"></div>
 
@@ -53,7 +56,7 @@
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img src="../img/courses/hybridmobileappdev.png" width="250" alt="">
+				<img src="../img/courses/hybridmobileappdev.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>February 2015</p>

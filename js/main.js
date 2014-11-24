@@ -19,6 +19,21 @@ $(document).ready(function() {
         var course = $('#form-course').val();
         var varData = 'name=' + name + '&email=' + email + '&message=' + message + '&course=' + course;
 
+        if (name == "") {
+    			swal("Please fill out the name field.");
+    			return false;
+    		}
+
+    		if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
+
+    		if (message == "") {
+    			swal("Please fill out the message area.");
+    			return false;
+    		}
+
         if((name != "") && (email != "") && (message != "")) {
         		$("#theteacherform").hide();
             var inst = $.remodal.lookup[$('[data-remodal-id=modal]').data('remodal')];
@@ -42,6 +57,16 @@ $(document).ready(function() {
         var message = $('#form-feedback-questions').val();
         var phone = $('#form-phone').val();
         var varData = 'name=' + name + '&email=' + email + '&message=' + message + '&phone=' + phone;
+
+        if (name == "") {
+    			swal("Please fill out the name field.");
+    			return false;
+    		}
+
+    		if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
 
         if((name != "") && (email != "") && (message != "")) {
         		$("#theteacherform").hide();
@@ -110,8 +135,7 @@ $(document).ready(function() {
 	        var varData = 'email=' + email;
 	        console.log(varData);
 	        if(email != "") {
-	        		$('.beforesignedup').hide();
-	        		$('.aftersignedup').show();
+	        		
 	            $.ajax({
 	                type: "POST",
 	                url: "../phpsendmail/responsivedesignbootcampfollow",
@@ -131,8 +155,7 @@ $(document).ready(function() {
 	        var varData = 'email=' + email;
 	        console.log(varData);
 	        if(email != "") {
-	        		$('.beforesignedup').hide();
-	        		$('.aftersignedup').show();
+	        		
 	            $.ajax({
 	                type: "POST",
 	                url: "../phpsendmail/introtowordpressfollow",
@@ -152,8 +175,7 @@ $(document).ready(function() {
 	        var varData = 'email=' + email;
 	        console.log(varData);
 	        if(email != "") {
-	        		$('.beforesignedup').hide();
-	        		$('.aftersignedup').show();
+	        		
 	            $.ajax({
 	                type: "POST",
 	                url: "../phpsendmail/hybridmobileappdevfollow",
@@ -161,6 +183,60 @@ $(document).ready(function() {
 	                success: function() {
 	                }
 	            });
+	            return false;
+	        }
+    });
+
+	/* Add to receive updates form */
+
+	$('#getupdatesbutton').click(function () {
+	        
+	        var email = $('#updates-email').val();
+	        var varData = 'email=' + email;
+	        if (email == "") {
+	    			swal("Please fill out the email field.");
+	    			return false;
+	    		}
+	        
+	        if(email != "") {
+	        		swal("You've signed up for updates! ", "Unsubscribe at any time.", "success");
+	                	$('#updates-email').val("");
+	            $.ajax({
+	                type: "POST",
+	                url: "phpsendmail/sendupdatedemail",
+	                data: varData,
+	                success: function() {
+	                	
+	                }
+	            });
+
+	            return false;
+	        }
+    });
+
+	/* Add to receive updates form coursesfooter */
+
+	$('#getupdatesbuttoncoursesfooter').click(function () {
+	        
+	        var email = $('#updates-email').val();
+	        var varData = 'email=' + email;
+	        if (email == "") {
+	    			swal("Please fill out the email field.");
+	    			return false;
+	    		}
+	        
+	        if(email != "") {
+	        		swal("You've signed up for updates! ", "Unsubscribe at any time.", "success");
+	            $('#updates-email').val("");
+	            $.ajax({
+	                type: "POST",
+	                url: "../phpsendmail/sendupdatedemail",
+	                data: varData,
+	                success: function() {
+	                	
+	                }
+	            });
+
 	            return false;
 	        }
     });
@@ -176,13 +252,21 @@ $(document).ready(function() {
 	;
 
 	mobileHamburger.click(openmobile);
+	$('.mobile-content').click(closemobile);
+
+	function closemobile() {
+		if (open == true) {
+			TweenMax.to(mobileMenu, .3, {marginTop: -245});
+			open = false;
+		};
+	}
 
 	function openmobile() {
 		if (open == false) {
-			TweenMax.to(mobileMenu, .3, {marginTop: 0});
+			TweenMax.to(mobileMenu, .3, {marginTop: 8});
 			open = true;
 		} else {
-			TweenMax.to(mobileMenu, .3, {marginTop: -245});
+			TweenMax.to(mobileMenu, .3, {marginTop: -260});
 			open = false;
 		}
 		

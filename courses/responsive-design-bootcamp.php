@@ -4,6 +4,9 @@
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
 			<h1 class="classcontenth1">RESPONSIVE DESIGN BOOTCAMP</h1>
+			<div class="mobileimage">
+				<img alt="Digital Design Workshop" src="../img/courses/responsivedesignbootcamp.png" width="" alt="">
+			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
 				From mobile browsers to notebooks to tablets, users are interacting with your sites from a wide array of devices and browsers. Are your designs ready? Learn how to think beyond the desktop and craft beautiful designs that anticipate and respond to your users’ needs. 
@@ -22,7 +25,7 @@
 					</div>
 					<div class="signupforthisclasscopy">
 						<p>January 2015</p>
-						<p>Date &amp; time to be announced.</p>
+						<p>Date &amp; time <br />to be announced.</p>
 					</div>
 					<div class="clearfix"></div>
 
@@ -51,7 +54,7 @@
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img src="../img/courses/responsivedesignbootcamp.png" width="250" alt="">
+				<img src="../img/courses/responsivedesignbootcamp.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>January 2015</p>

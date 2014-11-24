@@ -1,5 +1,26 @@
+<div class="footerform">
+		<div class="footerformcontainer">
+			<div class="footerformwrapper">
+				<div class="footerformleft">
+					<p><span class="bold">Stay updated!</span><br />
+Find out about upcoming courses and events.</p>
+				</div>
+				<div class="footerformright">
+					<form>
+						<div class="footerformfirstdiv">
+							<input id="updates-email" type="text" placeholder="Your Email" class="footerformemailinput" autocomplete="off">
+						</div>
+						<div class="footerformseconddiv">
+							<input id="getupdatesbutton" type="submit" value="GET UPDATES" class="footerformemailsubmit">
+						</div>
+					</form>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
 
-<footer>
+<footer>	
 	<div class="footer-container">
 		<section class="footer-inner">
 			
@@ -50,6 +71,7 @@
 <script src="lib/jquery-2.1.0.min/index.js"></script>
 <script src="lib/scrollRevealjs/dist/scrollReveal.min.js"></script>
 <script src="lib/greensock/src/minified/TweenMax.min.js"></script>
+<script src="lib/sweetalert/lib/sweet-alert.min.js"></script>
 <script src="js/main.js"></script>
 <script src="lib/fastclick/lib/fastclick.js"></script>
 <script src="lib/remodal/dist/jquery.remodal.min.js"></script>

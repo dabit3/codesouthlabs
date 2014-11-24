@@ -2,6 +2,10 @@ body {
 	background:#000000;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 .float-left {
 	float:left;
 }
@@ -95,9 +99,9 @@ body {
 	border-radius: 30px;
 	text-transform: uppercase;
 	color: #000000;
-	font-weight: 400;
+	font-weight: 500;
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
-	padding: 10px 26px;
+	padding: 16px 26px;
 	transition:background .5s, color .5s;
 	-webkit-transition: background .5s, color: .5s;
 	border:	3px solid rgba(0,159,254, 1);
@@ -167,9 +171,20 @@ box-shadow: inset 0px 0px 1px rgba(0,0,0,.29);
 border: none;
 color: #ffffff;
 padding: 16px 50px;
+border-bottom:3px solid #005FC3;
 font-family: 'brandon-grotesque', helvitica, sans-serif;
 text-transform: uppercase;
 box-shadow: 0px 1px 1px rgba(0,0,0,.12), 0px 1px 1.5px rgba(0,0,0,.24);
+}
+
+.sendteachermail:active {
+	border-bottom:1px solid #005FC3;
+	margin-bottom: 2px;
+}
+
+.sendteachermail:focus {
+	outline:none;
+	box-shadow: none;
 }
 
 .sendteachermail:hover {
@@ -387,7 +402,7 @@ margin-left: 2px;
 .subcontainer-signup {
 	border:3px solid #000000;
 	background:transparent;
-	padding:10px 17px;
+	padding:12px 17px;
 	font-weight:500;
 	border-radius:70px;
 	margin-left:20px !important;
@@ -751,6 +766,83 @@ footer {
 	color: rgb(0, 132, 211);
 }
 
+.footerform {
+	background: #DADADA;
+}
+
+.footerformcontainer {
+	width:900px;
+	margin: 0 auto;
+}
+
+.footerformcontainer p {
+	margin:0;
+	font-size:18px;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+}
+
+.footerformwrapper {
+	padding:20px;
+}
+
+.footerformleft {
+	float:left;
+	width:325px;
+}
+
+.footerformright {
+	float:right;
+	width:500px;
+}
+
+.footerformemailinput {
+	background: white;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	font-size:24px;
+	padding:12px;
+	color:#666666;
+	border: 1px solid #BBBBBB;
+}
+
+.footerformemailinput:focus {
+	outline:none;
+	box-shadow: none;
+	background:#ffffff !important;
+}
+
+.footerformemailsubmit {
+		font-family: 'Source Sans Pro', sans-serif;
+background: #B5B5B5;
+border: none;
+font-weight: 600;
+padding: 17px 35px 18px;
+border: 1px solid #A1A1A1;
+border-bottom: 3px solid #666666;
+transition: opacity .2s;
+}
+
+.footerformseconddiv, .footerformfirstdiv {
+	float:left;
+}
+
+.footerformemailsubmit:active {
+	border: 1px solid #A1A1A1;
+	margin-bottom:2px;
+}
+
+.footerformemailsubmit:focus {
+	outline:none;
+	box-shadow: none;
+}
+
+.footerformemailsubmit:hover {
+	opacity:.8;
+}
+
+.footerformseconddiv {
+	margin-left:20px;
+}
+
 .poweredby {
 	background:#1C1C1C;
 	padding: 10px 0px;
@@ -893,7 +985,7 @@ footer {
 	width:100%;
 	background:#000000;	
 	z-index: 9000;
-	margin-top:-245px;
+	margin-top:-260px;
 }
 
 .mobileul ul {
@@ -903,7 +995,7 @@ footer {
 
 .mobileul ul li {
 	list-style:none;
-	font-size:18px;
+	font-size:20px;
 	font-weight: 300;
 	text-align:center;
 	color:#ffffff;
@@ -911,6 +1003,7 @@ footer {
 	padding: 10px 0px;
 	transition: all .3s;
 	-webkit-transition: all .3s;
+	border-bottom: 1px solid rgba(255,255,255,.2);
 }
 
 .mobileul ul a {
@@ -1056,6 +1149,15 @@ footer {
 	margin-bottom:8px;
 }
 
+.mobileimage {
+	display: none;
+}
+
+.mobileimage img {
+	width:100%;
+	max-width: 100%;
+}
+
 .classcontabout {
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
 	font-weight: 400;
@@ -1079,6 +1181,10 @@ footer {
 
 .classcontentsideimage {
 	text-align: center;
+}
+
+.classcontentsideimage img {
+	width:250px;
 }
 
 .classp {
@@ -1158,7 +1264,7 @@ footer {
 
 .sidebarfollowbutton:active {
 	border-bottom:1px solid black;
-	margin-bottom:27px;
+	margin-bottom: 2px;
 }
 
 .singupforthisclassbuttonholder {
@@ -1307,6 +1413,23 @@ footer {
 	margin-bottom:20px;
 }
 
+/* ************* OVERRIDE CSS ******************* */
+
+.sweet-alert button {
+	margin: 20px 5px 25px 5px !important;
+}
+
+.sweet-alert h2 {
+	line-height:34px !important;
+}
+
+input:-webkit-autofill {
+	box-shadow: 0 0 0px 1000px white inset;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
 
 /* *************************** Media Queries *********************************** */
 
@@ -1418,6 +1541,11 @@ footer {
 
 	.basiccontainer {
 		padding-top:70px;
+	}
+
+	.footerformright {
+		float:none;
+		margin: 0 auto;
 	}
 
 }
@@ -1711,8 +1839,21 @@ footer {
 	.sidebardates {
 		padding-left:0;
 	}
-
 	
+	.footerformcontainer {
+		width: 100%;
+	}
+
+	.footerformleft {
+		width:100%;
+		padding: 0px 0px 20px;
+		text-align:center;
+	}	
+
+	.classcontentsideimage img {
+		width:100%;
+		max-width: 100% !important;
+	}
 
 }
 
@@ -1849,7 +1990,8 @@ footer {
 
 	.classcontenth1 {
 		font-size: 30px;
-	line-height: 36px;
+		line-height: 36px;
+		margin-bottom:0px;
 	}
 
 	.classcontentwrapper {
@@ -1862,13 +2004,54 @@ footer {
 		border:rgba(0, 174, 0, 1);
 		border-bottom:3px solid rgba(0, 174, 0, 1);
 	}
+	
+	.classcontabout {
+		margin-top:5px;
+	}
+
+	.footerformright {
+		width:100%;		
+		float:none;
+	}
+
+	.footerformfirstdiv {
+		width:100%;
+		
+	}
+	
+	.footerformemailinput {
+		width: 94%;
+	}
+
+	.footerformseconddiv {
+		width:100%;
+		margin: 0;
+	}
+
+	.footerformemailsubmit {
+		width: 100%;
+	margin-top: 15px;
+}
+	.mobileimage {
+		display: block;
+	}
+
+	.classcontentsideimage {
+	display: none;
+}
+
+.sidebardates {
+	margin-top:0px;
+}
 
 }
 
 @media only screen and (min-width: 0px) and (max-width: 330px) { 
  
 .signupforthisclasscopy {
-	padding-left:20px;
+	padding-left:0px;
+}
+
 }
 
 

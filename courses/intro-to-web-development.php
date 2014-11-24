@@ -4,6 +4,9 @@
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
 			<h1 class="classcontenth1">INTRO TO WEB <br />DEVELOPMENT</h1>
+			<div class="mobileimage">
+				<img alt="Digital Design Workshop" src="../img/courses/introtowebdev.png" width="" alt="">
+			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
 				Is web development something you may be considering as a career? Would you like to learn to create your own web sites but don't know where to start? Does the world of programming fascinate you? Are you curious about "what it takes" to be a web developer.
@@ -20,7 +23,7 @@
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Saturday, December 13 2014</p>
+						<p>Saturday, December 13<br > 2014</p>
 						<p>6 – 9 pm</p>
 					</div>
 					<div class="clearfix"></div>
@@ -50,10 +53,10 @@
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img src="../img/courses/introtowebdev.png" width="250" alt="">
+				<img src="../img/courses/introtowebdev.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>Saturday, December 13 2014</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>Saturday, December 13 </p>
 			<p class="sidebardate"><i class="fa fa-university"></i>January 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>February 2015</p>
 			
