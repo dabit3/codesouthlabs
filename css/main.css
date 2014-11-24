@@ -343,7 +343,8 @@ margin-left: 2px;
 .reason p {
 	font-family: "brandon-grotesque", helvetica, sans-serif;
 	padding: 0px 20px;
-	color:#93979b;
+	color:#666666;
+	font-size: 18px;
 }
 
 .smallline {
@@ -1003,7 +1004,7 @@ transition: opacity .2s;
 	padding: 10px 0px;
 	transition: all .3s;
 	-webkit-transition: all .3s;
-	border-bottom: 1px solid rgba(255,255,255,.2);
+	border-bottom: 1px solid rgba(255,255,255,.1);
 }
 
 .mobileul ul a {
@@ -1242,7 +1243,7 @@ transition: opacity .2s;
 	color: #000000;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:22px;
-	padding: 10px 30px;
+	padding: 14px 30px;
 	background: #ffffff;
 	width: 150px;
 	text-align: center;
@@ -1262,13 +1263,14 @@ transition: opacity .2s;
 	color:red;
 }
 
-.sidebarfollowbutton:active {
-	border-bottom:1px solid black;
-	margin-bottom: 2px;
-}
-
 .singupforthisclassbuttonholder {
 	text-align:center;
+}
+
+
+.sidebarfollowbutton:active {
+		border-bottom:1px solid black !important;
+		margin-bottom:27px;
 }
 
 .singupforthisclassbuttonholder a {
@@ -1362,15 +1364,45 @@ transition: opacity .2s;
 	border: none;
 	padding: 17px;
 	font-size: 20px;
-}
+	width: 328px;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	 width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	}
 
 .classfollow {
-	background:rgb(255, 74, 74);
+	background: rgb(0, 134, 255);
 	margin: 20px 0px 0px 0px;
 	border: 0px;
 	color: #ffffff;
 	box-shadow: 0px 1px 1px rgba(0,0,0,.12);
-	padding: 14px 66px 18px;
+	padding: 19px 66px 19px;
+	border-bottom: 3px solid rgb(0, 96, 183); 
+	width:361px;
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	font-size:18px;
+	width:100%;
+}
+
+.hiddenform {
+	padding: 0px 20px 20px 20px;
+	display: none;
+	overflow: hidden;
+}
+
+
+
+.hiddenformcontainer {
+	width:100%;
+}
+
+.followclassbuttonp {
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	font-size:18px;
+	font-weight:500;
+	margin-top:0px;
 }
 
 .classfollow:hover {
@@ -1430,6 +1462,21 @@ input:-webkit-autofill {
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
+
+.open {
+	height:auto;
+	overflow: hidden;
+}
+
+.class-email:focus {
+	box-shadow:none !important;
+	outline:none !important;
+}
+
+input:focus {
+	outline: none;
+}
+
 
 /* *************************** Media Queries *********************************** */
 
@@ -1855,6 +1902,23 @@ input:-webkit-autofill {
 		max-width: 100% !important;
 	}
 
+	.hiddenform {
+		margin-top:20px;
+		padding:0px;
+	}
+	
+	.sidebarfollowbutton:active {
+		margin-bottom: 2px;
+	}
+
+	.sidebarfollowbutton:active .followclassbuttondiv { 
+		margin-bottom:4px;
+	}
+
+	.mobile-content {
+		padding-top: 90px;
+	}
+
 }
 
 @media only screen and (min-width: 0px) and (max-width: 599px) { 
@@ -2030,19 +2094,23 @@ input:-webkit-autofill {
 
 	.footerformemailsubmit {
 		width: 100%;
-	margin-top: 15px;
-}
+		margin-top: 15px;
+	}	
 	.mobileimage {
 		display: block;
 	}
 
 	.classcontentsideimage {
-	display: none;
-}
+		display: none;
+		}
 
-.sidebardates {
-	margin-top:0px;
-}
+	.sidebardates {
+		margin-top:0px;
+	}
+	
+	.remodal, .remodal-overlay:after {
+		vertical-align: top !important;
+	}
 
 }
 
@@ -2051,6 +2119,55 @@ input:-webkit-autofill {
 .signupforthisclasscopy {
 	padding-left:0px;
 }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+	.footerformright {
+		width:auto ;
+	}
+	
+	.footerformleft {
+		width:300px ;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+	
+	.footerformleft {
+		width: 100%;
+	}
+
+	.footerformright {
+		width:100%;
+	}
+
+	.footerformseconddiv, .footerformfirstdiv {
+		float:none;
+		width:auto;
+	}
+	
+	.footerformwrapper {
+		padding: 20px 20px 30px
+	}
+	
+	.footerformemailinput {
+		width:96.5%;
+	}
+
+	.footerformseconddiv {
+		margin-left:0px;
+		margin-top:16px;
+	}
+
+	.footerformemailsubmit {
+		width: 100%;
+		font-size:22px;
+	}
+
+	.footerformcontainer p {
+		font-size:22px;
+	}
 
 }
 

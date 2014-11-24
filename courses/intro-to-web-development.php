@@ -61,8 +61,20 @@
 			<p class="sidebardate"><i class="fa fa-university"></i>February 2015</p>
 			
 			<div class="followclassbuttondiv">
-				<a data-remodal-target="introtowebdevmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="followintrotowebdev" ><p class="sidebarfollowbutton "><i class="fa fa-heart"></i>Follow</p></a>
 			</div>
+			
+			<div class="hiddenform">
+				<div class="hiddenformcontainer">
+				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
+					<form>
+	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
+	        	<input id="class-introtowebdev-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        </form>
+				</div>
+			</div>
+			
+
 		</div>
 	
 		<div class="classcontentsocial">
@@ -84,22 +96,8 @@
 	</div>
 </div>
 
-<div class="remodal" data-remodal-id="introtowebdevmodal">
-    <div class="beforesignedup">
-    	<h1>Stay updated</h1>
-	     <p style="">Enter Your Email Address To Start Following.</p>
-	        <div class="remodalemailform">
-	        	<form>
-		        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-		        	<input id="class-introtowebdev-follow" class="classfollow" type="button" value="Follow Class" />
-		        </form>
-	       	</div>
-    </div>
-		<div class="aftersignedup" style="display: none;;">
-				<h1>You will be updated on future dates of this course!</h1>
-				<a class="remodal-confirm" href="#" onclick="window.location.replace('../index')">OK</a>
-		</div>
 
-</div>
+
+
 
 <?php include '../includes/coursesfooter.php' ?>

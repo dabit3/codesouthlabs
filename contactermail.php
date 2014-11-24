@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
 
-    $email_to = "dabit3@gmail.com";
+    $email_to = "dabit3@gmail.com, info@codesouthlabs.com";
     $email_subject = "Code South Email Form";
 
     function died($error) {
@@ -46,7 +46,7 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
 
-    $email_message .= "Contact form submitted from mobile site."."\n";
+    $email_message .= "Contact form submitted from Code South Labs."."\n";
     $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Message: ".clean_string($message)."\n";

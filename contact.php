@@ -26,7 +26,7 @@
           
           <div>
               <label for="form-feedback-questions">Message</label><br/>
-              <textarea class="teacherinput" id="form-feedback-questions" name="Feedback/Question" id="" cols="30" rows="10" required></textarea>
+              <textarea class="teacherinput" id="form-feedback-questions" name="Feedback/Question" id="" cols="30" rows="10" ></textarea>
           </div>
           <div>
               <input id="contacter" class="sendteachermail" type="button" value="send" />

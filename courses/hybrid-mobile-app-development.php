@@ -62,7 +62,17 @@
 			<p class="sidebardate"><i class="fa fa-university"></i>February 2015</p>
 						
 			<div class="followclassbuttondiv">
-				<a data-remodal-target="hybridmobileappdevfollow"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="hybridmobileappdevfollowfocus"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+			</div>
+
+			<div class="hiddenform">
+				<div class="hiddenformcontainer">
+				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
+					<form>
+	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
+	        	<input id="class-hybrid-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        </form>
+				</div>
 			</div>
 		</div>
 
@@ -86,7 +96,7 @@
 	</div>
 </div>
 
-<!-- ************** Modal to attend Hybrid Mobile App Development Course ***************** -->
+<!-- ************** Modal to attend Hybrid Mobile App Development Course ***************** 
 
 <div class="remodal" data-remodal-id="attendhybridmobileappdevworkshopmodal">
 		<h1>Hybrid Mobile App Development Workshop</h1>
@@ -110,6 +120,6 @@
 				<a class="remodal-confirm" href="#" onclick="window.location.replace('../index')">OK</a>
 		</div>
 
-</div>
+</div> -->
 
 <?php include '../includes/coursesfooter.php' ?>

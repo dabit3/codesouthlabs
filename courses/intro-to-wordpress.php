@@ -63,8 +63,19 @@
 			<p class="sidebardate"><i class="fa fa-university"></i>March 21 2015</p>
 			
 			<div class="followclassbuttondiv">
-				<a data-remodal-target="introtowordpressmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="followwordpressbootcamp"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
 			</div>
+			
+			<div class="hiddenform">
+				<div class="hiddenformcontainer">
+				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
+					<form>
+	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
+	        	<input id="class-wordpressbootcamp-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        </form>
+				</div>
+			</div>
+
 		</div>
 
 		<div class="classcontentsocial">
@@ -87,7 +98,7 @@
 	</div>
 </div>
 
-<!-- ************** Modal to attend Wordpress Course ***************** -->
+<!-- ************** Modal to attend Wordpress Course ***************** 
 
 <div class="remodal" data-remodal-id="attendintrotowordpressmodal">
 		<h1>Intro To Wordpress</h1>
@@ -111,6 +122,6 @@
 				<a class="remodal-confirm" href="#" onclick="window.location.replace('../index')">OK</a>
 		</div>
 
-</div>
+</div> -->
 
 <?php include '../includes/coursesfooter.php' ?>

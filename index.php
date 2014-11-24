@@ -52,11 +52,11 @@ The growth of increasingly-interactive websites, applications, and social networ
 			<div class="thereasons">
 				<div class="reason">
 					<h4>Curriculum</h4>
-					<p>A tailored blend of content and projects to challenge and motivate you.</p>
+					<p>A tailored blend of content and projects to challenge and motivate you, put together by experienced developers &amp designers.</p>
 				</div>
 				<div class="reason">
 					<h4>Community</h4>
-					<p>Work alongsite peers that complement your background and future goals.</p>
+					<p>Work alongsite peers that complement your background and future goals with one on one interaction.</p>
 				</div>
 				<div class="reason">
 					<h4>Mentorship</h4>

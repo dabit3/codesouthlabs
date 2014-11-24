@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
 
-    $email_to = "dabit3@gmail.com";
+    $email_to = "dabit3@gmail.com, info@codesouthlabs.com";
     $email_subject = "Interest in Responsive Design Bootcamp";
 
     function died($error) {
@@ -41,7 +41,7 @@ if(isset($_POST['email'])) {
 
 
   // create email headers
-  $headers = 'From: '.$email_from."\r\n".
+  $headers = 'From: info@codesouthlabs.com'."\r\n".
   'Reply-To: '.$email_from."\r\n" .
   'X-Mailer: PHP/' . phpversion();
   @mail($email_to, $email_subject, $email_message, $headers);

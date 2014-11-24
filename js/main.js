@@ -68,7 +68,12 @@ $(document).ready(function() {
     			return false;
     		}
 
-        if((name != "") && (email != "") && (message != "")) {
+    		if (message == "") {
+    			swal("Please fill out the message field.");
+    			return false;
+    		}
+
+        if((name != "") && (email != "")) {
         		$("#theteacherform").hide();
             var inst = $.remodal.lookup[$('[data-remodal-id=modal]').data('remodal')];
             inst.open();
@@ -85,21 +90,46 @@ $(document).ready(function() {
 
 	/************ follow classes ************** */
 
+	var tl = new TimelineMax();
+
 	/* Intro to web dev */
+	var hiddenform = $(".hiddenform");
+
+	var followintrotowebdevopen = false;
+
+	$('.followintrotowebdev').click(function() {
+		
+		if (followintrotowebdevopen == false) {
+			tl.to(hiddenform, .4, {autoAlpha: 1, display:'block'});
+			followintrotowebdevopen = true;
+		} else {
+			tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+			followintrotowebdevopen = false;
+		}
+		
+	})
 
 	$('#class-introtowebdev-follow').click(function () {
         
         var email = $('#class-email').val();
         var varData = 'email=' + email;
-        console.log(varData);
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
         if(email != "") {
-        		$('.beforesignedup').hide();
-        		$('.aftersignedup').show();
+        		
+        		swal("You're following Intro To Web Development! ", "Unsubscribe at any time.", "success");
+
             $.ajax({
                 type: "POST",
                 url: "../introtowebdevfollow",
                 data: varData,
                 success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									followintrotowebdevopen = false;
                 }
             });
             return false;
@@ -108,19 +138,46 @@ $(document).ready(function() {
 
 	/* Intro to Python */
 
-	$('#class-introtopython-follow').click(function () {
+
+	var tl = new TimelineMax();
+
+	var hiddenform = $(".hiddenform");
+
+	var introtopythonfollow = false;
+
+	$('.introtopythonfocus').click(function() {
+		
+		if (introtopythonfollow == false) {
+			tl.to(hiddenform, .4, {autoAlpha: 1, display:'block'});
+			introtopythonfollow = true;
+		} else {
+			tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+			introtopythonfollow = false;
+		}
+		
+	})
+
+	$('#class-python-follow').click(function () {
         
         var email = $('#class-email').val();
         var varData = 'email=' + email;
-        console.log(varData);
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
         if(email != "") {
-        		$('.beforesignedup').hide();
-        		$('.aftersignedup').show();
+        		
+        		swal("You're following Intro To Python! ", "Unsubscribe at any time.", "success");
+
             $.ajax({
                 type: "POST",
                 url: "../phpsendmail/introtopythonfollow",
                 data: varData,
                 success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									introtopythonfollow = false;
                 }
             });
             return false;
@@ -129,62 +186,192 @@ $(document).ready(function() {
 
 	/* Responsive Design Bootcamp */
 
-	$('#class-responsivedesignbootcamp-follow').click(function () {
-	        
-	        var email = $('#class-email').val();
-	        var varData = 'email=' + email;
-	        console.log(varData);
-	        if(email != "") {
-	        		
-	            $.ajax({
-	                type: "POST",
-	                url: "../phpsendmail/responsivedesignbootcampfollow",
-	                data: varData,
-	                success: function() {
-	                }
-	            });
-	            return false;
-	        }
+	
+	var tl = new TimelineMax();
+
+	var hiddenform = $(".hiddenform");
+
+	var introtoresponsive = false;
+
+	$('.class-responsive-follow').click(function() {
+		
+		if (introtoresponsive == false) {
+			tl.to(hiddenform, .4, {autoAlpha: 1, display:'block'});
+			introtoresponsive = true;
+		} else {
+			tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+			introtoresponsive = false;
+		}
+		
+	})
+
+	$('#class-responsive-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
+        if(email != "") {
+        		
+        		swal("You're following Responsive Design Bootcamp! ", "Unsubscribe at any time.", "success");
+
+            $.ajax({
+                type: "POST",
+                url: "../phpsendmail/responsivedesignbootcampfollow",
+                data: varData,
+                success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									introtopythonfollow = false;
+                }
+            });
+            return false;
+        }
     });
 
 	/* Intro To Wordpress */
 
-	$('#class-introtowordpress-follow').click(function () {
-	        
-	        var email = $('#class-email').val();
-	        var varData = 'email=' + email;
-	        console.log(varData);
-	        if(email != "") {
-	        		
-	            $.ajax({
-	                type: "POST",
-	                url: "../phpsendmail/introtowordpressfollow",
-	                data: varData,
-	                success: function() {
-	                }
-	            });
-	            return false;
-	        }
+	var tl = new TimelineMax();
+
+	var hiddenform = $(".hiddenform");
+
+	var followwordpressbootcamp = false;
+
+	$('.followwordpressbootcamp').click(function() {
+		
+		if (followwordpressbootcamp == false) {
+			tl.to(hiddenform, .4, {autoAlpha: 1, display:'block'});
+			followwordpressbootcamp = true;
+		} else {
+			tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+			followwordpressbootcamp = false;
+		}
+		
+	})
+
+	$('#class-wordpressbootcamp-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
+        if(email != "") {
+        		
+        		swal("You're following Wordpress Bootcamp! ", "Unsubscribe at any time.", "success");
+
+            $.ajax({
+                type: "POST",
+                url: "../phpsendmail/introtowordpressfollow",
+                data: varData,
+                success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									introtopythonfollow = false;
+                }
+            });
+            return false;
+        }
     });
 
 	/* Hybrid Mobile App Dev */
 
-	$('#class-hybridmobileappdev-follow').click(function () {
-	        
-	        var email = $('#class-email').val();
-	        var varData = 'email=' + email;
-	        console.log(varData);
-	        if(email != "") {
-	        		
-	            $.ajax({
-	                type: "POST",
-	                url: "../phpsendmail/hybridmobileappdevfollow",
-	                data: varData,
-	                success: function() {
-	                }
-	            });
-	            return false;
-	        }
+	var tl = new TimelineMax();
+
+	var hiddenform = $(".hiddenform");
+
+	var hybridmobileappdevfollowfocus = false;
+
+	$('.hybridmobileappdevfollowfocus').click(function() {
+		
+		if (hybridmobileappdevfollowfocus == false) {
+			tl.to(hiddenform, .4, {autoAlpha: 1, display:'block'});
+			hybridmobileappdevfollowfocus = true;
+		} else {
+			tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+			hybridmobileappdevfollowfocus = false;
+		}
+		
+	})
+
+	$('#class-hybrid-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
+        if(email != "") {
+        		
+        		swal("You're following Hybrid Mobile App Development Workshop! ", "Unsubscribe at any time.", "success");
+
+            $.ajax({
+                type: "POST",
+                url: "../phpsendmail/hybridmobileappdevfollow",
+                data: varData,
+                success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									introtopythonfollow = false;
+                }
+            });
+            return false;
+        }
+    });
+
+
+	/* Adobe Photoshop Workshop */
+
+	var tl = new TimelineMax();
+
+	var hiddenform = $(".hiddenform");
+
+	var adobephotoshopintro = false;
+
+	$('.adobephotoshopintro').click(function() {
+		
+		if (adobephotoshopintro == false) {
+			tl.to(hiddenform, .4, {autoAlpha: 1, display:'block'});
+			adobephotoshopintro = true;
+		} else {
+			tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+			adobephotoshopintro = false;
+		}
+		
+	})
+
+	$('#class-photoshop-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
+        if(email != "") {
+        		
+        		swal("You're following Adobe Photoshop Workshop! ", "Unsubscribe at any time.", "success");
+
+            $.ajax({
+                type: "POST",
+                url: "../phpsendmail/adobephotoshopworkshop",
+                data: varData,
+                success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									introtopythonfollow = false;
+                }
+            });
+            return false;
+        }
     });
 
 	/* Add to receive updates form */
@@ -200,7 +387,7 @@ $(document).ready(function() {
 	        
 	        if(email != "") {
 	        		swal("You've signed up for updates! ", "Unsubscribe at any time.", "success");
-	                	$('#updates-email').val("");
+	            $('#updates-email').val("");
 	            $.ajax({
 	                type: "POST",
 	                url: "phpsendmail/sendupdatedemail",

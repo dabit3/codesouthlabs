@@ -62,8 +62,19 @@
 			<p class="sidebardate"><i class="fa fa-university"></i>March 2015</p>
 			
 			<div class="followclassbuttondiv">
-				<a data-remodal-target="responsivedesignbootcampmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="class-responsive-follow"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
 			</div>
+
+			<div class="hiddenform">
+				<div class="hiddenformcontainer">
+				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
+					<form>
+	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
+	        	<input id="class-responsive-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        </form>
+				</div>
+			</div>
+
 		</div>
 
 		<div class="classcontentsocial">
@@ -86,7 +97,7 @@
 	</div>
 </div>
 
-<!-- ************** Modal to attend Responsive Design Bootcamp ***************** -->
+<!-- ************** Modal to attend Responsive Design Bootcamp ***************** 
 
 <div class="remodal" data-remodal-id="attendresponsivedesignbootcamp">
 		<h1>Responsive Design Bootcamp</h1>
@@ -110,6 +121,6 @@
 				<a class="remodal-confirm" href="#" onclick="window.location.replace('../index')">OK</a>
 		</div>
 
-</div>
+</div> -->
 
 <?php include '../includes/coursesfooter.php' ?>
