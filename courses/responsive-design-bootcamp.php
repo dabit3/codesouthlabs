@@ -1,3 +1,9 @@
+<?php  
+$pagetitle = "RESPONSIVE DESIGN BOOTCAMP";
+$pagedescription = "Join us as we explore CSS techniques and design principles, including fluid grids, flexible images, and media queries, demonstrating how you can deliver a quality experience to your users no matter how large (or small) their display.";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include '../includes/coursesheader.php' ?>
 
 <div class="classcontentcontainer">
@@ -33,7 +39,7 @@
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a data-remodal-target="attendresponsivedesignbootcamp"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a class="followresponsivedesign"><p class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">

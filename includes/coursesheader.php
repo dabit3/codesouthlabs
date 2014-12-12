@@ -3,7 +3,11 @@
 <head>
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta charset="UTF-8">
-	<title>Code South Labs</title>
+	
+	<title><?php echo $pagetitle ?> | Code South Labs</title>
+	<meta name="description" content="<?php echo $pagedescription ?>"></meta>
+	<meta name="keywords" content="<?php echo $pagekeywords ?>"></meta>
+
 	<link rel="stylesheet" href="../lib/normalize-css/normalize.css">
 
 	<script src="//use.typekit.net/vtj6dqq.js"></script>
@@ -13,8 +17,13 @@
 	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../lib/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../lib/sweetalert/lib/sweet-alert.css">
-
+	
+	<script src="../lib/firebase/firebase.js"></script>
+	<script>var ref = new Firebase("https://code-south-labs.firebaseio.com/");
+	var emailRef = ref.child("emails/updatesignup");</script>
 	<script>
+
+
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -30,14 +39,14 @@
 <header class="wide-header">
 	<section class="header-container">
 		<div class="header-content">
-			<a href="../index"><img src="../img/logowhite.png" width="250" alt="" class="logo"></a>
+			<a href="../"><img src="../img/logowhite.png" width="250" alt="" class="logo"></a>
 			<div style="" class="teach-button"><a href="all"><p>COURSES</p></a></div>
 			<div class="nav-container">
 				<ul class="main-nav">					
 					<li><a href="../about">ABOUT</a></li>		
 					<li><a href="../contact">CONTACT</a></li>
-					<li><a href="../index">HOME</a></li>		
 					<li><a href="../teach">TEACH</a></li>	
+					<li><a href="../index">HOME</a></li>		
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -82,7 +91,7 @@
 	<section class="mobile-bar">
 		<section class="mobile-bar-container">
 			<div class="mobile-bar-content">
-				<a href="../index"><img src="../img/logowhite.png" width="200" alt="" class="logo"></a>
+				<a href="../"><img src="../img/logowhite.png" width="200" alt="" class="logo"></a>
 			</div>
 			<div class="clearfix"></div>
 		</section>

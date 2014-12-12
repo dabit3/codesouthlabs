@@ -1,3 +1,9 @@
+<?php  
+$pagetitle = "Intro To Python Programming";
+$pagedescription = "Whether or not you have programming experience, getting involved in the Python community will put you on the fast track to honing your skills.";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include '../includes/coursesheader.php' ?>
 
 <div class="classcontentcontainer">
@@ -30,7 +36,7 @@
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$85</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a data-remodal-target="attendintrotopythonmodal"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a class="followintrotopython"><p class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">

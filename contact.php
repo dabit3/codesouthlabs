@@ -1,3 +1,9 @@
+<?php  
+$pagetitle = "Contact Us";
+$pagedescription = "Want to know more about the curriculum? Would you like to take a look around the space? Let us know, we'll be happy to answer any questions about Code South Labs.";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include 'includes/header.php' ?>
 
 <div class="teachform-wrapper">

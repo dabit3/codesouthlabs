@@ -1,3 +1,9 @@
+<?php  
+$pagetitle = "Hybrid Mobile App Development Workshop";
+$pagedescription = "Cross-platform native mobile app development is usually resource intensive. When building a native app for various platforms, a plethora of programming languages as well as apis and abstractions need to be understood and utilized.";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include '../includes/coursesheader.php' ?>
 
 <div class="classcontentcontainer">
@@ -35,7 +41,7 @@
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a data-remodal-target="attendhybridmobileappdevworkshopmodal"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a class="followhybridmobileappdev"><p class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">

@@ -1,3 +1,9 @@
+<?php  
+$pagetitle = "Wordpress Bootcamp";
+$pagedescription = "Learn the basics of WordPress and walk away with a solid understanding of how to build and manage your own WordPress website.";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include '../includes/coursesheader.php' ?>
 
 <div class="classcontentcontainer">

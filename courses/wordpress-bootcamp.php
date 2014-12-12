@@ -1,17 +1,29 @@
+<?php  
+$pagetitle = "Wordpress Bootcamp";
+$pagedescription = "Learn the basics of WordPress and walk away with a solid understanding of how to build and manage your own WordPress website.";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include '../includes/coursesheader.php' ?>
 
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">DIGITAL DESIGN WORKSHOP</h1>
+			<h1 class="classcontenth1">WORDPRESS BOOTCAMP</h1>
 			<div class="mobileimage">
-				<img alt="Digital Design Workshop" src="../img/courses/digital-design-workshop.png" width="" alt="">
+				<img alt="Digital Design Workshop" src="../img/courses/introtowordpress.png" width="" alt="">
 			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
 				From it's humble origins, WordPress has grown into a full-fledged content management system, or CMS, that powers millions of websites all over the world, from traditional blogs to newspapers, online magazines, TV stations, nations, and social media sites. WordPress powers everything. To put it simply, WordPress is a publishing tool for the web. 
 			</p>
 			<p class="classp">WordPress is a simple and easy to use publishing platform for the web, and you can use it to create anything from a basic blog to an advanced website. And, you can even make sites that can switch between being blogs and websites at the touch of a button. The possibilities are pretty much endless. WordPress is free and open source, meaning it's developed by the people who use it. In its ten year history, 82 feature updates have been released, and four major updates were released in 2013 alone.</p>
+
+			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
+			<p class="classp theprerequisites">
+			
+			Please bring a laptop to class.</p>
+			
 			<div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">
@@ -19,13 +31,13 @@
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Date and time <br/> to be announced.</p>
+						<p>Saturday, January 17<br /> 2015</p>
 						<p>10:00am - 4:00pm</p>
 					</div>
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
 					<a href="https://www.eventbrite.com/e/intro-to-wordpress-build-a-site-with-wordpress-tickets-14554588165"><p class="signupforthisclassbutton">ATTEND</p></a>
@@ -49,7 +61,7 @@
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img alt="Digital Design Workshop" src="../img/courses/digital-design-workshop.png" width="" alt="">
+				<img src="../img/courses/introtowordpress.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>Saturday, January 17 2015</p>
@@ -57,8 +69,19 @@
 			<p class="sidebardate"><i class="fa fa-university"></i>March 21 2015</p>
 			
 			<div class="followclassbuttondiv">
-				<a data-remodal-target="introtowordpressmodal"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="followwordpressbootcamp"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
 			</div>
+			
+			<div class="hiddenform">
+				<div class="hiddenformcontainer">
+				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
+					<form>
+	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
+	        	<input id="class-wordpressbootcamp-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        </form>
+				</div>
+			</div>
+
 		</div>
 
 		<div class="classcontentsocial">
@@ -81,7 +104,7 @@
 	</div>
 </div>
 
-<!-- ************** Modal to attend Wordpress Course ***************** -->
+<!-- ************** Modal to attend Wordpress Course ***************** 
 
 <div class="remodal" data-remodal-id="attendintrotowordpressmodal">
 		<h1>Intro To Wordpress</h1>
@@ -105,6 +128,6 @@
 				<a class="remodal-confirm" href="#" onclick="window.location.replace('../index')">OK</a>
 		</div>
 
-</div>
+</div> -->
 
 <?php include '../includes/coursesfooter.php' ?>

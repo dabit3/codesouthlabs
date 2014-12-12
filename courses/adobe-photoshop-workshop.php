@@ -1,3 +1,9 @@
+<?php  
+$pagetitle = "Adobe Photoshop Workshop";
+$pagedescription = "Learn how to bring your ideas to life with Photoshop, the professional digital imaging standard.";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include '../includes/coursesheader.php' ?>
 
 <div class="classcontentcontainer">
@@ -9,7 +15,7 @@
 			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
-				Learn how to bring your idea to life with Photoshop, the professional digital imaging standard. You will receive step by step instruction leading you through the most powerful concepts and tools in Photoshop. By the end of the workshop you will be able to use Photoshop to create compelling digital designs and images. 				
+				Learn how to bring your ideas to life with Photoshop, the professional digital imaging standard. You will receive step by step instruction leading you through the most powerful concepts and tools in Photoshop. By the end of the workshop you will be able to use Photoshop to create compelling digital designs and images. 				
 			</p>
 
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
@@ -24,7 +30,7 @@
 					</div>
 					<div class="signupforthisclasscopy">
 						<p>Date and time <br/> to be announced.</p>
-						<p>10:00am - 4:00pm</p>
+						<p></p>
 					</div>
 					<div class="clearfix"></div>
 
@@ -32,7 +38,7 @@
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/intro-to-wordpress-build-a-site-with-wordpress-tickets-14554588165"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a class="followadobephotoshopworkshop"><p  class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">
@@ -96,7 +102,7 @@
 	</div>
 </div>
 
-<!-- ************** Modal to attend Wordpress Course ***************** 
+<!-- ************** Modal to attend Wordpress Course ***************** -->
 
 <div class="remodal" data-remodal-id="attendintrotowordpressmodal">
 		<h1>Intro To Wordpress</h1>
@@ -120,6 +126,6 @@
 				<a class="remodal-confirm" href="#" onclick="window.location.replace('../index')">OK</a>
 		</div>
 
-</div> -->
+</div> 
 
 <?php include '../includes/coursesfooter.php' ?>

@@ -1,3 +1,9 @@
+<?php  
+$pagetitle = "Teach At CodeSouth";
+$pagedescription = "We’re looking for talented individuals to join our growing team. Check out our list of positions to find current openings.";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include 'includes/header.php' ?>
 
 <div class="teachform-wrapper">

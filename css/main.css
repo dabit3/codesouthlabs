@@ -366,6 +366,7 @@ margin-left: 2px;
 
 .courses-page {
 	padding-top:107px;
+	padding-bottom: 40px;
 }
 
 .signupbreaker {
@@ -419,13 +420,13 @@ margin-left: 2px;
 }
 
 header {
-	background:#000000;
+	background:rgba(0,0,0,.9);
 	box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
 	position: fixed;
 	width:100%;
 	border-bottom:1px solid rgba(255,255,255,.15);
-	
 	z-index: 1000;
+	
 }
 
 .header-container {
@@ -960,6 +961,7 @@ transition: opacity .2s;
 	padding-bottom:10px;
 	z-index: 1000;
 	box-shadow: 0px 1px 1px rgba(0,0,0,.3), 0px 1px 1.5px rgba(0,0,0,.4);
+	opacity:.9;
 }
 
 .mobile-hamburger {
@@ -1029,6 +1031,7 @@ transition: opacity .2s;
 .overlay-ul {
 	padding:50px 0px 0px 0px;
 	background:rgba(0,0,0,.9);
+	margin-top:0px;
 }
 
 .overlay-ul li {
@@ -1088,12 +1091,13 @@ transition: opacity .2s;
 /* Scroll CSS */
 
 .header-scroll {
-	background: rgba(0,0,0,1);
+	background: rgba(0,0,0,.9);
 	position: fixed;
 	width:100%;
 	max-width: 100% !important;
 	margin-top:-100px;
 	box-shadow: 0px 1px 1px rgba(0,0,0,.3), 0px 1px 1.5px rgba(0,0,0,.4);
+	
 }
 
 .header-scroll-content {
@@ -1355,6 +1359,33 @@ transition: opacity .2s;
 	color:#ffffff;
 }
 
+.signupforthisclassbuttonsoldout {
+	color:#ffffff;
+	background:rgba(231, 76, 60,1.0);
+	border:rgba(192, 57, 43,1.0);
+	border-bottom:3px solid rgba(192, 57, 43,1.0);
+	font-family: 'brandon-grotesque', helvetica, sans-serif;
+	padding:20px 0px;
+	font-size:18px;
+	font-weight:500;
+	box-shadow: 0px 1px 1px rgba(0,0,0,.12), 0px 1px 1.5px rgba(0,0,0,.24);
+	transition: background .2s, color .2s;
+	-webkit-transition: background .2s, color .2s;
+	margin: 20px;
+}
+
+.signupforthisclassbuttonsoldout:active {
+	border-bottom:1px solid rgba(192, 57, 43,1.0);
+	margin-bottom:22px;
+}
+
+.signupforthisclassbuttonsoldout:hover {
+	cursor:pointer;
+	background: rgba(231, 76, 60, .8);
+	/* background: rgba(0, 172, 0, 1); */
+	color:#ffffff;
+}
+
 .remodalemailform {
 	margin: 28px 0px;
 }
@@ -1384,6 +1415,13 @@ transition: opacity .2s;
 	font-family: 'brandon-grotesque', helvetica, sans-serif;
 	font-size:18px;
 	width:100%;
+	-webkit-transition: opacity .2s;
+	transition:opacity .2s;
+}
+
+.classfollow:hover {
+	opacity:.85;
+
 }
 
 .hiddenform {
@@ -1391,8 +1429,6 @@ transition: opacity .2s;
 	display: none;
 	overflow: hidden;
 }
-
-
 
 .hiddenformcontainer {
 	width:100%;
@@ -1403,10 +1439,6 @@ transition: opacity .2s;
 	font-size:18px;
 	font-weight:500;
 	margin-top:0px;
-}
-
-.classfollow:hover {
-	opacity:.85;
 }
 
 .classcontentsocial {

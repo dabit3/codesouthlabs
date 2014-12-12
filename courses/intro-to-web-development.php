@@ -1,3 +1,9 @@
+<?php  
+$pagetitle = "Intro To Web Development";
+$pagedescription = "Join a seasoned instructor in this short course designed to introduce you to the world of web development. ";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include '../includes/coursesheader.php' ?>
 
 <div class="classcontentcontainer">
@@ -24,7 +30,7 @@
 					</div>
 					<div class="signupforthisclasscopy">
 						<p>Saturday, December 13<br > 2014</p>
-						<p>6 – 9 pm</p>
+						<p>10 am – 4 pm</p>
 					</div>
 					<div class="clearfix"></div>
 
@@ -32,7 +38,7 @@
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/intro-to-web-development-tickets-14547864053"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a href="#" class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a>
 				</div>
 				
 				<div class="signupforthisclassheader">

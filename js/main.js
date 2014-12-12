@@ -10,6 +10,48 @@ window.addEventListener('load', function() {
 
 $(document).ready(function() {
 
+	$('.SOLDOUT').click(function() {
+		swal("This class is sold out.");
+	})
+	
+
+	/* Check window height */
+
+		// var body = $("body");
+		
+
+		// if(window.innerWidth >= 900) {
+
+		// 	if (top >= 300) {
+				
+		// 		TweenMax.to(header, .4, {marginTop:-110})
+		// 		TweenMax.to(headerMid, .4, {marginTop:0})
+
+		// 	} 
+
+		// 	if (top <= 299) {
+				
+		// 		TweenMax.to(headerMid, .4, {marginTop:-96})
+		// 		TweenMax.to(header, .4, {marginTop:0})
+		// 	}
+
+
+		// }
+
+
+	/* basic swal */
+
+	$('.followadobephotoshopworkshop').click(basicswal);
+	$('.followintrotopython').click(basicswal);
+	$('.followresponsivedesign').click(basicswal);
+	$('.followhybridmobileappdev').click(basicswal);
+
+	function basicswal(e) {
+		e.preventDefault();
+		swal("The date for this course has not yet been announced. ", "Please follow this course to be notified of the next class date. Thanks!");
+		
+	}
+
 	/* Send Mail - Teacher Form*/
 
 	$('#teacher').click(function () {
@@ -387,6 +429,10 @@ $(document).ready(function() {
 	        
 	        if(email != "") {
 	        		swal("You've signed up for updates! ", "Unsubscribe at any time.", "success");
+	            
+	        		emailRef.push({ email: email });
+	            console.log(email);
+
 	            $('#updates-email').val("");
 	            $.ajax({
 	                type: "POST",
@@ -413,8 +459,13 @@ $(document).ready(function() {
 	    		}
 	        
 	        if(email != "") {
+	        		
 	        		swal("You've signed up for updates! ", "Unsubscribe at any time.", "success");
 	            $('#updates-email').val("");
+
+	            emailRef.push({ email: email });
+	            console.log(email);
+
 	            $.ajax({
 	                type: "POST",
 	                url: "../phpsendmail/sendupdatedemail",

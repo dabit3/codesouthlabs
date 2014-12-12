@@ -1,3 +1,9 @@
+<?php  
+$pagetitle = "Our Courses";
+$pagedescription = "Our Mentors and Instructors represent the best from Mississippi's tech community.";
+$pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
+ ?>
+
 <?php include '../includes/coursesheader.php' ?>
 
 <div class="page-content courses-page">
@@ -33,7 +39,7 @@
 						</div>
 						<div class="class-class">
 							<p class="headline home">Intro to Python Programming</p>
-							<p class="sub-headline">Whether you are an experienced programmier or are just looking to get going for the first time, Python will put you on the fast track to honing your skills.</p>
+							<p class="sub-headline">Whether you are an experienced programmer or are just looking to get going for the first time, Python will put you on the fast track to honing your skills.</p>
 							<div class="linktoclassbutton"><a href="intro-to-python-programming"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
@@ -84,7 +90,7 @@
 						<div class="class-class">
 							<p class="headline home">Wordpress Bootcamp</p>
 							<p class="sub-headline">In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <a href="https://wordpress.org/" target="_blank" class="mylink">Wordpress</span>. </p>
-							<div class="linktoclassbutton"><a href="intro-to-wordpress"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="wordpress-bootcamp"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -194,7 +200,7 @@
 					In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <a class="mylink" href="https://wordpress.org/" target="_blank">Wordpress</a>.</p>
 			</div>
 			<div class="newbutton">
-					<a href="intro-to-wordpress"><p>LEARN MORE</p></a>
+					<a href="wordpress-bootcamp"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>

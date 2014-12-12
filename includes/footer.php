@@ -72,6 +72,8 @@ Find out about upcoming courses and events.</p>
 <script src="lib/scrollRevealjs/dist/scrollReveal.min.js"></script>
 <script src="lib/greensock/src/minified/TweenMax.min.js"></script>
 <script src="lib/sweetalert/lib/sweet-alert.min.js"></script>
+
+
 <script src="js/main.js"></script>
 <script src="lib/fastclick/lib/fastclick.js"></script>
 <script src="lib/remodal/dist/jquery.remodal.min.js"></script>
