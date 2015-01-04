@@ -48,7 +48,7 @@ $(document).ready(function() {
 
 	function basicswal(e) {
 		e.preventDefault();
-		swal("The date for this class has not yet been announced. ", "To let us know of your interest, please follow this course. Once we have enough people to start this class, you will be notified of the next class date. Thanks!");
+		swal("The date for this class has not yet been announced. ", "To let us know of your interest, please follow this class. Once we have enough people to start the class, you will be notified of the next class date. Thanks!");
 		
 	}
 

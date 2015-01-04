@@ -90,6 +90,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<a target="_blank" href="https://twitter.com/Codesouthlabs"><i class="fa fa-twitter-square"></i></a>
 					<a href="https://github.com/orgs/CodeSouthLabs" target="_blank"><i class="fa fa-github-square"></i></a>
 					<a href="mailto:info@codesouthlabs.com" target="_blank"><i class="fa fa-envelope-square"></i></a>
+					<a href="http://www.facebook.com/sharer/sharer.php?u=http://www.codesouthlabs.com/courses/adobe-photoshop-workshop"></a>
 
 				</div>
 			</div>

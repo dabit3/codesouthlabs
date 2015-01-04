@@ -30,7 +30,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>January 2015</p>
+						<p>February 2015</p>
 						<p>Date &amp; time <br />to be announced.</p>
 					</div>
 					<div class="clearfix"></div>

@@ -27,7 +27,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>January 2015</p>
+						<p>February 2015</p>
 						<p>Date &amp; time <br />to be announced.</p>
 					</div>
 					<div class="clearfix"></div>
@@ -60,9 +60,9 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<img src="../img/courses/introtopython.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>January 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>February 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>March 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>April 2015</p>
 			
 			<div class="followclassbuttondiv">
 				<a class="introtopythonfocus" ><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
