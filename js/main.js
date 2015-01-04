@@ -48,7 +48,7 @@ $(document).ready(function() {
 
 	function basicswal(e) {
 		e.preventDefault();
-		swal("The date for this course has not yet been announced. ", "Please follow this course to be notified of the next class date. Thanks!");
+		swal("The date for this class has not yet been announced. ", "To let us know of your interest, please follow this course. Once we have enough people to start this class, you will be notified of the next class date. Thanks!");
 		
 	}
 
@@ -477,6 +477,35 @@ $(document).ready(function() {
 
 	            return false;
 	        }
+    });
+
+	/* ************* Follow AngularJS Class *********  */
+
+	$('#class-introtoangularjs-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
+        if(email != "") {
+        		
+        		swal("You're following Intro To AngularJS! ", "Unsubscribe at any time.", "success");
+
+            $.ajax({
+                type: "POST",
+                url: "../phpsendmail/introtoangularjs",
+                data: varData,
+                success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									introtopythonfollow = false;
+                }
+            });
+            return false;
+        }
     });
 
 	/* ****************** End Mail Senders **************************/

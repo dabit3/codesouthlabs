@@ -35,6 +35,22 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<section class="class-holder">
 					<section >
 						<div class="class-pic pic-two">
+						<img src="../img/angular.png" width="200" alt="">
+						</div>
+						<div class="class-class">
+							<p class="headline home">Intro to AngularJS <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span></p>
+							<p class="sub-headline">AngularJS, the full featured JavaScript framework backed by Google, has brought many innovative concepts to the world of web developers and is rapidly gaining market share.</p>
+							<div class="linktoclassbutton"><a href="intro-to-angularjs"><p class="brandon">LEARN MORE</p></a></div>
+						</div>
+						<div class="clearfix" ></div>
+					</section>
+				</section>
+			</div>			
+
+			<div class="class-holder-container">
+				<section class="class-holder">
+					<section >
+						<div class="class-pic pic-two">
 						<img src="../img/python.png" width="200" alt="">
 						</div>
 						<div class="class-class">

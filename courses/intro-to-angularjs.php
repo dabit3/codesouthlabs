@@ -1,5 +1,5 @@
 <?php  
-$pagetitle = "Adobe Photoshop Workshop";
+$pagetitle = "Intro to AngularJS";
 $pagedescription = "Learn how to bring your ideas to life with Photoshop, the professional digital imaging standard.";
 $pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
  ?>
@@ -9,18 +9,18 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">ADOBE PHOTOSHOP WORKSHOP</h1>
+			<h1 class="classcontenth1">INTRO TO ANGULARJS</h1>
 			<div class="mobileimage">
-				<img alt="Digital Design Workshop" src="../img/courses/digital-design-workshop.png" width="" alt="">
+				<img alt="Digital Design Workshop" src="../img/courses/angularjs.png" width="" alt="">
 			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
-				Learn how to bring your ideas to life with Photoshop, the professional digital imaging standard. You will receive step by step instruction leading you through the most powerful concepts and tools in Photoshop. By the end of the workshop you will be able to use Photoshop to create compelling digital designs and images. 				
+				AngularJS, the full featured JavaScript framework backed by Google, has brought many innovative concepts to the world of web developers and is rapidly gaining market share.  In the world of Single Page Applications, AngularJS is quickly becoming a go to tool for quickly and effeceintly building production ready websites and applications.	In this 2 hour class, you will learn the basics of how AngularJS works and the basics of the framwork. We will discuss setting up your project, working with data, controllers, routing, and much more.
 			</p>
 
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
 			<p class="classp theprerequisites">
-			No prior experience with Photoshop is required. This is an introductory course designed for first time and beginner Photoshop users. All students must be able to bring a laptop to each class (preferrably a Mac). You will need to have Adobe Photoshop version CC or higher already downloaded on this laptop for the start of class. The full version of Adobe Photoshop CC or the free 30-day trial version of it can be found <a href="http://www.adobe.com/products/photoshop.html" class="mylink" target="_blank">here</a>.</p>
+			A basic understanding of HTML &amp; CSS is recommended. Please bring a laptop.</p>
 		
 			<div class="signupforthisclassinfo">
 				
@@ -29,16 +29,17 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Date and time <br/> to be announced.</p>
-						<p></p>
+						<p>Thursday February 29, 2015</p>
+						<p>6:30pm to 8:30</p>
 					</div>
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>FREE</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a class="followadobephotoshopworkshop"><p  class="signupforthisclassbutton">ATTEND</p></a>
+					<!-- NOT SCHEDULED<a class="followadobephotoshopworkshop"><p  class="signupforthisclassbutton">ATTEND</p></a>-->
+					<a href="https://www.eventbrite.com/e/introduction-to-angularjs-tickets-15126870878" target="_blank"><p  class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">
@@ -59,10 +60,10 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img alt="Digital Design Workshop" src="../img/courses/digital-design-workshop.png" width="" alt="">
+				<img alt="Digital Design Workshop" src="../img/courses/angularjs.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>February 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>January 29 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>March 2015</p>
 			
 			<div class="followclassbuttondiv">
@@ -74,7 +75,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
 					<form>
 	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-	        	<input id="class-photoshop-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        	<input id="class-introtoangularjs-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
 	        </form>
 				</div>
 			</div>
@@ -90,6 +91,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<a target="_blank" href="https://twitter.com/Codesouthlabs"><i class="fa fa-twitter-square"></i></a>
 					<a href="https://github.com/orgs/CodeSouthLabs" target="_blank"><i class="fa fa-github-square"></i></a>
 					<a href="mailto:info@codesouthlabs.com" target="_blank"><i class="fa fa-envelope-square"></i></a>
+					<a href="http://www.facebook.com/sharer/sharer.php?u=http://www.codesouthlabs.com/courses/adobe-photoshop-workshop" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+   target="_blank" title="Share on Facebook"><i class="fa fa-share"></i></a>
 
 				</div>
 			</div>
