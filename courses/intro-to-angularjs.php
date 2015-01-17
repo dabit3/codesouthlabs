@@ -30,7 +30,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					</div>
 					<div class="signupforthisclasscopy">
 						<p>Thursday January 29, 2015</p>
-						<p>6:30pm to 8:30</p>
+						<p>6:30pm to 8:30pm</p>
 					</div>
 					<div class="clearfix"></div>
 
