@@ -104,11 +104,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 <!-- ************** Modal to attend Wordpress Course ***************** -->
 
-<div class="remodal" data-remodal-id="attendintrotowordpressmodal">
-		<h1>Intro To Wordpress</h1>
-	     <p style="">The date for this course has not yet been announced. Please follow this course to be notified of the next class date. Thanks!</p>
-	     <a class="remodal-confirm" href="#" >OK</a>
-</div>
+
 
 <div class="remodal" data-remodal-id="adobephotoshopmodal">
     <div class="beforesignedup">

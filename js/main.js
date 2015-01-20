@@ -82,7 +82,7 @@ $(document).ready(function() {
             inst.open();
             $.ajax({
                 type: "POST",
-                url: "teachermail",
+                url: "teachermail.php",
                 data: varData,
                 success: function() {
                 }
@@ -121,7 +121,7 @@ $(document).ready(function() {
             inst.open();
             $.ajax({
                 type: "POST",
-                url: "contactermail",
+                url: "contactermail.php",
                 data: varData,
                 success: function() {
                 }
@@ -166,7 +166,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../introtowebdevfollow",
+                url: "../introtowebdevfollow.php",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -214,7 +214,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/introtopythonfollow",
+                url: "../phpsendmail/introtopythonfollow.php",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -262,7 +262,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/responsivedesignbootcampfollow",
+                url: "../phpsendmail/responsivedesignbootcampfollow.php",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -309,7 +309,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/introtowordpressfollow",
+                url: "../phpsendmail/introtowordpressfollow.php",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -356,7 +356,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/hybridmobileappdevfollow",
+                url: "../phpsendmail/hybridmobileappdevfollow.php",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -404,7 +404,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/adobephotoshopworkshop",
+                url: "../phpsendmail/adobephotoshopworkshop.php",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -436,7 +436,7 @@ $(document).ready(function() {
 	            $('#updates-email').val("");
 	            $.ajax({
 	                type: "POST",
-	                url: "phpsendmail/sendupdatedemail",
+	                url: "phpsendmail/sendupdatedemail.php",
 	                data: varData,
 	                success: function() {
 	                	
@@ -468,7 +468,7 @@ $(document).ready(function() {
 
 	            $.ajax({
 	                type: "POST",
-	                url: "../phpsendmail/sendupdatedemail",
+	                url: "../phpsendmail/sendupdatedemail.php",
 	                data: varData,
 	                success: function() {
 	                	
@@ -496,7 +496,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/introtoangularjs",
+                url: "../phpsendmail/introtoangularjs.php",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -507,6 +507,49 @@ $(document).ready(function() {
             return false;
         }
     });
+
+	/* *********************** Follow JavaScript Class ************* */
+
+	var classfollowdiv = false;
+
+	$('.classfollowdiv').click(function() {
+		
+		if (classfollowdiv == false) {
+			tl.to(hiddenform, .4, {autoAlpha: 1, display:'block'});
+			classfollowdiv = true;
+		} else {
+			tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+			classfollowdiv = false;
+		}
+		
+	})
+
+	$('#class-introtojavascript-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
+        if(email != "") {
+        		
+        		swal("You're following Intro To JavaScript! ", "Unsubscribe at any time.", "success");
+
+            $.ajax({
+                type: "POST",
+                url: "../phpsendmail/introtojavascriptfollow.php",
+                data: varData,
+                success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									classfollowdiv = false;
+                }
+            });
+            return false;
+        }
+   });
 
 	/* ****************** End Mail Senders **************************/
 

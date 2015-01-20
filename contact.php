@@ -45,7 +45,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
          <h1 style="">Thank You For Contacting Us!</h1>
             <p>Someone will be in touch with you shortly.</p>
         <br>
-        <a class="remodal-confirm" href="#" onclick="window.location.replace('index')">OK</a>
+        <a class="remodal-confirm" href="#" onclick="window.location.replace('/')">OK</a>
     </div>
 
     <div class="teachermailsent" id="thehiddenform">

@@ -24,7 +24,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<div class="class-class">
 							<p class="headline home">Intro to Web Development</p>
 							<p class="sub-headline">Learn how to build a dynamic web app and gain the foundation to become a web developer. You’ll learn <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="mylink" target="_blank">HTML</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/css" class="mylink" target="_blank">CSS</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" class="mylink">JavaScript</a>. </p>
-							<div class="linktoclassbutton"><a href="intro-to-web-development"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="intro-to-web-development.php"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -40,7 +40,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<div class="class-class">
 							<p class="headline home">Intro to AngularJS <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span></p>
 							<p class="sub-headline">AngularJS, the full featured JavaScript framework backed by Google, has brought many innovative concepts to the world of web developers and is rapidly gaining market share.</p>
-							<div class="linktoclassbutton"><a href="intro-to-angularjs"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="intro-to-angularjs.php"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -56,7 +56,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<div class="class-class">
 							<p class="headline home">Intro to Python Programming</p>
 							<p class="sub-headline">Whether you are an experienced programmer or are just looking to get going for the first time, Python will put you on the fast track to honing your skills.</p>
-							<div class="linktoclassbutton"><a href="intro-to-python-programming"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="intro-to-python-programming.php"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -67,12 +67,28 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<section class="class-holder">
 					<section >
 						<div class="class-pic pic-two">
+						<img src="../img/intro-to-js.png" width="200" alt="">
+						</div>
+						<div class="class-class">
+							<p class="headline home">Intro to Javascript <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span></p>
+							<p class="sub-headline">Join us for this class on the JavaScript programming language aimed at beginners with little or no prior JavaScript experience.</p>
+							<div class="linktoclassbutton"><a href="intro-to-javascript.php"><p class="brandon">LEARN MORE</p></a></div>
+						</div>
+						<div class="clearfix" ></div>
+					</section>
+				</section>
+			</div>		
+
+			<div class="class-holder-container">
+				<section class="class-holder">
+					<section >
+						<div class="class-pic pic-two">
 						<img src="../img/graphic-design.png" width="200" alt="">
 						</div>
 						<div class="class-class">
 							<p class="headline home">Responsive Design Bootcamp</p>
 							<p class="sub-headline">Learn how to scale your site designs flawlessly with responsive design. Gone are the days of designing websites only for the desktop. In this day of numerous devices, sizes, and resolutions, site designs need to scale seamlessly... </p>
-							<div class="linktoclassbutton"><a href="responsive-design-bootcamp"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="responsive-design-bootcamp.php"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -88,7 +104,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<div class="class-class">
 							<p class="headline home">Hybrid Mobile App Dev Workshop </p>
 							<p class="sub-headline">Intermediate course. Develop hybrid mobile apps that run in <a href="https://developer.apple.com/devcenter/ios/index.action" target="_blank" class="mylink">IOS</a>, <a href="https://developer.android.com/sdk/index.html?hl=i" target="_blank" class="mylink">Android</a>, and on the web.  Load your apps on your iPhone and learn how to submit your app to the <span class="mylink">App Store</span>. </p>
-							<div class="linktoclassbutton"><a href="hybrid-mobile-app-development"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="hybrid-mobile-app-development.php"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -106,7 +122,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<div class="class-class">
 							<p class="headline home">Wordpress Bootcamp</p>
 							<p class="sub-headline">In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <a href="https://wordpress.org/" target="_blank" class="mylink">Wordpress</span>. </p>
-							<div class="linktoclassbutton"><a href="wordpress-bootcamp"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="wordpress-bootcamp.php"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -122,7 +138,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<div class="class-class">
 							<p class="headline home">Adobe Photoshop Workshop</p>
 							<p class="sub-headline">Bring your creative ideas to life with Adobe <a href="http://www.adobe.com/products/photoshop.html" target="_blank" class="mylink">Photoshop.</a> Learn how it ties in with the design process, and the basics of digital design.</p>
-							<div class="linktoclassbutton"><a href="adobe-photoshop-workshop"><p class="brandon">LEARN MORE</p></a></div>
+							<div class="linktoclassbutton"><a href="adobe-photoshop-workshop.php"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
@@ -148,7 +164,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					Learn how to build a dynamic web app and gain the foundation to become a web developer. You’ll learn <a href="https://developer.mozilla.org/en-US/docs/Web/html" target="_blank" class="mylink">HTML</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/css" class="mylink" target="_blank">CSS</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" class="mylink" target="_blank">JavaScript</a>.
 				</p>
 				<div class="newbutton">
-					<a href="intro-to-web-development"><p>LEARN MORE</p></a>
+					<a href="intro-to-web-development.php"><p>LEARN MORE</p></a>
 				</div>
 				<!-- <div class="mobile-learnmore">
 					<p class="float-left">
@@ -157,6 +173,23 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<p class="float-right right-arrow-home"><i class="fa fa-long-arrow-right"></i></p>
 					<div class="clearfix"></div>
 				</div> -->
+			</div>
+		</div>
+	</div>
+
+	
+
+	<div class="mobile-section-main">
+		<div class="mobile-class-holder">
+			<div class="mobile-class">
+				<p class="mobile-class-title">
+					Intro to AngularJS <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span>
+				</p>
+				<p class="mobile-class-copy">
+					AngularJS, the full featured JavaScript framework backed by Google, has brought many innovative concepts to the world of web developers and is rapidly gaining market share. </p>
+			</div>
+			<div class="newbutton">
+					<a href="intro-to-angularjs.php"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>
@@ -171,7 +204,22 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					Whether you are an experienced programmier or are just looking to get going for the first time, Python will put you on the fast track to honing your skills. </p>
 			</div>
 			<div class="newbutton">
-					<a href="intro-to-python-programming"><p>LEARN MORE</p></a>
+					<a href="intro-to-python-programming.php"><p>LEARN MORE</p></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-section-main">
+		<div class="mobile-class-holder">
+			<div class="mobile-class">
+				<p class="mobile-class-title">
+					Intro to JavaScript <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span>
+				</p>
+				<p class="mobile-class-copy">
+					Join us for this class on the JavaScript programming language aimed at beginners with little or no prior JavaScript experience.</p>
+			</div>
+			<div class="newbutton">
+					<a href="intro-to-javascript.php"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>
@@ -186,7 +234,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					Learn how to scale your site designs flawlessly with responsive design. Gone are the days of designing websites only for the desktop. In this day of numerous devices, sizes, and resolutions, site designs need to scale seamlessly across all devices and screens. This concept is termed responsive design.</p>
 			</div>
 			<div class="newbutton">
-					<a href="responsive-design-bootcamp"><p>LEARN MORE</p></a>
+					<a href="responsive-design-bootcamp.php"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>
@@ -201,7 +249,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					Intermediate course. Develop hybrid mobile apps that run in <span class="mylink"><a href="https://developer.apple.com/devcenter/ios/index.action" class="mylink">IOS</a></span>, <a class="mylink" href="https://developer.android.com/sdk/index.html?hl=i" target="_blank">Android</a>, and on the web.  Load your apps on your iPhone and learn how to submit your app to the <span class="mylink">App Store</span>. </p>
 			</div>
 			<div class="newbutton">
-					<a href="hybrid-mobile-app-development"><p>LEARN MORE</p></a>
+					<a href="hybrid-mobile-app-development.php"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>
@@ -216,7 +264,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					In this course you’ll develop a custom site starting from scratch. You'll take a static template and do all the necessary magic to have that site running live using <a class="mylink" href="https://wordpress.org/" target="_blank">Wordpress</a>.</p>
 			</div>
 			<div class="newbutton">
-					<a href="wordpress-bootcamp"><p>LEARN MORE</p></a>
+					<a href="wordpress-bootcamp.php"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>
@@ -231,7 +279,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					Bring your creative ideas to life with Adobe <a href="http://www.adobe.com/products/photoshop.html" target="_blank" class="mylink">Photoshop.</a> Learn how it ties in with the design process, and the basics of digital design.</p>
 			</div>
 			<div class="newbutton">
-					<a href="adobe-photoshop-workshop"><p>LEARN MORE</p></a>
+					<a href="adobe-photoshop-workshop.php"><p>LEARN MORE</p></a>
 			</div>
 		</div>
 	</div>

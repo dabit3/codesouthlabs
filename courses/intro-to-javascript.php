@@ -1,6 +1,6 @@
 <?php  
-$pagetitle = "Wordpress Bootcamp";
-$pagedescription = "Learn the basics of WordPress and walk away with a solid understanding of how to build and manage your own WordPress website.";
+$pagetitle = "Introduction To Javascrip";
+$pagedescription = "Learn the basics of JavaScript programming and how to use it to suit your creative and professional goals in this 2 hour course.";
 $pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
  ?>
 
@@ -9,26 +9,22 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">WORDPRESS BOOTCAMP</h1>
+			<h1 class="classcontenth1">INTRODUCTION TO JAVASCRIPT</h1>
 			<div class="mobileimage">
-				<img alt="Digital Design Workshop" src="../img/courses/introtowordpress.png" width="" alt="">
+				<img alt="Digital Design Workshop" src="../img/courses/intro-to-javascript.png" width="" alt="">
 			</div>
 			<h2 class="classcontabout">About this class</h2>
-			
-				<p class="classp">Wordpress is a simple and easy to use publishing platform for the web, and you can use it to create anything from a basic blog to an advanced website. And, you can even make sites that can switch between being blogs and websites at the touch of a button. 
+			<p class="classp">
+				There is no denying that since its inception in the mid 90’s, JavaScript has become one of the most popular Web development languages. In September 2012, industry analyst firm, RedMonk, showed it as the top language. Much of this is due to its ability to deliver rich, dynamic web content, its relatively lightweight and its high ease of use, and the fact that it is the only programming language that can be executed in all web browsers, giving it a huge market share.
 			</p>
 			<p class="classp">
-				From it's humble origins, WordPress has grown into a full-fledged content management system, or CMS, that powers millions of websites all over the world, from traditional blogs to newspapers, online magazines, TV stations, nations, and social media sites. </p>
-			<p class="classp">The possibilities are pretty much endless. WordPress is free and open source, meaning it's developed by the people who use it. In its ten year history, 82 feature updates have been released, and four major updates were released in 2013 alone.</p>
-			<p class="classp">
-				In this class, we will begin with a baisic installation and configuration, and walk you through the entire process of building a portoolio site. You will walk away with a functioning website that you will be able to improve and edit in the future, as well as knowledge to build other sites in the future.
+				Join us for this class on the JavaScript programming language aimed at beginners with little or no prior JavaScript experience. We will be going over the basics of JavaScript, including why it is important, what is jQuery, where JavaScript is used, basic syntax, and we will be writing basic javascript programs and scripts to get your feet wet. The primary emphasis of this class is on the JavaScript programming language, with secondary emphasis on HTML and CSS.	
 			</p>
 
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
 			<p class="classp theprerequisites">
-			
-			Please bring a laptop to class.</p>
-			
+			No prior experience with Javascript is required. This is an introductory course designed for first time and beginner JavaScript programmers. All students must be able to bring a laptop to each class (preferrably a Mac). You will need to have Google Chrome downloaded on this laptop for the start of class.</p>
+		
 			<div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">
@@ -36,16 +32,19 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Saturday, February 28<br /> 2015</p>
-						<p>10:00am - 4:00pm</p>
+						<p>Thursday February 19, 2015 <br/> 6:30pm to 8:00pm</p>
+						<p></p>
 					</div>
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>FREE</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/copy-of-wordpress-bootcamp-build-a-site-with-wordpress-tickets-15388712052"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<!--<a class="followadobephotoshopworkshop"><p  class="signupforthisclassbutton">ATTEND</p></a> -->
+					<a href="https://www.eventbrite.com/e/introduction-to-javascript-tickets-15394166366">
+						<p  class="signupforthisclassbutton">ATTEND</p>
+					</a>
 				</div>
 
 				<div class="signupforthisclassheader">
@@ -66,15 +65,14 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img src="../img/courses/introtowordpress.png" width="" alt="">
+				<img alt="Digital Design Workshop" src="../img/courses/intro-to-javascript.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>Saturday, February 28 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>February 19, 2015 </p>
 			<p class="sidebardate"><i class="fa fa-university"></i>March 2015</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>April 2015</p>
 			
 			<div class="followclassbuttondiv">
-				<a class="followwordpressbootcamp"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="classfollowdiv"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
 			</div>
 			
 			<div class="hiddenform">
@@ -82,7 +80,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
 					<form>
 	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-	        	<input id="class-wordpressbootcamp-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        	<input id="class-introtojavascript-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
 	        </form>
 				</div>
 			</div>
@@ -98,7 +96,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<a target="_blank" href="https://twitter.com/Codesouthlabs"><i class="fa fa-twitter-square"></i></a>
 					<a href="https://github.com/orgs/CodeSouthLabs" target="_blank"><i class="fa fa-github-square"></i></a>
 					<a href="mailto:info@codesouthlabs.com" target="_blank"><i class="fa fa-envelope-square"></i></a>
-
+					<!-- <a href="http://www.facebook.com/sharer/sharer.php?u=http://www.codesouthlabs.com/courses/intro-to-javascript.php" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+   target="_blank" title="Share on Facebook"><i class="fa fa-share"></i></a> -->
 				</div>
 			</div>
 		</div>
@@ -109,15 +108,10 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 	</div>
 </div>
 
-<!-- ************** Modal to attend Wordpress Course ***************** 
+<!-- ************** Modal to attend Wordpress Course ***************** -->
 
-<div class="remodal" data-remodal-id="attendintrotowordpressmodal">
-		<h1>Intro To Wordpress</h1>
-	     <p style="">The date for this course has not yet been announced. Please follow this course to be notified of the next class date. Thanks!</p>
-	     <a class="remodal-confirm" href="#" >OK</a>
-</div>
 
-<div class="remodal" data-remodal-id="introtowordpressmodal">
+<div class="remodal" data-remodal-id="adobephotoshopmodal">
     <div class="beforesignedup">
     	<h1>Stay updated</h1>
 	     <p style="">Enter Your Email Address To Start Following.</p>
@@ -133,6 +127,6 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<a class="remodal-confirm" href="#" onclick="window.location.replace('../index')">OK</a>
 		</div>
 
-</div> -->
+</div> 
 
 <?php include '../includes/coursesfooter.php' ?>

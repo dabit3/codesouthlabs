@@ -39,7 +39,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
 					<!-- NOT SCHEDULED<a class="followadobephotoshopworkshop"><p  class="signupforthisclassbutton">ATTEND</p></a>-->
-					<a href="https://www.eventbrite.com/e/introduction-to-angularjs-tickets-15126870878" target="_blank"><p  class="signupforthisclassbutton">ATTEND</p></a>
+					<a href="https://www.eventbrite.com/e/introduction-to-angularjs-tickets-15126870878" ><p  class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">
@@ -91,7 +91,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<a target="_blank" href="https://twitter.com/Codesouthlabs"><i class="fa fa-twitter-square"></i></a>
 					<a href="https://github.com/orgs/CodeSouthLabs" target="_blank"><i class="fa fa-github-square"></i></a>
 					<a href="mailto:info@codesouthlabs.com" target="_blank"><i class="fa fa-envelope-square"></i></a>
-					<a href="http://www.facebook.com/sharer/sharer.php?u=http://www.codesouthlabs.com/courses/adobe-photoshop-workshop" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+					<a href="http://www.facebook.com/sharer/sharer.php?u=http://www.codesouthlabs.com/courses/intro-to-angularjs.php" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
    target="_blank" title="Share on Facebook"><i class="fa fa-share"></i></a>
 
 				</div>
