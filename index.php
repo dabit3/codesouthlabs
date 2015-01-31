@@ -13,7 +13,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<h3 class="brandon font-500 hero">Code courses for developers, students, and entrepreneurs.</h3>
 			</div>
 			<div class="content-button">
-				<a href="about.php"><p class="view-courses-button">LEARN MORE</p></a>
+				<a href="about"><p class="view-courses-button">LEARN MORE</p></a>
 			</div>
 		</div>
 	</section>
@@ -23,7 +23,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 	<div class="subcontainer">
 		<p class="subcontainer-copy">Currently accepting students for the January and February Classes</p>
 			<div class="subcontainer-signup-container">
-				<a href="courses/all.php"><p class="subcontainer-signup">SIGN UP NOW</p></a>
+				<a href="courses/all"><p class="subcontainer-signup">SIGN UP NOW</p></a>
 			</div>
 		<div class="clearfix"></div>
 	</div>
@@ -38,7 +38,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 			<p class="whyheader">WHY CODESOUTH?</p>
 			<p class="whysubhead">Our Mentors and Instructors represent the best from Mississippi's tech community</p>
 			<p class="whyp">Developers are in high demand! Thrust yourself into the world of technology. The growth of increasingly-interactive websites, applications, and social networks has exponentially increased year after year, as has the demand for appropriately-skilled web developers. Researchers project a continued web developer shortage nationwide well beyond 2020.</p>
-			<div class="whybcontainer"><a href="about.php"><p class="whyb">Learn More</p></a></div>
+			<div class="whybcontainer"><a href="about"><p class="whyb">Learn More</p></a></div>
 		</div>
 		<div class="clearfix"></div>
 		<div class="keyboard">

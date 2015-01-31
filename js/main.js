@@ -82,7 +82,7 @@ $(document).ready(function() {
             inst.open();
             $.ajax({
                 type: "POST",
-                url: "teachermail.php",
+                url: "teachermail",
                 data: varData,
                 success: function() {
                 }
@@ -121,7 +121,7 @@ $(document).ready(function() {
             inst.open();
             $.ajax({
                 type: "POST",
-                url: "contactermail.php",
+                url: "contactermail",
                 data: varData,
                 success: function() {
                 }
@@ -166,7 +166,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../introtowebdevfollow.php",
+                url: "../introtowebdevfollow",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -214,7 +214,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/introtopythonfollow.php",
+                url: "../phpsendmail/introtopythonfollow",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -262,7 +262,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/responsivedesignbootcampfollow.php",
+                url: "../phpsendmail/responsivedesignbootcampfollow",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -309,7 +309,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/introtowordpressfollow.php",
+                url: "../phpsendmail/introtowordpressfollow",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -356,7 +356,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/hybridmobileappdevfollow.php",
+                url: "../phpsendmail/hybridmobileappdevfollow",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -404,7 +404,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/adobephotoshopworkshop.php",
+                url: "../phpsendmail/adobephotoshopworkshop",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -436,7 +436,7 @@ $(document).ready(function() {
 	            $('#updates-email').val("");
 	            $.ajax({
 	                type: "POST",
-	                url: "phpsendmail/sendupdatedemail.php",
+	                url: "phpsendmail/sendupdatedemail",
 	                data: varData,
 	                success: function() {
 	                	
@@ -468,7 +468,7 @@ $(document).ready(function() {
 
 	            $.ajax({
 	                type: "POST",
-	                url: "../phpsendmail/sendupdatedemail.php",
+	                url: "../phpsendmail/sendupdatedemail",
 	                data: varData,
 	                success: function() {
 	                	
@@ -496,7 +496,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/introtoangularjs.php",
+                url: "../phpsendmail/introtoangularjs",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
@@ -539,7 +539,7 @@ $(document).ready(function() {
 
             $.ajax({
                 type: "POST",
-                url: "../phpsendmail/introtojavascriptfollow.php",
+                url: "../phpsendmail/introtojavascriptfollow",
                 data: varData,
                 success: function() {
                 	$('#class-email').val("");
