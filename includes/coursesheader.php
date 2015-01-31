@@ -3,7 +3,9 @@
 <head>
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta charset="UTF-8">
-	
+	<link rel="icon" 
+      type="image/png" 
+      href="http://codesouthlabs.com/favicon.png">
 	<title><?php echo $pagetitle ?> | Code South Labs</title>
 	<meta name="description" content="<?php echo $pagedescription ?>"></meta>
 	<meta name="keywords" content="<?php echo $pagekeywords ?>"></meta>
