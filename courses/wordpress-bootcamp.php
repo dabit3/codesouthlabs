@@ -45,7 +45,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/copy-of-wordpress-bootcamp-build-a-site-with-wordpress-tickets-15388712052"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<!-- <a href="https://www.eventbrite.com/e/copy-of-wordpress-bootcamp-build-a-site-with-wordpress-tickets-15388712052"><p class="signupforthisclassbutton">ATTEND</p></a> -->
+					<a href="#" class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">
