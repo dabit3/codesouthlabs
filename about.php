@@ -20,9 +20,9 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 			<div class="qandacontainer">
 				<div class="qanda">
 				<section class="qandasection">
-					<p class="qandasubhead"><i class="fa fa-code"></i>Attend a free monthly Q &amp; A</p>
-					<p>In our monthly Q &amp; A, we will spend some time answering questions and helping you determine whether Code South Labs is the right fit for you. </p>
-					<a href="https://www.eventbrite.com/e/code-south-labs-q-a-session-tickets-14560385505"><p class="qandabutton"><i class="fa fa-users attendqanda"></i>ATTEND</p></a>
+					<p class="qandasubhead"><i class="fa fa-code"></i>Have questions?</p>
+					<p>Let us set up a call with you to discuss any questions you may have about Code South Labs and what we have to offer.</p>
+					<a href="http://codesouthlabs.com/contact"><p class="qandabutton"><i class="fa fa-users attendqanda"></i>CONTACT US</p></a>
 				</section>
 			</div>
 			</div>
