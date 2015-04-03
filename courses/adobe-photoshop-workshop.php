@@ -62,8 +62,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<img alt="Digital Design Workshop" src="../img/courses/digital-design-workshop.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>April 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>May 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>June 2015</p>
 			
 			<div class="followclassbuttondiv">
 				<a class="adobephotoshopintro"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
