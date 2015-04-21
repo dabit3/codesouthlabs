@@ -30,7 +30,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>May 2015</p>
+						<p>June 2015</p>
 						<p>Date &amp; time <br />to be announced.</p>
 					</div>
 					<div class="clearfix"></div>
@@ -63,7 +63,6 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<img src="../img/courses/responsivedesignbootcamp.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>May 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>June 2015</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>July 2015</p>
 			

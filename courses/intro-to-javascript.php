@@ -32,7 +32,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Thursday May 7, 2015 <br/> 6:30pm to 8:00pm</p>
+						<p>Thursday June 4, 2015 <br/> 6:30pm to 8:00pm</p>
 						<p></p>
 					</div>
 					<div class="clearfix"></div>
@@ -69,8 +69,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<img alt="Digital Design Workshop" src="../img/courses/intro-to-javascript.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>May 7, 2015 </p>
-			<p class="sidebardate"><i class="fa fa-university"></i>June 2015</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>June 4, 2015 </p>
+			<p class="sidebardate"><i class="fa fa-university"></i>July 2015</p>
 			
 			<div class="followclassbuttondiv">
 				<a class="classfollowdiv"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>

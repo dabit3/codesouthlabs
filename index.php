@@ -21,7 +21,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 <div class="signupbreaker">
 	<div class="subcontainer">
-		<p class="subcontainer-copy">Currently accepting students for April and May Classes</p>
+		<p class="subcontainer-copy">Currently accepting students for May and June Classes</p>
 			<div class="subcontainer-signup-container">
 				<a href="courses/all"><p class="subcontainer-signup">SIGN UP NOW</p></a>
 			</div>
