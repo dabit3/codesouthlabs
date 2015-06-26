@@ -39,7 +39,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
 					<!-- NOT SCHEDULED<a class="followadobephotoshopworkshop"><p  class="signupforthisclassbutton">ATTEND</p></a>-->
-					<a href="https://www.eventbrite.com/e/intro-to-angularjs-tickets-16845376976" ><p  class="signupforthisclassbutton">ATTEND</p></a>
+					<!-- <a href="https://www.eventbrite.com/e/intro-to-angularjs-tickets-16845376976" ><p  class="signupforthisclassbutton">ATTEND</p></a> -->
+					<a class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a>
 				</div>
 
 				<div class="signupforthisclassheader">
