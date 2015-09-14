@@ -2017,6 +2017,7 @@ input:focus {
 
 	.subcontainer-copy {
 		text-align: center;
+		padding-left:0px;
 	}
 		
 	.signupnow {
