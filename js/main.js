@@ -178,6 +178,64 @@ $(document).ready(function() {
         }
     });
 
+	/* Intro to React */
+
+	$('#class-introtoreact-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
+        if(email != "") {
+        		
+        		swal("You're following Intro To React! ", "Unsubscribe at any time.", "success");
+
+            $.ajax({
+                type: "POST",
+                url: "../phpsendmail/introtoreactfollow",
+                data: varData,
+                success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									followintrotowebdevopen = false;
+                }
+            });
+            return false;
+        }
+    });
+
+	/* Intro to React Native*/
+
+	$('#class-introtoreactnative-follow').click(function () {
+        
+        var email = $('#class-email').val();
+        var varData = 'email=' + email;
+
+        if (email == "") {
+    			swal("Please fill out the email field.");
+    			return false;
+    		}
+        if(email != "") {
+        		
+        		swal("You're following Intro To React Native! ", "Unsubscribe at any time.", "success");
+
+            $.ajax({
+                type: "POST",
+                url: "../phpsendmail/introtoreactnativefollow",
+                data: varData,
+                success: function() {
+                	$('#class-email').val("");
+                	tl.to(hiddenform, .4, {autoAlpha: 0, display:'none'});
+									followintrotowebdevopen = false;
+                }
+            });
+            return false;
+        }
+    });
+
 	/* Intro to Python */
 
 

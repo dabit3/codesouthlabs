@@ -1,6 +1,6 @@
 <?php  
-$pagetitle = "Intro To Web Development";
-$pagedescription = "Join a seasoned instructor in this short course designed to introduce you to the world of web development. ";
+$pagetitle = "Intro To React";
+$pagedescription = "Join us in learning the basics of Reactjs. ";
 $pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
  ?>
 
@@ -9,19 +9,18 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">INTRO TO WEB <br />DEVELOPMENT</h1>
+			<h1 class="classcontenth1">INTRO TO REACT NATIVE</h1>
 			<div class="mobileimage">
-				<img alt="Digital Design Workshop" src="../img/courses/introtowebdev.png" width="" alt="">
+				<img alt="Intro to React" src="../img/courses/reactNative2.png" width="" alt="">
 			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
-				Is web development something you may be considering as a career? Would you like to learn to create your own web sites but don't know where to start? Does the world of programming fascinate you? Are you curious about "what it takes" to be a web developer.
+				React Native is a JavaScript framework used to build cross platform native mobile applications, on both Android and iOS. With the cost of hiring native developers increasing as well as the time spent to build native mobile applications, React Native offers a way to learn one framework and write cross platform faster and more effeciently, while still providing a native experience for the user.
 			</p>
-			<p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
+			<p class="classp">Come learn the basics of React Native as we build out a basic mobile app, and dive into some of the native components that React Native has available to developers.</p>
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
 			<p class="classp theprerequisites">
-			Please bring a laptop to class.</p>
-
+				Please bring a laptop to class. Have either <a style="text-decoration: none;color: #009EFD" target="_blank" href="https://developer.apple.com/xcode/">XCode</a> or the <a style="text-decoration: none;color: #009EFD" target="_blank" href="http://developer.android.com/sdk/installing/index.html">Android SDK</a> installed on your machine. Please also try to install <a style="text-decoration: none;color: #009EFD" target="_blank" href="https://facebook.github.io/react-native/docs/getting-started.html">React Native on your machine.</a> If you need any help doing so, please reach out to us before class <a style="text-decoration: none;color: #009EFD" href="mailto:info@codesouthlabs.com" >here.</a></p>
 
 			<div class="signupforthisclassinfo">
 				<div class="signupforthisclassheader">
@@ -29,16 +28,16 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Saturday, March 12<br > 2016</p>
-						<p>10 am – 4 pm</p>
+						<p>Thursday, March 31<br > 2016</p>
+						<p>6:30 pm – 8:00 pm</p>
 					</div>
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>FREE</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/intro-to-web-development-tickets-21167975986"><p class="signupforthisclassbutton">ATTEND</p></a> 
+					<a href="https://www.eventbrite.com/e/introduction-to-react-native-tickets-21171070241"><p class="signupforthisclassbutton">ATTEND</p></a> 
 					<!-- <a href="#" class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a> -->
 				</div>
 				
@@ -60,10 +59,10 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img src="../img/courses/introtowebdev.png" width="" alt="">
+				<img src="../img/courses/reactNative2.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>March 12, 2016</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>March 31, 2016</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>May 2016</p>
 			
 			<div class="followclassbuttondiv">
@@ -75,7 +74,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
 					<form>
 	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-	        	<input id="class-introtowebdev-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        	<input id="class-introtoreactnative-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
 	        </form>
 				</div>
 			</div>
@@ -101,9 +100,5 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		<div class="clearfix"></div>
 	</div>
 </div>
-
-
-
-
 
 <?php include '../includes/coursesfooter.php' ?>

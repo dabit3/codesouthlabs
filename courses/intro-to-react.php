@@ -1,6 +1,6 @@
 <?php  
-$pagetitle = "Intro To Web Development";
-$pagedescription = "Join a seasoned instructor in this short course designed to introduce you to the world of web development. ";
+$pagetitle = "Intro To React";
+$pagedescription = "Join us in learning the basics of Reactjs. ";
 $pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
  ?>
 
@@ -9,19 +9,18 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">INTRO TO WEB <br />DEVELOPMENT</h1>
+			<h1 class="classcontenth1">INTRO TO REACT</h1>
 			<div class="mobileimage">
-				<img alt="Digital Design Workshop" src="../img/courses/introtowebdev.png" width="" alt="">
+				<img alt="Intro to React" src="../img/courses/react2.png" width="" alt="">
 			</div>
 			<h2 class="classcontabout">About this class</h2>
 			<p class="classp">
-				Is web development something you may be considering as a career? Would you like to learn to create your own web sites but don't know where to start? Does the world of programming fascinate you? Are you curious about "what it takes" to be a web developer.
+				React is quickly becoming the go to JavaScript library for both enterprise companies looking to build complex web applications as well as agencies building projects to meet their specialized needs. It is very fast and offers a fundamentally improved approach to application structure.
 			</p>
-			<p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
+			<p class="classp">Join us as we dive into the basics of getting React running on your machine, along with all of the processes needed to build a React applications such as ES6, Babel, and Webpack. We will build an app demonstrating the basic features of React.</p>
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
 			<p class="classp theprerequisites">
-			Please bring a laptop to class.</p>
-
+			Please bring a laptop to class, have Google chrome installed on your machine, and be comfortable opening and typing in the terminal window of your computer.</p>
 
 			<div class="signupforthisclassinfo">
 				<div class="signupforthisclassheader">
@@ -29,16 +28,16 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Saturday, March 12<br > 2016</p>
-						<p>10 am – 4 pm</p>
+						<p>Thursday, March 17<br > 2016</p>
+						<p>6:30 pm – 8:00 pm</p>
 					</div>
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>FREE</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/intro-to-web-development-tickets-21167975986"><p class="signupforthisclassbutton">ATTEND</p></a> 
+					<a href="https://www.eventbrite.com/e/introduction-to-reactjs-tickets-21169749290"><p class="signupforthisclassbutton">ATTEND</p></a> 
 					<!-- <a href="#" class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a> -->
 				</div>
 				
@@ -60,10 +59,10 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
-				<img src="../img/courses/introtowebdev.png" width="" alt="">
+				<img src="../img/courses/react2.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>March 12, 2016</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>March 17, 2016</p>
 			<p class="sidebardate"><i class="fa fa-university"></i>May 2016</p>
 			
 			<div class="followclassbuttondiv">
@@ -75,7 +74,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
 					<form>
 	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-	        	<input id="class-introtowebdev-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        	<input id="class-introtoreact-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
 	        </form>
 				</div>
 			</div>
@@ -101,9 +100,5 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		<div class="clearfix"></div>
 	</div>
 </div>
-
-
-
-
 
 <?php include '../includes/coursesfooter.php' ?>

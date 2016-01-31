@@ -19,6 +19,38 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<section class="class-holder" >
 					<section >
 						<div class="class-pic pic-one">
+						<img src="../img/react1.png" width="200" alt="">
+						</div>
+						<div class="class-class">
+							<p class="headline home">Intro to ReactJS <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span></p>
+							<p class="sub-headline">React is a JavaScript library open sourced by Facebook for building UIs.</p>
+							<div class="linktoclassbutton"><a href="intro-to-react"><p class="brandon">LEARN MORE</p></a></div>
+						</div>
+						<div class="clearfix" ></div>
+					</section>
+				</section>
+			</div>
+
+			<div class="class-holder-container">
+				<section class="class-holder" >
+					<section >
+						<div class="class-pic pic-one">
+						<img src="../img/reactNative1.png" width="200" alt="">
+						</div>
+						<div class="class-class">
+							<p class="headline home">Intro to React Native <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span></p>
+							<p class="sub-headline">React Native allows developers to build cross platform native mobile aplications using JavaScript.</p>
+							<div class="linktoclassbutton"><a href="mobile-apps-with-react-native"><p class="brandon">LEARN MORE</p></a></div>
+						</div>
+						<div class="clearfix" ></div>
+					</section>
+				</section>
+			</div>
+
+			<div class="class-holder-container">
+				<section class="class-holder" >
+					<section >
+						<div class="class-pic pic-one">
 						<img src="../img/computer.png" width="200" alt="">
 						</div>
 						<div class="class-class">
