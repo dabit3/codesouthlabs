@@ -28,7 +28,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Thursday, March 17<br > 2016</p>
+						<p>Thursday, June 16<br > 2016</p>
 						<p>6:30 pm – 8:00 pm</p>
 					</div>
 					<div class="clearfix"></div>
@@ -37,7 +37,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>FREE</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/introduction-to-reactjs-tickets-21169749290"><p class="signupforthisclassbutton">ATTEND</p></a> 
+					<a href="https://www.eventbrite.com/e/introduction-to-reactjs-tickets-24777562356"><p class="signupforthisclassbutton">ATTEND</p></a> 
 					<!-- <a href="#" class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a> -->
 				</div>
 				
@@ -62,8 +62,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<img src="../img/courses/react2.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>March 17, 2016</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>May 2016</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>June 16, 2016</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>August 2016</p>
 			
 			<div class="followclassbuttondiv">
 				<a class="followintrotowebdev" ><p class="sidebarfollowbutton "><i class="fa fa-heart"></i>Follow</p></a>

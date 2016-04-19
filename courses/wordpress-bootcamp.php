@@ -36,16 +36,16 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<i class="fa fa-calendar"></i>
 					</div>
 					<div class="signupforthisclasscopy">
-						<p>Saturday, February 20<br /> 2016</p>
+						<p>Saturday, July 30<br /> 2016</p>
 						<p>10:00am - 4:00pm</p>
 					</div>
 					<div class="clearfix"></div>
 
 				</div>
-				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$60</span></h3>
+				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
 				<div class="signupforthisclass">
 				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/wordpress-bootcamp-tickets-19651540286">
+					<a href="https://www.eventbrite.com/e/wordpress-bootcamp-tickets-24777915412">
 						<p class="signupforthisclassbutton">ATTEND</p>
 					</a>
 					<!-- <a class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a> -->
@@ -72,8 +72,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<img src="../img/courses/introtowordpress.png" width="" alt="">
 			</div>
 			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>Saturday, February 20 2016</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>April 2016</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>Saturday, July 30 2016</p>
+			<p class="sidebardate"><i class="fa fa-university"></i>October 2016</p>
 			
 			<div class="followclassbuttondiv">
 				<a class="followwordpressbootcamp"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
