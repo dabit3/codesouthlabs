@@ -11,8 +11,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		<div class="home-content-1">
 
 			<div class="pagetitle">
-				<h1>COURSES</h1>
-				<p>Browse all courses.</p>
+				<h1>Subjects</h1>
+				<p>Browse all subjects.</p>
 			</div>
 			
 			<div class="class-holder-container">
@@ -22,7 +22,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<img src="../img/react1.png" width="200" alt="">
 						</div>
 						<div class="class-class">
-							<p class="headline home">Intro to ReactJS <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span></p>
+							<p class="headline home">Web Development with ReactJS</p>
 							<p class="sub-headline">React is a JavaScript library open sourced by Facebook for building UIs.</p>
 							<div class="linktoclassbutton"><a href="intro-to-react"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
@@ -38,7 +38,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<img src="../img/reactNative1.png" width="200" alt="">
 						</div>
 						<div class="class-class">
-							<p class="headline home">Intro to React Native <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span></p>
+							<p class="headline home">App Development with React Native</p>
 							<p class="sub-headline">React Native allows developers to build cross platform native mobile aplications using JavaScript.</p>
 							<div class="linktoclassbutton"><a href="mobile-apps-with-react-native"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
@@ -54,8 +54,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<img src="../img/computer.png" width="200" alt="">
 						</div>
 						<div class="class-class">
-							<p class="headline home">Intro to Web Development</p>
-							<p class="sub-headline">Learn how to build a dynamic web app and gain the foundation to become a web developer. You’ll learn <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="mylink" target="_blank">HTML</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/css" class="mylink" target="_blank">CSS</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" class="mylink">JavaScript</a>. </p>
+							<p class="headline home">Web Development</p>
+							<p class="sub-headline">Learn how to build dynamic web apps and gain the foundation to become a web developer. You’ll learn <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="mylink" target="_blank">HTML</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/css" class="mylink" target="_blank">CSS</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" class="mylink">JavaScript</a>. </p>
 							<div class="linktoclassbutton"><a href="intro-to-web-development"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
@@ -63,21 +63,21 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				</section>
 			</div>
 
-			<div class="class-holder-container">
+			<!-- <div class="class-holder-container">
 				<section class="class-holder">
 					<section >
 						<div class="class-pic pic-two">
 						<img src="../img/angular.png" width="200" alt="">
 						</div>
 						<div class="class-class">
-							<p class="headline home">Intro to AngularJS <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span></p>
+							<p class="headline home">Intro to AngularJS</p>
 							<p class="sub-headline">AngularJS, the full featured JavaScript framework backed by Google, has brought many innovative concepts to the world of web developers and is rapidly gaining market share.</p>
 							<div class="linktoclassbutton"><a href="intro-to-angularjs"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
 					</section>
 				</section>
-			</div>			
+			</div> -->			
 
 			<div class="class-holder-container">
 				<section class="class-holder">
@@ -86,8 +86,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<img src="../img/python.png" width="200" alt="">
 						</div>
 						<div class="class-class">
-							<p class="headline home">Intro to Python Programming</p>
-							<p class="sub-headline">Whether you are an experienced programmer or are just looking to get going for the first time, Python will put you on the fast track to honing your skills.</p>
+							<p class="headline home">Python Programming</p>
+							<p class="sub-headline">Whether you are an experienced programmer or are just looking to get going for the first time, our Python curriculum and instructors will put you on the fast track to honing your skills.</p>
 							<div class="linktoclassbutton"><a href="intro-to-python-programming"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
@@ -102,8 +102,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<img src="../img/intro-to-js.png" width="200" alt="">
 						</div>
 						<div class="class-class">
-							<p class="headline home">Intro to Javascript <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span></p>
-							<p class="sub-headline">Join us for this class on the JavaScript programming language aimed at beginners with little or no prior JavaScript experience.</p>
+							<p class="headline home">Javascript</p>
+							<p class="sub-headline">Learn the JavaScript programming language and how to use it to build web and mobile applications.</p>
 							<div class="linktoclassbutton"><a href="intro-to-javascript"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
@@ -111,7 +111,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				</section>
 			</div>		
 
-			<div class="class-holder-container">
+		<!-- 	<div class="class-holder-container">
 				<section class="class-holder">
 					<section >
 						<div class="class-pic pic-two">
@@ -125,7 +125,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<div class="clearfix" ></div>
 					</section>
 				</section>
-			</div>			
+			</div>		 -->	
 
 			<div class="class-holder-container">
 				<section class="class-holder">
@@ -134,8 +134,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<img src="../img/mobile.png" width="200" alt="">
 						</div>
 						<div class="class-class">
-							<p class="headline home">Hybrid Mobile App Dev Workshop </p>
-							<p class="sub-headline">Intermediate course. Develop hybrid mobile apps that run in <a href="https://developer.apple.com/devcenter/ios/index.action" target="_blank" class="mylink">IOS</a>, <a href="https://developer.android.com/sdk/index.html?hl=i" target="_blank" class="mylink">Android</a>, and on the web.  Load your apps on your iPhone and learn how to submit your app to the <span class="mylink">App Store</span>. </p>
+							<p class="headline home">Mobile App Development </p>
+							<p class="sub-headline">Develop native and hybrid mobile apps that run in <a href="https://developer.apple.com/devcenter/ios/index.action" target="_blank" class="mylink">IOS</a>, <a href="https://developer.android.com/sdk/index.html?hl=i" target="_blank" class="mylink">Android</a>, and on the web.  Load your apps on your iPhone and learn how to submit your app to the <span class="mylink">App Store</span>. </p>
 							<div class="linktoclassbutton"><a href="hybrid-mobile-app-development"><p class="brandon">LEARN MORE</p></a></div>
 						</div>
 						<div class="clearfix" ></div>
@@ -145,7 +145,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 			
 
-			<div class="class-holder-container">
+			<!-- <div class="class-holder-container">
 				<section class="class-holder" >
 					<section>
 						<div class="class-pic pic-three">
@@ -159,9 +159,9 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<div class="clearfix" ></div>
 					</section>
 				</section>
-			</div>
+			</div> -->
 
-			<div class="class-holder-container">
+			<!-- <div class="class-holder-container">
 				<section class="class-holder">
 					<section >
 						<div class="class-pic pic-two">
@@ -175,7 +175,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 						<div class="clearfix" ></div>
 					</section>
 				</section>
-			</div>
+			</div> -->
+      
 		</div>
 	</section>
 </div>
@@ -186,10 +187,10 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
-					Intro to Web Development
+					Web Development
 				</p>
 				<p class="mobile-class-copy">
-					Learn how to build a dynamic web app and gain the foundation to become a web developer. You’ll learn <a href="https://developer.mozilla.org/en-US/docs/Web/html" target="_blank" class="mylink">HTML</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/css" class="mylink" target="_blank">CSS</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" class="mylink" target="_blank">JavaScript</a>.
+					Learn how to build dynamic web apps and gain the foundation to become a web developer. You’ll learn <a href="https://developer.mozilla.org/en-US/docs/Web/html" target="_blank" class="mylink">HTML</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/css" class="mylink" target="_blank">CSS</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" class="mylink" target="_blank">JavaScript</a>.
 				</p>
 				<div class="newbutton">
 					<a href="intro-to-web-development"><p>LEARN MORE</p></a>
@@ -209,8 +210,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
-					Intro to ReactJS <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span>
-				</p>
+					 Web Development with ReactJS</p>
 				<p class="mobile-class-copy">
 					eact is a JavaScript library open sourced by Facebook for building UIs.</p>
 			</div>
@@ -224,7 +224,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
-					Intro to React Native <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span>
+					App Development with React Native
 				</p>
 				<p class="mobile-class-copy">
 					React Native allows developers to build cross platform native mobile aplications using JavaScript. </p>
@@ -235,12 +235,11 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		</div>
 	</div>
 
-	<div class="mobile-section-main">
+	<!-- <div class="mobile-section-main">
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
-					Intro to AngularJS <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span>
-				</p>
+					Intro to AngularJS</p>
 				<p class="mobile-class-copy">
 					AngularJS, the full featured JavaScript framework backed by Google, has brought many innovative concepts to the world of web developers and is rapidly gaining market share. </p>
 			</div>
@@ -249,7 +248,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 			</div>
 		</div>
 	</div>
-
+ -->
 	<div class="mobile-section-main">
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
@@ -257,7 +256,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					Intro to Python Programming
 				</p>
 				<p class="mobile-class-copy">
-					Whether you are an experienced programmier or are just looking to get going for the first time, Python will put you on the fast track to honing your skills. </p>
+					Whether you are an experienced programmer or are just looking to get going for the first time, our Python curriculum and instructors will put you on the fast track to honing your skills.</p>
 			</div>
 			<div class="newbutton">
 					<a href="intro-to-python-programming"><p>LEARN MORE</p></a>
@@ -269,10 +268,10 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
-					Intro to JavaScript <span style="vertical-align:center;font-size:14px;color:#009ee0" class="fa fa-bolt"> Free Course</span>
+					JavaScript
 				</p>
 				<p class="mobile-class-copy">
-					Join us for this class on the JavaScript programming language aimed at beginners with little or no prior JavaScript experience.</p>
+					Learn the JavaScript programming language and how to use it to build web and mobile applications.</p>
 			</div>
 			<div class="newbutton">
 					<a href="intro-to-javascript"><p>LEARN MORE</p></a>
@@ -280,7 +279,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		</div>
 	</div>
 
-	<div class="mobile-section-main">
+	<!-- <div class="mobile-section-main">
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
@@ -293,16 +292,16 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<a href="responsive-design-bootcamp"><p>LEARN MORE</p></a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="mobile-section-main">
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
-					Hybrid Mobile App Dev Workshop
+					Mobile App Development
 				</p>
 				<p class="mobile-class-copy">
-					Intermediate course. Develop hybrid mobile apps that run in <span class="mylink"><a href="https://developer.apple.com/devcenter/ios/index.action" class="mylink">IOS</a></span>, <a class="mylink" href="https://developer.android.com/sdk/index.html?hl=i" target="_blank">Android</a>, and on the web.  Load your apps on your iPhone and learn how to submit your app to the <span class="mylink">App Store</span>. </p>
+					Develop native and hybrid mobile apps that run in <span class="mylink"><a href="https://developer.apple.com/devcenter/ios/index.action" class="mylink">IOS</a></span>, <a class="mylink" href="https://developer.android.com/sdk/index.html?hl=i" target="_blank">Android</a>, and on the web.  Load your apps on your iPhone and learn how to submit your app to the <span class="mylink">App Store</span>. </p>
 			</div>
 			<div class="newbutton">
 					<a href="hybrid-mobile-app-development"><p>LEARN MORE</p></a>
@@ -310,7 +309,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 		</div>
 	</div>
 
-	<div class="mobile-section-main">
+	<!-- <div class="mobile-section-main">
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
@@ -324,8 +323,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 			</div>
 		</div>
 	</div>
-
-		<div class="mobile-section-main">
+ -->
+	<!-- <div class="mobile-section-main">
 		<div class="mobile-class-holder">
 			<div class="mobile-class">
 				<p class="mobile-class-title">
@@ -338,7 +337,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<a href="adobe-photoshop-workshop"><p>LEARN MORE</p></a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 </div>
 

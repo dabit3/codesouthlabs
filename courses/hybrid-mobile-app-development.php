@@ -9,23 +9,22 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">Hybrid Mobile App Development Workshop</h1>
+			<h1 class="classcontenth1">Mobile App Development</h1>
 			<div class="mobileimage">
 				<img alt="Digital Design Workshop" src="../img/courses/hybridmobileappdev.png" width="" alt="">
 			</div>
-			<h2 class="classcontabout">About this class</h2>
+			<h2 class="classcontabout">About</h2>
 			<p class="classp">
-				Cross-platform native mobile app development is usually resource intensive. When building a native app for various platforms, a plethora of programming languages as well as apis and abstractions need to be understood and utilized. Hybrid mobile web apps offer a relatively inexpensive alternative to native apps based on a single codebase, that can access desirable device APIs like the camera, microphone, file system, and more. 
+				Cross-platform native mobile app development is usually resource intensive. When building a native app for various platforms, a plethora of programming languages as well as apis and abstractions need to be understood and utilized. Hybrid mobile web apps offer a relatively inexpensive alternative to native apps based on a single codebase, that can access desirable device APIs like the camera, microphone, file system, and more. React Native also offers a way to build cross platform mobile apps using a single programming language.
 			</p>
-			<p class="classp">PhoneGap makes this possible by wrapping open standard web apps in native code for all major smartphone platforms. This allows web development teams to build apps using their existing skills and tools, access native mobile device APIs directly from JavaScript, and package their web apps for sale in platform app stores.</p>
-			<p class="classp">In this class, we will build from scratch a basic mobile app using HTML5, CSS, JavaScript, AngularJS, and PhoneGap.</p>
-
-			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
+			<p class="classp">You will how to use JavaScript to build both Native and hybrid mobile apps, and how to submit your apps to the app store.</p>
+			
+			<!-- <h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
 			<p class="classp theprerequisites">
 			Beginner to intermediate knowledge of HTML, CSS, &amp; JavaScript<br />
-			Please bring a laptop to class.</p>
+			Please bring a laptop to class.</p> -->
 
-			<div class="signupforthisclassinfo">
+			<!-- <div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">
@@ -40,12 +39,12 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 				</div>
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$TBD</span></h3>
-				<div class="signupforthisclass">
+				<div class="signupforthisclass"> -->
 				<div class="singupforthisclassbuttonholder">
-					<a class="followhybridmobileappdev"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a href='../sign-up'><p class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
-				<div class="signupforthisclassheader">
+				<!-- <div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">
 						<i class="fa fa-map-marker"></i>
 					</div>
@@ -57,7 +56,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<div class="clearfix"></div>
 				</div>
 
-			</div>
+			</div> -->
 			
 			</div>
 		</div>
@@ -65,19 +64,19 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 			<div class="classcontentsideimage">
 				<img src="../img/courses/hybridmobileappdev.png" width="" alt="">
 			</div>
-			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>June 2015</p>
+			<p class="sidebardates">Currently being taught?</p>
+			<p class="sidebardate"><i class="fa fa-check"></i>Yes</p>
 						
 			<div class="followclassbuttondiv">
-				<a class="hybridmobileappdevfollowfocus"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="hybridmobileappdevfollowfocus"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Learn More</p></a>
 			</div>
 
 			<div class="hiddenform">
 				<div class="hiddenformcontainer">
-				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
+				<p class="followclassbuttonp">Enter Your Email Address To Learn More</p>
 					<form>
 	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-	        	<input id="class-hybrid-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        	<input id="class-hybrid-follow" class="classfollow" type="button" value="LEARN MORE" />
 	        </form>
 				</div>
 			</div>

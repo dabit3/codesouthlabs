@@ -3,7 +3,7 @@
 			<div class="footerformwrapper">
 				<div class="footerformleft">
 					<p><span class="bold">Stay updated!</span><br />
-Find out about upcoming courses and events.</p>
+Find out about upcoming subjects and events.</p>
 				</div>
 				<div class="footerformright">
 					<form>
@@ -64,7 +64,7 @@ Find out about upcoming courses and events.</p>
 
 	<div class="poweredby">
 		<div class="poweredbycontainer">
-			<p>Powered By <a href="http://www.naderdabit.me" target="_blank">Digital Dojo</a></p>
+			<p>Built By <a href="http://www.naderdabit.me" target="_blank">Nader Dabit</a></p>
 		</div>
 	</div>
 	

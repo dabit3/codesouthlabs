@@ -162,7 +162,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Intro To Web Development! ", "Unsubscribe at any time.", "success");
+        		swal("Intro To Web Development! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",
@@ -191,7 +191,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Intro To React! ", "Unsubscribe at any time.", "success");
+        		swal("Intro To React! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",
@@ -220,7 +220,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Intro To React Native! ", "Unsubscribe at any time.", "success");
+        		swal("Intro To React Native! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",
@@ -268,7 +268,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Intro To Python! ", "Unsubscribe at any time.", "success");
+        		swal("Intro To Python! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",
@@ -316,7 +316,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Responsive Design Bootcamp! ", "Unsubscribe at any time.", "success");
+        		swal("Responsive Design Bootcamp! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",
@@ -363,7 +363,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Wordpress Bootcamp! ", "Unsubscribe at any time.", "success");
+        		swal("Wordpress Bootcamp! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",
@@ -410,7 +410,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Hybrid Mobile App Development Workshop! ", "Unsubscribe at any time.", "success");
+        		swal("Hybrid Mobile App Development Workshop! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",
@@ -458,7 +458,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Adobe Photoshop Workshop! ", "Unsubscribe at any time.", "success");
+        		swal("Adobe Photoshop Workshop! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",
@@ -486,7 +486,7 @@ $(document).ready(function() {
 	    		}
 	        
 	        if(email != "") {
-	        		swal("You've signed up for updates! ", "Unsubscribe at any time.", "success");
+	        		swal("You've signed up for updates! ", "Someone will contact you shortly.", "success");
 	            
 	        		emailRef.push({ email: email });
 	            console.log(email);
@@ -518,7 +518,7 @@ $(document).ready(function() {
 	        
 	        if(email != "") {
 	        		
-	        		swal("You've signed up for updates! ", "Unsubscribe at any time.", "success");
+	        		swal("You've signed up for updates! ", "Someone will contact you shortly.", "success");
 	            $('#updates-email').val("");
 
 	            emailRef.push({ email: email });
@@ -550,7 +550,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Intro To AngularJS! ", "Unsubscribe at any time.", "success");
+        		swal("Intro To AngularJS! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",
@@ -593,7 +593,7 @@ $(document).ready(function() {
     		}
         if(email != "") {
         		
-        		swal("You're following Intro To JavaScript! ", "Unsubscribe at any time.", "success");
+        		swal("Intro To JavaScript! ", "Someone will contact you shortly.", "success");
 
             $.ajax({
                 type: "POST",

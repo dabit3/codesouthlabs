@@ -42,12 +42,12 @@
 	<section class="header-container">
 		<div class="header-content">
 			<a href="../"><img src="../img/logowhite.png" width="250" alt="" class="logo"></a>
-			<div style="" class="teach-button"><a href="all"><p>COURSES</p></a></div>
+			<div style="" class="teach-button"><a href="all"><p>SUBJECTS</p></a></div>
 			<div class="nav-container">
 				<ul class="main-nav">					
 					<li><a href="../about">ABOUT</a></li>		
 					<li><a href="../contact">CONTACT</a></li>
-					<li><a href="../teach">TEACH</a></li>	
+					<li><a href="../pricing">PRICING</a></li>	
 					<li><a href="../index">HOME</a></li>		
 				</ul>
 			</div>
@@ -80,7 +80,7 @@
 				<a href="../contact"><li>CONTACT</li></a>
 				<a href="../about"><li>ABOUT</li></a>
 				
-				<a href="../teach"><li>TEACH</li></a>
+				<a href="../pricing"><li>PRICING</li></a>
 			</ul>
 		</div>
 	</div>
@@ -113,7 +113,7 @@
 				<a href="../contact"><li>CONTACT</li></a>
 				<a href="../about"><li>ABOUT</li></a>
 				
-				<a href="../teach"><li>TEACH</li></a>
+				<a href="../pricing"><li>PRICING</li></a>
 			</ul>
 		</div>
 	</div>

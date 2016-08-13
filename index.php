@@ -10,7 +10,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 	<section class="main-content">
 		<div class="content-hero">
 			<div class="content-container">
-				<h3 class="brandon font-500 hero">Code courses for developers, students, and entrepreneurs.</h3>
+				<h3 class="brandon font-500 hero">One on one training for developers, students, and entrepreneurs.</h3>
 			</div>
 			<div class="content-button">
 				<a href="about"><p class="view-courses-button">LEARN MORE</p></a>
@@ -21,9 +21,9 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 <div class="signupbreaker">
 	<div class="subcontainer">
-		<p class="subcontainer-copy">Currently accepting students for June and July Classes</p>
+		<p class="subcontainer-copy">Currently accepting students.</p>
 			<div class="subcontainer-signup-container">
-				<a href="courses/all"><p class="subcontainer-signup">SIGN UP NOW</p></a>
+				<a href="pricing"><p class="subcontainer-signup">View Pricing</p></a>
 			</div>
 		<div class="clearfix"></div>
 	</div>

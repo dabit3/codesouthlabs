@@ -9,21 +9,17 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">INTRO TO WEB <br />DEVELOPMENT</h1>
+			<h1 class="classcontenth1">WEB DEVELOPMENT</h1>
 			<div class="mobileimage">
 				<img alt="Digital Design Workshop" src="../img/courses/introtowebdev.png" width="" alt="">
 			</div>
-			<h2 class="classcontabout">About this class</h2>
+			<h2 class="classcontabout">About</h2>
 			<p class="classp">
 				Is web development something you may be considering as a career? Would you like to learn to create your own web sites but don't know where to start? Does the world of programming fascinate you? Are you curious about "what it takes" to be a web developer.
 			</p>
-			<p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
-			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
-			<p class="classp theprerequisites">
-			Please bring a laptop to class.</p>
+			<p class="classp">Join a seasoned instructor who will walk you through what you need to know to become a professional web developer. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
 
-
-			<div class="signupforthisclassinfo">
+<!-- 			<div class="signupforthisclassinfo">
 				<div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">
 						<i class="fa fa-calendar"></i>
@@ -36,13 +32,13 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 				</div>
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$75</span></h3>
-				<div class="signupforthisclass">
+				<div class="signupforthisclass"> -->
 				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/intro-to-web-development-tickets-24777788031"><p class="signupforthisclassbutton">ATTEND</p></a> 
+					<a href="../sign-up"><p class="signupforthisclassbutton">SIGN UP</p></a> 
 					<!-- <a href="#" class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a> -->
 				</div>
 				
-				<div class="signupforthisclassheader">
+				<!-- <div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">
 						<i class="fa fa-map-marker"></i>
 					</div>
@@ -54,7 +50,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<div class="clearfix"></div>
 				</div>
 
-			</div>
+			</div> -->
 			
 			</div>
 		</div>
@@ -62,20 +58,20 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 			<div class="classcontentsideimage">
 				<img src="../img/courses/introtowebdev.png" width="" alt="">
 			</div>
-			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>July 9, 2016</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>September 2016</p>
+			<p class="sidebardates">Currently being taught?</p>
+			<p class="sidebardate"><i class="fa fa-check"></i>Yes</p>
+			<!-- <p class="sidebardate"><i class="fa fa-university"></i>September 2016</p> -->
 			
 			<div class="followclassbuttondiv">
-				<a class="followintrotowebdev" ><p class="sidebarfollowbutton "><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="followintrotowebdev" ><p class="sidebarfollowbutton "><i class="fa fa-heart"></i>Learn More</p></a>
 			</div>
 			
 			<div class="hiddenform">
 				<div class="hiddenformcontainer">
-				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
+				<p class="followclassbuttonp">Enter Your Email Address To Learn More. Someone will contact you shortly!</p>
 					<form>
 	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-	        	<input id="class-introtowebdev-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        	<input id="class-introtowebdev-follow" class="classfollow" type="button" value="LEARN MORE" />
 	        </form>
 				</div>
 			</div>

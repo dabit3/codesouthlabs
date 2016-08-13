@@ -1,6 +1,6 @@
 <?php  
-$pagetitle = "Contact Us";
-$pagedescription = "Want to know more about the curriculum? Would you like to take a look around the space? Let us know, we'll be happy to answer any questions about Code South Labs.";
+$pagetitle = "Sign Up";
+$pagedescription = "Sign up for Code South Labs here!";
 $pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
  ?>
 
@@ -9,9 +9,8 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="teachform-wrapper">
   <section class="teachform-wrapper-section">
     <div class="teacherformheading">
-      <h1 class="teacherformh1">CONTACT US</h1>
-      <p>Want to know more about the curriculum? Let us know, we'll be happy to answer any questions about Code South Labs.</p>
-      
+      <h1 class="teacherformh1">Sign Up.</h1>
+      <p>Sign up here to begin your path to learning how to code. Someone will be in touch shortly.</p>
 
     </div>
     <div id="contactform" class="theteacherform">
@@ -28,11 +27,6 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
           <div >
               <label for="form-phone">Phone</label><br/>
               <input class="teacherinput" id="form-phone" type="text" required /><br/>
-          </div>
-          
-          <div>
-              <label for="form-feedback-questions">Message</label><br/>
-              <textarea class="teacherinput" id="form-feedback-questions" name="Feedback/Question" id="" cols="30" rows="10" ></textarea>
           </div>
           <div>
               <input id="contacter" class="sendteachermail" type="button" value="send" />

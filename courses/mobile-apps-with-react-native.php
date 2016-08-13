@@ -1,5 +1,5 @@
 <?php  
-$pagetitle = "Intro To React";
+$pagetitle = "App Development with React";
 $pagedescription = "Join us in learning the basics of Reactjs. ";
 $pagekeywords = "code school, code school in ms, learn how to code, learn wordpress, learn javascript, javascript classes, web development classes";
  ?>
@@ -9,20 +9,18 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">INTRO TO REACT NATIVE</h1>
+			<h1 class="classcontenth1">APP DEVELOPMENT WITH REACT NATIVE</h1>
 			<div class="mobileimage">
 				<img alt="Intro to React" src="../img/courses/reactNative2.png" width="" alt="">
 			</div>
-			<h2 class="classcontabout">About this class</h2>
+			<h2 class="classcontabout">About</h2>
 			<p class="classp">
 				React Native is a JavaScript framework used to build cross platform native mobile applications, on both Android and iOS. With the cost of hiring native developers increasing as well as the time spent to build native mobile applications, React Native offers a way to learn one framework and write cross platform faster and more effeciently, while still providing a native experience for the user.
 			</p>
-			<p class="classp">Come learn the basics of React Native as we build out a basic mobile app, and dive into some of the native components that React Native has available to developers.</p>
-			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
-			<p class="classp theprerequisites">
-				Please bring a laptop to class. Have either <a style="text-decoration: none;color: #009EFD" target="_blank" href="https://developer.apple.com/xcode/">XCode</a> or the <a style="text-decoration: none;color: #009EFD" target="_blank" href="http://developer.android.com/sdk/installing/index.html">Android SDK</a> installed on your machine. Please also try to install <a style="text-decoration: none;color: #009EFD" target="_blank" href="https://facebook.github.io/react-native/docs/getting-started.html">React Native on your machine.</a> If you need any help doing so, please reach out to us before class <a style="text-decoration: none;color: #009EFD" href="mailto:info@codesouthlabs.com" >here.</a></p>
+			<p class="classp">You will learn how to build a real world mobile application on both iOS and Android, and also learn how to upload your app to the App Store and Google Play Store.</p>
+			
 
-			<div class="signupforthisclassinfo">
+		<!-- 	<div class="signupforthisclassinfo">
 				<div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">
 						<i class="fa fa-calendar"></i>
@@ -35,43 +33,43 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 				</div>
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>FREE</span></h3>
-				<div class="signupforthisclass">
-				<div class="singupforthisclassbuttonholder">
-					<a href="https://www.eventbrite.com/e/introduction-to-react-native-tickets-24777716818"><p class="signupforthisclassbutton">ATTEND</p></a> 
-					<!-- <a href="#" class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a> -->
-				</div>
-				
-				<div class="signupforthisclassheader">
-					<div class="signupforthisclassicon">
-						<i class="fa fa-map-marker"></i>
-					</div>
-					<div class="signupforthisclasscopy">
-						<p>736 S PRESIDENT ST</p>
-						<p>JACKSON, MS, 39201</p>
-						<p>UNITED STATES</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
+				<div class="signupforthisclass"> -->
+  				<div class="singupforthisclassbuttonholder">
+  					<a href="../sign-up"><p class="signupforthisclassbutton">SIGN UP</p></a> 
+  					<!-- <a href="#" class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a> -->
+  				</div>
+  			<!-- 	
+  				<div class="signupforthisclassheader">
+  					<div class="signupforthisclassicon">
+  						<i class="fa fa-map-marker"></i>
+  					</div>
+  					<div class="signupforthisclasscopy">
+  						<p>736 S PRESIDENT ST</p>
+  						<p>JACKSON, MS, 39201</p>
+  						<p>UNITED STATES</p>
+  					</div>
+  					<div class="clearfix"></div>
+  				</div>
 
-			</div>
+  			</div>
 			
-			</div>
+			</div> -->
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
 				<img src="../img/courses/reactNative2.png" width="" alt="">
 			</div>
-			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>June 30, 2016</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>August 2016</p>
+			<p class="sidebardates">Currently being taught?</p>
+			<p class="sidebardate"><i class="fa fa-check"></i>Yes</p>
+			<!-- <p class="sidebardate"><i class="fa fa-university"></i>August 2016</p> -->
 			
 			<div class="followclassbuttondiv">
-				<a class="followintrotowebdev" ><p class="sidebarfollowbutton "><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="followintrotowebdev" ><p class="sidebarfollowbutton "><i class="fa fa-heart"></i>Learn More</p></a>
 			</div>
 			
 			<div class="hiddenform">
 				<div class="hiddenformcontainer">
-				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
+				<p class="followclassbuttonp">Enter Your Email Address To Learn More. Someone will contact you shortly!</p>
 					<form>
 	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
 	        	<input id="class-introtoreactnative-follow" class="classfollow" type="button" value="FOLLOW CLASS" />

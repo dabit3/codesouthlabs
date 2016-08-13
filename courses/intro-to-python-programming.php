@@ -9,18 +9,18 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">INTRO TO PYTHON <br />PROGRAMMING</h1>
+			<h1 class="classcontenth1">PYTHON <br />PROGRAMMING</h1>
 			<div class="mobileimage">
 				<img alt="Digital Design Workshop" src="../img/courses/introtopython.png" width="" alt="">
 			</div>
-			<h2 class="classcontabout">About this class</h2>
+			<h2 class="classcontabout">About</h2>
 			<p class="classp">
-				Whether or not you have programming experience, getting involved in the Python community will put you on the fast track to honing your skills. In intro to Python, you will learn all about Python - how to get started, what advantages and disadvantages Python provides as a programming language, the essentials of programming in Python, and what tools &amp; frameworks are available to build apps in Python.
+				Whether or not you have programming experience, getting involved in the Python community will put you on the fast track to honing your skills. With our curriculum you will learn all about Python - how to get started all the way to building your first application, what advantages and disadvantages Python provides as a programming language, the essentials of programming in Python, and what tools &amp; frameworks are available to build apps in Python.
 			</p>
-			<p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
+			<!-- <p class="classp">Join a seasoned instructor in this short course designed to introduce you to the world of web development. You'll be introduced to three of the primary languages used for web development: HTML, CSS, and JavaScript.</p>
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
-			<p class="classp theprerequisites">Please bring a laptop to class.</p>
-			<div class="signupforthisclassinfo">
+			<p class="classp theprerequisites">Please bring a laptop to class.</p> -->
+			<!-- <div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">
@@ -34,12 +34,12 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 				</div>
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>$85</span></h3>
-				<div class="signupforthisclass">
+				<div class="signupforthisclass"> -->
 				<div class="singupforthisclassbuttonholder">
-					<a class="followintrotopython"><p class="signupforthisclassbutton">ATTEND</p></a>
+					<a href='../sign-up'><p class="signupforthisclassbutton">ATTEND</p></a>
 				</div>
 
-				<div class="signupforthisclassheader">
+				<!-- <div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">
 						<i class="fa fa-map-marker"></i>
 					</div>
@@ -53,26 +53,26 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 			</div>
 			
-			</div>
+			</div> -->
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
 				<img src="../img/courses/introtopython.png" width="" alt="">
 			</div>
-			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>May 2015</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>June 2015</p>
+			<p class="sidebardates">Currently being taught?</p>
+			<p class="sidebardate"><i class="fa fa-check"></i>Yes</p>
+			<!-- <p class="sidebardate"><i class="fa fa-university"></i>June 2015</p> -->
 			
 			<div class="followclassbuttondiv">
-				<a class="introtopythonfocus" ><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="introtopythonfocus" ><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Learn More</p></a>
 			</div>
 
 			<div class="hiddenform">
 				<div class="hiddenformcontainer">
-				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
+				<p class="followclassbuttonp">Enter Your Email Address To Learn More</p>
 					<form>
 	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-	        	<input id="class-python-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        	<input id="class-python-follow" class="classfollow" type="button" value="LEARN MORE" />
 	        </form>
 				</div>
 			</div>

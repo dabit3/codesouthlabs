@@ -9,7 +9,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 <div class="classcontentcontainer">
 	<div class="classcontentwrapper">
 		<div class="classcontentinfo">
-			<h1 class="classcontenth1">INTRODUCTION TO JAVASCRIPT</h1>
+			<h1 class="classcontenth1">JAVASCRIPT</h1>
 			<div class="mobileimage">
 				<img alt="Digital Design Workshop" src="../img/courses/intro-to-javascript.png" width="" alt="">
 			</div>
@@ -18,14 +18,14 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				There is no denying that since its inception in the mid 90’s, JavaScript has become one of the most popular Web development languages. In September 2012, industry analyst firm, RedMonk, showed it as the top language. Much of this is due to its ability to deliver rich, dynamic web content, its relatively lightweight and its high ease of use, and the fact that it is the only programming language that can be executed in all web browsers, giving it a huge market share.
 			</p>
 			<p class="classp">
-				Join us for this class on the JavaScript programming language aimed at beginners with little or no prior JavaScript experience. We will be going over the basics of JavaScript, including why it is important, what is jQuery, where JavaScript is used, basic syntax, and we will be writing basic javascript programs and scripts to get your feet wet. The primary emphasis of this class is on the JavaScript programming language, with secondary emphasis on HTML and CSS.	
+				You will learn the fundamentals of the JavaScript programming language as well as how to it to build web, mobile, and server side applications.
 			</p>
-
+<!-- 
 			<h3 class="prerequisites">PREREQUISITES &amp; PREPARATION</h3>
 			<p class="classp theprerequisites">
-			No prior experience with Javascript is required. This is an introductory course designed for first time and beginner JavaScript programmers. All students must be able to bring a laptop to each class (preferrably a Mac). You will need to have Google Chrome downloaded on this laptop for the start of class.</p>
+			No prior experience with Javascript is required. This is an introductory course designed for first time and beginner JavaScript programmers. All students must be able to bring a laptop to each class (preferrably a Mac). You will need to have Google Chrome downloaded on this laptop for the start of class.</p> -->
 		
-			<div class="signupforthisclassinfo">
+			<!-- <div class="signupforthisclassinfo">
 				
 				<div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">
@@ -39,15 +39,15 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 
 				</div>
 				<h3 class="signupforthisclassh3">Regular Ticket &nbsp;&nbsp; <span>FREE</span></h3>
-				<div class="signupforthisclass">
-				<div class="singupforthisclassbuttonholder">
-					
-					<a href="https://www.eventbrite.com/e/introduction-to-javascript-tickets-21171158505">
+				<div class="signupforthisclass"> -->
+
+				<div class="singupforthisclassbuttonholder">	
+					<a href="../sign-up">
 						<p  class="signupforthisclassbutton">ATTEND</p>
 					</a>
 					<!-- <a class="SOLDOUT"><p class="signupforthisclassbuttonsoldout">SOLD OUT</p></a> -->
 				</div>
-
+<!-- 
 				<div class="signupforthisclassheader">
 					<div class="signupforthisclassicon">
 						<i class="fa fa-map-marker"></i>
@@ -60,20 +60,20 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 					<div class="clearfix"></div>
 				</div>
 
-			</div>
+			 </div>-->
 			
-			</div>
+			</div> 
 		</div>
 		<div class="classcontentsidebar">
 			<div class="classcontentsideimage">
 				<img alt="Digital Design Workshop" src="../img/courses/intro-to-javascript.png" width="" alt="">
 			</div>
-			<p class="sidebardates">Dates for this class</p>
-			<p class="sidebardate"><i class="fa fa-university"></i>February 25, 2016 </p>
-			<p class="sidebardate"><i class="fa fa-university"></i>April 2015</p>
+			<p class="sidebardates">Currently being taught?</p>
+			<p class="sidebardate"><i class="fa fa-check"></i>Yes</p>
+			<!-- <p class="sidebardate"><i class="fa fa-university"></i>Sign Up</p> -->
 			
 			<div class="followclassbuttondiv">
-				<a class="classfollowdiv"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Follow</p></a>
+				<a class="classfollowdiv"><p class="sidebarfollowbutton"><i class="fa fa-heart"></i>Learn More</p></a>
 			</div>
 			
 			<div class="hiddenform">
@@ -81,7 +81,7 @@ $pagekeywords = "code school, code school in ms, learn how to code, learn wordpr
 				<p class="followclassbuttonp">Enter Your Email Address To Start Following</p>
 					<form>
 	        	<input type="text" class="class-email" id="class-email" placeholder="email"><br />
-	        	<input id="class-introtojavascript-follow" class="classfollow" type="button" value="FOLLOW CLASS" />
+	        	<input id="class-introtojavascript-follow" class="classfollow" type="button" value="LEARN MORE" />
 	        </form>
 				</div>
 			</div>
